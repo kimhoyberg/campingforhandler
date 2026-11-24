@@ -102,6 +102,22 @@ Forhandleren kommer nu automatisk med på forsiden og på de rigtige mærke-, re
 
 Du kan også køre tjekket alene med `npm run validate`. `npm run check` tjekker koden for typefejl.
 
+## Kildetjek hver uge
+
+Workflowen `.github/workflows/kildetjek.yml` kører hver mandag morgen (og kan startes manuelt under **Actions → Kildetjek → Run workflow**). Den kører `scripts/kildetjek.mjs`, som henter alle kildesider og sammenligner med sidste uge (`.kildetjek/snapshot.json`):
+
+- **DCU-testcenter** rettes automatisk ud fra DCU's liste.
+- **Ændrede åbningstider, mærker eller ydelser, døde links og forhandlere, der ikke er tjekket i over et halvt år,** samles i et issue på GitHub. Du ser på siden, retter JSON-filen og sætter `sidstTjekket` til dagens dato.
+- Bagefter genbygges siden, så advarslen "kan være forældet" kommer med på forhandlere med gamle oplysninger.
+
+Du kan også køre tjekket på din egen computer:
+
+```bash
+node scripts/kildetjek.mjs
+```
+
+Rapporten ligger derefter i `.kildetjek/rapport.md`.
+
 ## Mapper
 
 ```
@@ -113,6 +129,8 @@ src/config.ts           e-mail til rettelser og statistik
 src/lib/                datafunktioner, services og SEO
 src/pages/              siderne
 scripts/validate.mjs    datatjek
+scripts/kildetjek.mjs   ugentligt kildetjek
+.kildetjek/             sidste uges udgangspunkt for kildetjekket
 ```
 
 Se også `DECISIONS.md` (valg og hvorfor) og `DATA_NOTES.md` (hvad der mangler, og hvor kilderne var uenige).

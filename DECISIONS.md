@@ -35,6 +35,13 @@ Valg truffet undervejs, og hvorfor.
 - **Åbningstider med sæson** gemmes for den aktuelle periode (november 2026), og den anden periode står i noten.
 - **Beskrivelser** er skrevet fra bunden ud fra fakta. Der er ikke kopieret tekst, billeder eller logoer.
 
+## Løbende vedligehold
+
+- **Kildetjekket foreslår, det retter ikke.** Kun DCU-feltet rettes automatisk, fordi DCU's liste er entydig. Det sker kun, hvis listen kunne læses og indeholder mindst 8 centre, så en ændret DCU-side ikke kan nulstille alle forhandlere. Alt andet bliver til et issue, som et menneske tager stilling til. Ellers ville der blive skrevet gæt ind.
+- **Kun stabile ting sammenlignes:** om siden kan hentes, linjer med åbningstider, hvilke mærker en mærkeside nævner (som hele ord), og hvilke ydelser en værkstedsside nævner. Lagerlister og nyheder skifter hver uge og ville give falske alarmer.
+- **En død side meldes kun én gang**, når den går fra at virke til ikke at virke. Proff og De Gule Sider afviser robotter og bliver derfor stående som "kan ikke hentes".
+- **Gamle oplysninger:** forhandlere, der ikke er tjekket i 180 dage, får teksten "kan være forældet" på kortet og en advarsel på forhandlersiden.
+
 ## Indhold og SEO
 
 - **Tynde sider:** oversigter med kun 1 forhandler får `<meta name="robots" content="noindex, follow">` og er udeladt af sitemap'et. De findes stadig, så interne links virker.

@@ -137,4 +137,8 @@ export function formatDato(iso: string): string {
   return `${dag}. ${mdr[m - 1]} ${y}`;
 }
 
+/** Oplysninger ældre end et halvt år vises med en advarsel. */
+export const FORAELDET_DAGE = 180;
+export const erForaeldet = (d: Forhandler) => (Date.now() - new Date(d.sidstTjekket).getTime()) / 864e5 > FORAELDET_DAGE;
+
 export const antal = (n: number, ental: string, flertal: string) => `${n} ${n === 1 ? ental : flertal}`;

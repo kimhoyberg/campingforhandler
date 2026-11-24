@@ -12,6 +12,7 @@ import {
   rutevejledning,
   harKombination,
   KILDETYPE_NAVN,
+  erForaeldet,
   type Forhandler,
 } from '../../lib/data';
 import { servicesFor } from '../../lib/services';
@@ -82,6 +83,12 @@ const ret = `mailto:${SITE.rettelserEmail}?subject=${emne}&body=${krop}`;
   }
 
   <p class="checked-box"><Icon name="tjek" /> Sidst tjekket {formatDato(d.sidstTjekket)}{egenKilde ? ' hos forhandleren selv' : ' – forhandlerens egen hjemmeside kunne ikke bruges som kilde'}</p>
+
+  {
+    erForaeldet(d) && (
+      <p class="note">Oplysningerne er over et halvt år gamle. Ring og tjek, før du kører derud.</p>
+    )
+  }
 
   <p>{d.beskrivelse}</p>
 

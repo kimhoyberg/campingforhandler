@@ -1,6 +1,6 @@
 ---
 import type { Forhandler } from '../lib/data';
-import { maerkerFor, maerkeByNavn, formatDato, regionByNavn } from '../lib/data';
+import { maerkerFor, maerkeByNavn, formatDato, regionByNavn, erForaeldet } from '../lib/data';
 import { servicesFor } from '../lib/services';
 import Icon from './Icon.astro';
 
@@ -53,5 +53,5 @@ const features = [
       </ul>
     )
   }
-  <p class="checked">Sidst tjekket {formatDato(d.sidstTjekket)}</p>
+  <p class="checked">Sidst tjekket {formatDato(d.sidstTjekket)}{erForaeldet(d) && ' – kan være forældet'}</p>
 </li>

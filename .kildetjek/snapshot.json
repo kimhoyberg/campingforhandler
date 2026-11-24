@@ -1,0 +1,824 @@
+{
+ "http://www.vestjyskcamping.dk/": {
+  "status": 0,
+  "fejl": "ENOTFOUND"
+ },
+ "https://damsgaardscaravancenter.dk/": {
+  "status": 200,
+  "hash": "6e591dfe7476",
+  "tider": [
+   "Kontakt os på tlf. +45 86 825 826 (hverdage kl. 10.00–17.00) eller på info@dccs.dk . Vi svarer inden for én hverdag.",
+   "10:00 - 17:00",
+   "11:00 - 16:00",
+   "10:00 - 16:00",
+   "10:00 - 14:00"
+  ],
+  "maerker": [
+   "Camp-Let",
+   "Fendt"
+  ]
+ },
+ "https://damsgaardscaravancenter.dk/campingvogne/nye-campingvogne": {
+  "status": 200,
+  "hash": "00ae54a4e239",
+  "tider": [
+   "Kontakt os på tlf. +45 86 825 826 (hverdage kl. 10.00–17.00) eller på info@dccs.dk . Vi svarer inden for én hverdag.",
+   "10:00 - 17:00",
+   "11:00 - 16:00",
+   "10:00 - 16:00",
+   "10:00 - 14:00"
+  ]
+ },
+ "https://damsgaardscaravancenter.dk/information/om-os": {
+  "status": 200,
+  "hash": "00ae54a4e239",
+  "tider": [
+   "Kontakt os på tlf. +45 86 825 826 (hverdage kl. 10.00–17.00) eller på info@dccs.dk . Vi svarer inden for én hverdag.",
+   "10:00 - 17:00",
+   "11:00 - 16:00",
+   "10:00 - 16:00",
+   "10:00 - 14:00"
+  ]
+ },
+ "https://damsgaardscaravancenter.dk/vaerksted/forsikringsskader": {
+  "status": 200,
+  "hash": "f5d279909d19",
+  "tider": [
+   "Kontakt os på tlf. +45 86 825 826 (hverdage kl. 10.00–17.00) eller på info@dccs.dk . Vi svarer inden for én hverdag.",
+   "10:00 - 17:00",
+   "11:00 - 16:00",
+   "10:00 - 16:00",
+   "10:00 - 14:00"
+  ],
+  "maerker": [
+   "Camp-Let"
+  ],
+  "ydelser": [
+   "værksted",
+   "forsikringsskade",
+   "brugte"
+  ]
+ },
+ "https://damsgaardscaravancenter.dk/vaerksted/service-og-eftersyn": {
+  "status": 200,
+  "hash": "c03910eb8a16",
+  "tider": [
+   "Kontakt os på tlf. +45 86 825 826 (hverdage kl. 10.00–17.00) eller på info@dccs.dk . Vi svarer inden for én hverdag.",
+   "10:00 - 17:00",
+   "11:00 - 16:00",
+   "10:00 - 16:00",
+   "10:00 - 14:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "mover",
+   "brugte"
+  ]
+ },
+ "https://dealer.knaustabbert.de/en-gb/dealers/ostsjaellands-camping-center-aps-41d246b335/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://dealer.knaustabbert.de/en-uk/dealers/vestjysk-camping-center-aps-2175913576/": {
+  "status": 200,
+  "hash": "7d6772b5fa1c",
+  "tider": [],
+  "ydelser": []
+ },
+ "https://oecc.dk/": {
+  "status": 200,
+  "hash": "971951e87b99",
+  "tider": [],
+  "maerker": [
+   "Adria",
+   "Caravelair",
+   "Hobby",
+   "Kabe",
+   "Knaus",
+   "T@B"
+  ]
+ },
+ "https://oecc.dk/kontakt/": {
+  "status": 200,
+  "hash": "c8e8f47a6fb1",
+  "tider": [
+   "Mandag / Tirsdag / Torsdag / Fredag: 10 -17",
+   "Onsdag: Lukket",
+   "Lørdag: 10 – 14",
+   "Søndag: 11 – 15"
+  ]
+ },
+ "https://oecc.dk/kontakt/lidt-om-oecc/": {
+  "status": 200,
+  "hash": "c412221ba245",
+  "tider": [],
+  "maerker": [
+   "Kabe",
+   "Knaus",
+   "T@B"
+  ]
+ },
+ "https://oecc.dk/nye-campingvogne/": {
+  "status": 200,
+  "hash": "c412221ba245",
+  "tider": [],
+  "maerker": [
+   "Kabe",
+   "Knaus",
+   "T@B"
+  ]
+ },
+ "https://oecc.dk/vaerksted/": {
+  "status": 200,
+  "hash": "5e3bf49e9893",
+  "tider": [
+   "10:00-16:30"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "mover",
+   "opbevaring"
+  ]
+ },
+ "https://oecc.dk/vaerksted/opbevaring-af-campingvogn/": {
+  "status": 200,
+  "hash": "42d8281a4461",
+  "tider": [
+   "10:00-16:30"
+  ],
+  "ydelser": [
+   "værksted",
+   "opbevaring",
+   "autocamper"
+  ]
+ },
+ "https://oecc.dk/vaerksted/vaerkstedsprisliste/": {
+  "status": 200,
+  "hash": "3d3870fdea65",
+  "tider": [
+   "10:00-16:30"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "mover",
+   "opbevaring"
+  ]
+ },
+ "https://viborg-caravancenter.dk/": {
+  "status": 200,
+  "hash": "89717ad83890",
+  "tider": [
+   "Fuglevænget 6-10, 8800 Viborg",
+   "Hverdage: 10:00 - 16:30",
+   "Onsdag og Lørdag: lukket",
+   "Søndag: lukket",
+   "Mandag: 11:00 - 16:00",
+   "Tirsdag - fredag: 11:00 16:30",
+   "Lørdag: lukket",
+   "Hverdage 10:00 - 16:30",
+   "Onsdag og lørdag lukket | Søndag lukket",
+   "Mandag 11:00 - 16:00 | Tirsdag - fredag 11:00 - 16:30",
+   "Lørdag lukket | Søndag lukket",
+   "Mandag 11:00 - 16:00",
+   "Tirsdag - fredag 11:00 - 16:30"
+  ]
+ },
+ "https://viborg-caravancenter.dk/campingvogne": {
+  "status": 200,
+  "hash": "c9bbdf54b289",
+  "tider": [
+   "Fuglevænget 6-10, 8800 Viborg",
+   "Hverdage 10:00 - 16:30",
+   "Onsdag og lørdag lukket | Søndag lukket",
+   "Mandag 11:00 - 16:00 | Tirsdag - fredag 11:00 - 16:30",
+   "Lørdag lukket | Søndag lukket",
+   "Mandag 11:00 - 16:00",
+   "Tirsdag - fredag 11:00 - 16:30"
+  ]
+ },
+ "https://viborg-caravancenter.dk/kontakt": {
+  "status": 200,
+  "hash": "bae1aced3330",
+  "tider": [
+   "Fuglevænget 6-10, 8800 Viborg",
+   "Hverdage 10:00 - 16:30. Onsdag lukket.",
+   "Hverdage 10:00 - 16:30",
+   "Onsdag lukket",
+   "Lørdag lukket. Søndag 11.00 - 14.00",
+   "Lørdag 10:00 - 14:00",
+   "Søndag 11:00 - 15:00",
+   "Mandag 11:00 - 16:00 | Tirsdag - fredag 11:00 - 16:30",
+   "Mandag 11:00 - 16:00",
+   "Tirsdag - fredag 11:00 - 16:30",
+   "Lørdag lukket | Søndag 11.00 - 14.00",
+   "Onsdag og lørdag lukket | Søndag lukket",
+   "Lørdag lukket | Søndag lukket"
+  ]
+ },
+ "https://viborg-caravancenter.dk/værksted": {
+  "status": 200,
+  "hash": "a0313d29bdbd",
+  "tider": [
+   "Fuglevænget 6-10, 8800 Viborg",
+   "Hverdage 10:00 - 16:30",
+   "Onsdag og lørdag lukket | Søndag lukket",
+   "Mandag 11:00 - 16:00 | Tirsdag - fredag 11:00 - 16:30",
+   "Lørdag lukket | Søndag lukket",
+   "Mandag 11:00 - 16:00",
+   "Tirsdag - fredag 11:00 - 16:30"
+  ],
+  "ydelser": [
+   "værksted",
+   "fugttest",
+   "forsikringsskade",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://weinsberg.com/en-uk/support/dealer-search/dealers/vestsjaellands-campingcenter-aps-536b60747f/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.bije.dk/": {
+  "status": 200,
+  "hash": "9b5a00c9c379",
+  "tider": [],
+  "maerker": [
+   "Adria",
+   "Camp-Let",
+   "Fendt",
+   "Hobby",
+   "Kabe",
+   "Vega"
+  ]
+ },
+ "https://www.bije.dk/autocamper-udlejning": {
+  "status": 200,
+  "hash": "8355d190f515",
+  "tider": [
+   "1/3 - 31/5",
+   "1/6 - 31/8",
+   "1/9 - 31/10"
+  ],
+  "ydelser": [
+   "værksted",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.bije.dk/camping-vaerksted-nordsjaelland": {
+  "status": 200,
+  "hash": "e92851305dae",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.bije.dk/camping-vaerksted-nordsjaelland/priser": {
+  "status": 200,
+  "hash": "15e5f3fd7d5f",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
+   "fugttest",
+   "mover",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.bije.dk/camping-vaerksted-nordsjaelland/truma-servicepartner": {
+  "status": 200,
+  "hash": "28b8a99f94d2",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "mover",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.bije.dk/kontakt/aabningstider": {
+  "status": 200,
+  "hash": "443f46a98c3d",
+  "tider": [
+   "Kl. 7.30 - 15.30",
+   "Kl. 7.30 - 15.00",
+   "Telefon: 48793110 (Mandag til Torsdag kl. 10 - 15.30 Fredage kl. 10-15.00 - Weekend & helligdage lukket",
+   "Kl. 10.00 - 17.00",
+   "Kl. 10.00 - 14.00",
+   "Kl. 10.00 - 16.00",
+   "I december har vi weekend lukket b&aring;de l&oslash;rdag og s&oslash;ndag"
+  ],
+  "ydelser": [
+   "værksted",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.bije.dk/maerker/Hobby-campingvogne-autocampere": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.bilbasen.dk/find-en-forhandler/bilforhandler-hinshoej-caravan-as-id2538": {
+  "status": 200,
+  "hash": "222004faf4a3",
+  "tider": [
+   "Mandag - fredag: 10:00 - 17:00",
+   "Lørdag: 10:00 - 15:00",
+   "Søndag: 10:00 - 16:00"
+  ]
+ },
+ "https://www.campingparken.dk/": {
+  "status": 200,
+  "hash": "8a56d33a9142",
+  "tider": [
+   "Dato: 23- 11- 2026",
+   "Dato: 10- 11- 2026",
+   "Dato: 03- 11- 2026",
+   "Dato: 14- 09- 2026",
+   "Tjelevej 10-12"
+  ]
+ },
+ "https://www.campingparken.dk/autocamperudlejning": {
+  "status": 200,
+  "hash": "dc37e2f3fa0e",
+  "tider": [
+   "Man-fre kl. 10-16, s øndag kl. 10-15",
+   "Uge: 12-25 og 34-43: Kr. 8.500 pr. uge",
+   "Uge 26-33: Kr. 12.000 pr. uge",
+   "Autocamperne bliver udleveret i Camping Parken Herning, Tjelevej 10-12, 7400 Herning. I lejeperioden kan du parkere din personbil hos os (på eget ansvar).",
+   "Tjelevej 10-12"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "udlejning",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.campingparken.dk/campingvogne/brugte-campingvogne/": {
+  "status": 200,
+  "hash": "df176e12f458",
+  "tider": [
+   "Tjelevej 10-12"
+  ]
+ },
+ "https://www.campingparken.dk/kontakt-os/camping-parkens-historie/": {
+  "status": 200,
+  "hash": "df176e12f458",
+  "tider": [
+   "Tjelevej 10-12"
+  ]
+ },
+ "https://www.campingparken.dk/kontakt-os/firmaprofil/": {
+  "status": 200,
+  "hash": "3928d49a915e",
+  "tider": [
+   "Tjelevej 10-12"
+  ],
+  "maerker": [
+   "Dethleffs",
+   "Niesmann+Bischoff",
+   "Sunlight"
+  ]
+ },
+ "https://www.campingparken.dk/kontakt-os/kontakt-salg/": {
+  "status": 200,
+  "hash": "49828a054a9a",
+  "tider": [
+   "10:00 - 16:00",
+   "10:00 - 15:00",
+   "Tjelevej 10-12"
+  ]
+ },
+ "https://www.campingparken.dk/vaerksted/dcu-test-og-servicecenter/": {
+  "status": 200,
+  "hash": "624f4a35178a",
+  "tider": [
+   "Tjelevej 10-12"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
+   "fugttest",
+   "udlejning",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.campingparken.dk/vaerksted/kontakt-og-aabningstider/": {
+  "status": 200,
+  "hash": "1b845d05b49e",
+  "tider": [
+   "08:00 - 16:00",
+   "08:00 - 15:30",
+   "Tjelevej 10-12"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "udlejning",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.campingparken.dk/vaerksted/skadecenter/": {
+  "status": 200,
+  "hash": "f2856a210465",
+  "tider": [
+   "Tjelevej 10-12"
+  ],
+  "maerker": [
+   "Dethleffs",
+   "Niesmann+Bischoff",
+   "Sunlight"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "forsikringsskade",
+   "udlejning",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.dba.dk/mobility/item/26575498": {
+  "status": 200,
+  "hash": "156d75901573",
+  "tider": [
+   "10:00 - 17:00",
+   "10:00 - 16:00",
+   "11:00 - 16:00"
+  ]
+ },
+ "https://www.degulesider.dk/le+camping+frederikshavn/66208225/firma": {
+  "status": 0,
+  "fejl": 0
+ },
+ "https://www.hinshoj.dk/": {
+  "status": 200,
+  "hash": "b6ba031cef62",
+  "tider": [
+   "I dag: 10:00 - 17:00",
+   "I morgen: 10:00 - 17:00"
+  ],
+  "maerker": [
+   "Dethleffs",
+   "Eriba",
+   "Etrusco",
+   "Fendt",
+   "Hobby",
+   "Polar",
+   "T@B"
+  ]
+ },
+ "https://www.hinshoj.dk/autocampere/nye-autocampere/": {
+  "status": 200,
+  "hash": "14c9fc7474c4",
+  "tider": [
+   "I dag: 10:00 - 17:00",
+   "I morgen: 10:00 - 17:00"
+  ]
+ },
+ "https://www.hinshoj.dk/campingvogne/nye-campingvogne/": {
+  "status": 200,
+  "hash": "14c9fc7474c4",
+  "tider": [
+   "I dag: 10:00 - 17:00",
+   "I morgen: 10:00 - 17:00"
+  ]
+ },
+ "https://www.hinshoj.dk/information/aabningstider/": {
+  "status": 200,
+  "hash": "04e5e34dbef1",
+  "tider": [
+   "Mandag - Fredag kl. 10.00 - kl. 17.00",
+   "Lørdag Lukket",
+   "Søndag kl. 10.00 - kl. 16.00",
+   "Søndag kl. 11.00 - kl. 16.00",
+   "Kr. himmelfartsdag 10.00 - 16.00",
+   "Grundlovsdag 10.00 - 16.00",
+   "I dag: 10:00 - 17:00",
+   "I morgen: 10:00 - 17:00"
+  ]
+ },
+ "https://www.hinshoj.dk/information/om-os/": {
+  "status": 200,
+  "hash": "757f46a74881",
+  "tider": [
+   "...bliver Hinshøj Caravan A/S igen Kåret som Danmarks største Fendt forhandler. Hinshøj sælger idag ca 15 - 18 % af det samlede salg af Fendt i Danmark.",
+   "I dag: 10:00 - 17:00",
+   "I morgen: 10:00 - 17:00"
+  ],
+  "maerker": [
+   "Dethleffs",
+   "Eriba",
+   "Etrusco",
+   "Fendt",
+   "Hobby",
+   "Polar",
+   "T@B"
+  ]
+ },
+ "https://www.hinshoj.dk/kontakt/kontakt-os/": {
+  "status": 200,
+  "hash": "311d06502757",
+  "tider": [
+   "Tr&aelig;ffe tid Mandag til Fredag 10.00-12.00 og 13.00-17.00",
+   "I dag: 10:00 - 17:00",
+   "I morgen: 10:00 - 17:00"
+  ]
+ },
+ "https://www.hinshoj.dk/vaerksted/information/": {
+  "status": 200,
+  "hash": "e28e91eeae02",
+  "tider": [
+   "Du kan tr&aelig;ffe Bente mandag Kl. 10.00-14.00 Tirsdag - Fredag 13.00-17.00",
+   "I dag: 10:00 - 17:00",
+   "I morgen: 10:00 - 17:00"
+  ],
+  "ydelser": [
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.le-camping.dk/": {
+  "status": 200,
+  "hash": "9556e038eaa0",
+  "tider": [],
+  "maerker": [
+   "Camp-Let",
+   "Dethleffs",
+   "Fendt",
+   "Hobby",
+   "Silver"
+  ]
+ },
+ "https://www.le-camping.dk/om-os/åbningstider/": {
+  "status": 200,
+  "hash": "5e8dc6f66509",
+  "tider": [
+   "Mandag - fredag kl. 9.30-17.00",
+   "Lørdag - Lukket",
+   "Søndag - Lukket"
+  ]
+ },
+ "https://www.le-camping.dk/om-os/kontakt-os/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.le-camping.dk/om-os/medlem-af-camping-outdoor-danmark/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.le-camping.dk/om-os/opbevaring-af-campingvogne-eller-autocampere/": {
+  "status": 200,
+  "hash": "0ee159eeae8a",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "forsikringsskade",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.le-camping.dk/vaerksted/forsikringsskader/": {
+  "status": 200,
+  "hash": "db33de9fc361",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "forsikringsskade",
+   "opbevaring",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.le-camping.dk/vaerksted/service-paa-campingpladsen/": {
+  "status": 200,
+  "hash": "0ee159eeae8a",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "forsikringsskade",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.le-camping.dk/vaerksted/vaerkstedet-generelt/": {
+  "status": 200,
+  "hash": "320487b6d2ad",
+  "tider": [
+   "Kontakt værkstedet mandag til torsdag fra kl. 8.00-16.00 og fredag fra kl. 8.00-15.30 (træffes ikke i weekends og på helligdage)."
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "fugttest",
+   "forsikringsskade",
+   "mover",
+   "opbevaring",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.proff.dk/firma/vestjysk-campingcenter-aps/-/-/12210787": {
+  "status": 403,
+  "fejl": null
+ },
+ "https://www.proff.dk/firma/viborg-caravan-center-aps/viborg/detailhandel/0605M2I10MN": {
+  "status": 403,
+  "fejl": null
+ },
+ "https://www.skcaravan.dk/": {
+  "status": 200,
+  "hash": "a69a0a2e6734",
+  "tider": [
+   "10:00 - 17:00",
+   "10:00 - 16:00"
+  ],
+  "maerker": [
+   "Caravelair",
+   "Hobby",
+   "Silver"
+  ]
+ },
+ "https://www.skcaravan.dk/autocamper/autocamper/": {
+  "status": 200,
+  "hash": "04f1dd69c1db",
+  "tider": [
+   "10:00 - 17:00",
+   "10:00 - 16:00"
+  ]
+ },
+ "https://www.skcaravan.dk/campingvogne/nye-campingvogne/": {
+  "status": 200,
+  "hash": "04f1dd69c1db",
+  "tider": [
+   "10:00 - 17:00",
+   "10:00 - 16:00"
+  ]
+ },
+ "https://www.skcaravan.dk/praktisk-info/åbningstider/": {
+  "status": 200,
+  "hash": "d11fb02f0999",
+  "tider": [
+   "Man-fre: 10-17",
+   "Lør: Lukket",
+   "Søn: 10-16",
+   "Man-tor: 10-15",
+   "Fre: 10-12",
+   "Søn: Lukket",
+   "10:00 - 17:00",
+   "10:00 - 16:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "udlejning",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.skcaravan.dk/udlejning-af-campingvogne/udlejning-af-campingvogne/": {
+  "status": 200,
+  "hash": "9bfea6cf6c9f",
+  "tider": [
+   "10:00 - 17:00",
+   "10:00 - 16:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.skcaravan.dk/vaerksted/vaerksted/": {
+  "status": 200,
+  "hash": "eb1e7704e4cf",
+  "tider": [
+   "10:00 - 17:00",
+   "10:00 - 16:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "fugttest",
+   "forsikringsskade",
+   "mover",
+   "udlejning",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.vs-camping.dk/": {
+  "status": 200,
+  "hash": "e4d242f5b6de",
+  "tider": [
+   "Vi holder lukket hver lørdag fra 1. oktober 2026 frem til 1. februar 2027",
+   "Hverdage 10:00 - 17:00",
+   "Tirsdag Lukket",
+   "10:00 - 14:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "forsikringsskade",
+   "mover",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.vs-camping.dk/kontakt/": {
+  "status": 200,
+  "hash": "b051a120034f",
+  "tider": [
+   "Hverdage 10:00 - 17:00",
+   "Tirsdag Lukket",
+   "10:00 - 14:00"
+  ]
+ },
+ "https://www.vs-camping.dk/nye-modeller/": {
+  "status": 200,
+  "hash": "e0262900edd5",
+  "tider": [
+   "Hverdage 10:00 - 17:00",
+   "Tirsdag Lukket",
+   "10:00 - 14:00"
+  ],
+  "maerker": [
+   "Kabe",
+   "Knaus",
+   "Vega",
+   "Weinsberg"
+  ]
+ },
+ "https://www.vs-camping.dk/om-os/": {
+  "status": 200,
+  "hash": "b051a120034f",
+  "tider": [
+   "Hverdage 10:00 - 17:00",
+   "Tirsdag Lukket",
+   "10:00 - 14:00"
+  ]
+ },
+ "https://www.vs-camping.dk/vaerksted/": {
+  "status": 200,
+  "hash": "63f2ba2b3f3b",
+  "tider": [
+   "Hverdage 10:00 - 17:00",
+   "Tirsdag Lukket",
+   "10:00 - 14:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "forsikringsskade"
+  ]
+ }
+}

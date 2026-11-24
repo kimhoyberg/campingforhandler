@@ -1,0 +1,53 @@
+# Kildetjek hver mandag: henter alle kildesider og finder ændringer.
+#  - DCU-testcenter rettes automatisk (DCU's liste er entydig).
+#  - Andre ændringer (åbningstider, mærker, ydelser, døde links, gamle data)
+#    oprettes som et issue, som et menneske ser på og retter.
+#  - Bagefter genbygges siden, så advarsler om gamle oplysninger kommer med.
+name: Kildetjek
+
+on:
+  schedule:
+    - cron: '17 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+jobs:
+  kildetjek:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Hent kilder og sammenlign
+        id: tjek
+        run: node scripts/kildetjek.mjs --opdater
+
+      - name: Tjek data
+        run: node scripts/validate.mjs
+
+      - name: Gem snapshot og automatiske rettelser
+        run: |
+          git config user.name "kildetjek[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .kildetjek/snapshot.json src/data/forhandlere
+          if ! git diff --cached --quiet; then
+            git commit -m "Kildetjek $(date +%F)"
+            git push
+          fi
+
+      - name: Opret issue med fund
+        if: steps.tjek.outputs.fund == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "Kildetjek $(date +%F): ændringer at se på" --body-file .kildetjek/rapport.md
+
+      - name: Genbyg siden
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref "${{ github.ref_name }}" || echo "Udrulning er ikke sat op endnu."
