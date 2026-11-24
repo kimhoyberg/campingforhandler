@@ -77,11 +77,12 @@ h3 {
 
 p {
   margin: 0 0 1em;
+  max-width: 70ch;
 }
 
 .wrap {
   width: 100%;
-  max-width: 46rem;
+  max-width: 64rem;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -108,9 +109,6 @@ p {
 }
 
 .site-header .wrap {
-  max-width: none;
-  padding-left: max(16px, 2vw);
-  padding-right: max(16px, 2vw);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -316,6 +314,14 @@ main {
   gap: 0.85rem;
 }
 
+/* To kort ved siden af hinanden på bredere skærme */
+@media (min-width: 48rem) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
 .card {
   background: var(--surface);
   border: 1px solid var(--line);
@@ -423,12 +429,7 @@ a.chip:hover {
 
 /* Filter */
 .filter {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 1rem;
-  margin: 1.25rem 0 0.5rem;
-  box-shadow: var(--shadow);
+  margin: 1.5rem 0 0.5rem;
 }
 
 .filter fieldset {
@@ -553,6 +554,7 @@ a.chip:hover {
 }
 
 .checked-box {
+  max-width: none;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -565,6 +567,7 @@ a.chip:hover {
 }
 
 .note {
+  max-width: none;
   background: var(--warn-soft);
   color: var(--warn-text);
   border-radius: 10px;

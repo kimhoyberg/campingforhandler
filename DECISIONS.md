@@ -5,6 +5,7 @@ Valg truffet undervejs, og hvorfor.
 ## Teknik
 
 - **Astro 5, statisk output, almindelig CSS.** Ingen Tailwind: én lille CSS-fil er nemmere at læse og giver ingen ekstra byggetrin. CSS lægges direkte ind i HTML'en (`inlineStylesheets: 'always'`), så der er ingen ekstra forespørgsler.
+- **Bredde:** indhold og header er højst 64rem (ca. 1024 px) brede, så forhandlerkortene kan stå to og to fra 768 px. Tekstafsnit holdes på højst 70 tegn pr. linje, så de er nemme at læse.
 - **Ingen webfonts.** Systemets egen skrift er hurtig og læsbar. Det er en stor del af grunden til 100 i Lighthouse.
 - **Egen `sitemap.xml` i stedet for `@astrojs/sitemap`.** Så kan sider med `noindex` (under 2 forhandlere) udelades fra sitemap'et, og der er én afhængighed mindre.
 - **GitHub Pages i en undermappe.** Uden eget domæne ligger siden på `kimhoyberg.github.io/campingforhandler/`. Alle sider skriver interne links fra roden (`/maerke/kabe/`), og et lille trin efter buildet (i `astro.config.mjs`) sætter undermappen foran. Det er valgt frem for at ændre hvert eneste link i koden. Canonical, JSON-LD og sitemap bygger den fulde adresse med `abs()`. Undermappe og adresse styres af `BASE_PATH` og `SITE_ORIGIN`, som workflowen sætter.
