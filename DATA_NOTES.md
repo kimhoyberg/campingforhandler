@@ -57,7 +57,7 @@ Bekræftet for alle 10 ud fra DCU's egen liste (dcu.dk/da/medlemsfordele/dcu-ser
 - **Koordinater:** DAWA (Danmarks Adressers Web API) er lukket og svarer "410 Gone". I stedet er brugt OpenStreetMap Nominatim, som fandt alle 10 adresser på husnummer-niveau. Camping Parken er slået op som Tjelevej 12.
 - **CVR:** Det gratis cvrapi.dk havde opbrugt sin kvote, og datacvr.virk.dk blokerer automatiske opslag. CVR-numre kommer derfor fra forhandlerens egen side (Camping Parken, Bijé), DBA (Damsgaards) eller Proff/De Gule Sider via søgeresultater (Viborg, Vestjysk, LE Camping). Det er markeret i `kilder`.
 - **Producentlinks i `maerker.json`** er producenternes officielle hjemmesider. De er ikke hentet og tjekket i denne runde. Vega, Silver og Caravelair har `null`, fordi vi ikke kendte en sikker adresse.
-- **Ekstra fund:** Viborg Caravan Center har også en butik i Struer (Gimsinglundvej 2). Det står i noten, ikke som en selvstændig forhandler.
+- **Struer Caravan** (Gimsinglundvej 2, 7600 Struer) hører under Viborg Caravan Center (samme CVR og hjemmeside) og har nu sin egen side. Mærket (nye Hobby) og brugte vogne er taget fra lagerlisten, hvor vognene står med "Vognen står i Struer". Telefon og e-mail er fælles med Viborg. Struers weekendtider er lige så uklare på hjemmesiden som Viborgs.
 
 ## Runde 2: 10 nye forhandlere fra DCU's liste
 

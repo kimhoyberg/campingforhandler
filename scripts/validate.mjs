@@ -92,6 +92,7 @@ const FELTER = {
   webshop: nullOr(isBool),
   brancheforening: nullOr(isStrArr),
   cvr: nullOr((v) => /^\d{8}$/.test(v)),
+  sammeFirma: nullOr((v) => isStrArr(v) && v.length > 0),
   etableret: nullOr((v) => Number.isInteger(v) && v >= 1900 && v <= new Date().getFullYear()),
   beskrivelse: isStr,
   kilder: (v) => Array.isArray(v) && v.length > 0,
@@ -150,6 +151,15 @@ for (const fil of filer) {
     if (!isStr(k.hvad)) fejl(f, `kilder[${i}].hvad mangler`);
     if (!DATO.test(k.tjekketDato ?? '') || k.tjekketDato > idag) fejl(f, `kilder[${i}].tjekketDato skal være en dato (ÅÅÅÅ-MM-DD), ikke i fremtiden`);
   });
+}
+
+// sammeFirma skal pege på forhandlere, der findes, og gå begge veje.
+const alle = new Map(filer.map((fil) => [fil.replace('.json', ''), read(join(forhandlerDir, fil))]));
+for (const [slug, d] of alle) {
+  for (const s of d?.sammeFirma ?? []) {
+    if (!alle.has(s)) fejl(`forhandlere/${slug}.json`, `sammeFirma: "${s}" findes ikke`);
+    else if (!(alle.get(s).sammeFirma ?? []).includes(slug)) fejl(`forhandlere/${s}.json`, `sammeFirma mangler "${slug}" (koblingen skal gå begge veje)`);
+  }
 }
 
 if (errors.length) {

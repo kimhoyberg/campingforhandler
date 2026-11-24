@@ -149,6 +149,121 @@ p {
   }
 }
 
+/* Hamburgermenu på mobil (kun når JavaScript kører – ellers vises links som normalt) */
+.menu-knap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  min-width: 48px;
+  padding: 0.5rem 0.75rem;
+  margin-right: -0.75rem;
+  font: inherit;
+  font-weight: 600;
+  color: var(--text);
+  background: transparent;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  z-index: 60;
+}
+
+.menu-ikon,
+.menu-ikon::before,
+.menu-ikon::after {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: currentColor;
+  border-radius: 2px;
+}
+
+.menu-ikon {
+  position: relative;
+}
+
+.menu-ikon::before,
+.menu-ikon::after {
+  content: '';
+  position: absolute;
+  left: 0;
+}
+
+.menu-ikon::before {
+  top: -7px;
+}
+
+.menu-ikon::after {
+  top: 7px;
+}
+
+.aaben .menu-ikon {
+  background: transparent;
+}
+
+.aaben .menu-ikon::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.aaben .menu-ikon::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+.kun-mobil {
+  display: none;
+}
+
+@media (min-width: 48rem) {
+  .menu-knap {
+    display: none;
+  }
+}
+
+@media (max-width: 47.99rem) {
+  .har-menu .site-header .wrap {
+    flex-wrap: nowrap;
+  }
+
+  .har-menu .site-nav ul {
+    display: none;
+  }
+
+  .har-menu .site-nav.aaben ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    overflow-y: auto;
+    background: var(--surface);
+    padding: 4.5rem max(16px, 2vw) 2rem;
+  }
+
+  .har-menu .site-nav.aaben .kun-mobil {
+    display: block;
+  }
+
+  .har-menu .site-nav.aaben a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 60px;
+    padding: 0.5rem 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--line);
+    text-decoration: none;
+  }
+
+  .har-menu .site-nav.aaben a[aria-current='page'] {
+    color: var(--accent);
+  }
+}
+
 .site-nav a {
   display: inline-block;
   padding: 0.35rem 0;

@@ -1,0 +1,85 @@
+{
+  "slug": "struer-caravan",
+  "navn": "Struer Caravan",
+  "adresse": "Gimsinglundvej 2",
+  "postnr": "7600",
+  "by": "Struer",
+  "region": "Midtjylland",
+  "breddegrad": 56.47985,
+  "laengdegrad": 8.585165,
+  "telefon": "86 64 62 00",
+  "email": "viborgcaravancenter@adslhome.dk",
+  "hjemmeside": "https://viborg-caravancenter.dk/",
+  "aabningstider": {
+    "mandag": "11:00-16:00",
+    "tirsdag": "11:00-16:30",
+    "onsdag": "11:00-16:30",
+    "torsdag": "11:00-16:30",
+    "fredag": "11:00-16:30",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": "Fra sidefoden på hjemmesiden. Kontaktsiden viser også weekendtider for sæsonen, som ikke stemmer overens. Telefon og e-mail er fælles med Viborg."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Hobby"
+  ],
+  "nyeMaerkerAutocampere": [],
+  "teltvogne": [],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": false,
+  "vaerksted": true,
+  "ydelser": [
+    "forsikringsskader"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": "10084970",
+  "etableret": null,
+  "sammeFirma": [
+    "viborg-caravan-center"
+  ],
+  "beskrivelse": "Butik i Struer, som hører under Viborg Caravan Center. Her står både nye Hobby-vogne og brugte vogne, og butikken tager sig af køb, salg og reparation. Vognene kan flyttes mellem de to butikker, så ring før du kører ud.",
+  "kilder": [
+    {
+      "url": "https://viborg-caravancenter.dk/",
+      "hvad": "Adresse, butikken i Struer, køb, salg og reparation",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://viborg-caravancenter.dk/kontakt",
+      "hvad": "Åbningstider, telefon, e-mail",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://viborg-caravancenter.dk/campingvogne",
+      "hvad": "Vogne, der står i Struer (nye Hobby og brugte)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.proff.dk/firma/viborg-caravan-center-aps/viborg/detailhandel/0605M2I10MN",
+      "hvad": "CVR-nummer (samme firma som Viborg; Proff, set i søgeresultat)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "type": "redaktion",
+      "url": null,
+      "hvad": "Sælger ikke autocampere (gælder hele firmaet)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Gimsinglundvej+2&postalcode=7600&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

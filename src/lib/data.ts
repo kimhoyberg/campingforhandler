@@ -47,6 +47,8 @@ export interface Forhandler {
   brancheforening: string[] | null;
   cvr: string | null;
   etableret: number | null;
+  /** Andre afdelinger i samme firma (slugs). */
+  sammeFirma: string[] | null;
   beskrivelse: string;
   kilder: Kilde[];
   sidstTjekket: string;

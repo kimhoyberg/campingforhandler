@@ -26,6 +26,7 @@ export function getStaticPaths() {
 const { d } = Astro.props as { d: Forhandler };
 const region = regionByNavn(d.region);
 const services = servicesFor(d);
+const afdelinger = (d.sammeFirma ?? []).map((s) => forhandlere.find((x) => x.slug === s)!);
 
 const jaNej = (v: boolean | null) => (v === null ? 'Ukendt' : v ? 'Ja' : 'Nej');
 const maerkeLinks = (navne: string[] | null) =>
@@ -67,6 +68,19 @@ const ret = `mailto:${SITE.rettelserEmail}?subject=${emne}&body=${krop}`;
 >
   <h1>{d.navn}</h1>
   <p class="lead" style="margin-bottom:0.5rem">{d.adresse}, {d.postnr} {d.by}</p>
+  {
+    afdelinger.length > 0 && (
+      <p class="small" style="margin:0 0 0.5rem">
+        Samme firma som{' '}
+        {afdelinger.map((a, i) => (
+          <>
+            {i > 0 && ', '}
+            <a href={`/forhandler/${a.slug}/`}>{a.navn}</a> ({a.by})
+          </>
+        ))}
+      </p>
+    )
+  }
 
   {
     services.length > 0 && (

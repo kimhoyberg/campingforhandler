@@ -80,6 +80,7 @@ I `src/config.ts` står `ANALYTICS.provider: null`. Skriv `'plausible'` eller `'
    - Telefon skrives som `"12 34 56 78"`.
    - Mærker skal stå præcis som i `src/data/maerker.json`. Mangler et mærke, så tilføj det dér først.
    - Ydelser skal stå som i `src/data/ydelser.json`.
+   - Har firmaet flere butikker, laver du én fil pr. butik og skriver de andre butikkers slugs i `sammeFirma` i begge filer, fx `"sammeFirma": ["struer-caravan"]`. Ellers `null`.
 5. **Find koordinaterne.** Søg adressen på [openstreetmap.org](https://www.openstreetmap.org), højreklik på stedet og vælg "Vis adresse". Kopiér de to tal til `breddegrad` (det første, ca. 55–57) og `laengdegrad` (det andet, ca. 8–15).
 6. **Skriv en beskrivelse** på 2–3 korte sætninger med dine egne ord. Kopiér aldrig forhandlerens tekst.
 7. **Skriv kilderne.** Under `kilder` skriver du hver side, du har brugt: adressen, hvad du fandt der, og datoen. Sæt `sidstTjekket` til dagens dato.

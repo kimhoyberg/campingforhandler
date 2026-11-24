@@ -18,7 +18,7 @@
     "fredag": "10:00-16:30",
     "loerdag": "lukket",
     "soendag": "lukket",
-    "note": "Lukket i weekenden resten af 2026. Siden viser også weekendtider for sæsonen, som ikke stemmer overens. Har også en butik i Struer (Gimsinglundvej 2)."
+    "note": "Lukket i weekenden resten af 2026. Siden viser også weekendtider for sæsonen, som ikke stemmer overens."
   },
   "aabningstiderVaerksted": null,
   "nyeMaerkerCampingvogne": [
@@ -44,7 +44,10 @@
   "brancheforening": null,
   "cvr": "10084970",
   "etableret": 1986,
-  "beskrivelse": "Forhandler i Viborg med en ekstra butik i Struer. Har nye Hobby- og Knaus-vogne og mange brugte vogne af forskellige mærker. Værkstedet reparerer alle mærker og laver gaseftersyn, fugttest og forsikringsskader.",
+  "sammeFirma": [
+    "struer-caravan"
+  ],
+  "beskrivelse": "Forhandler i Viborg med nye Hobby- og Knaus-vogne og mange brugte vogne af forskellige mærker. Firmaet har også en butik i Struer. Værkstedet reparerer alle mærker og laver gaseftersyn, fugttest og forsikringsskader.",
   "kilder": [
     {
       "url": "https://viborg-caravancenter.dk/",

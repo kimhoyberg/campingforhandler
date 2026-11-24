@@ -66,7 +66,12 @@ const visCrumbs = crumbs.length > 1;
       <div class="wrap">
         <a class="logo" href="/"><Icon name="logo" size={26} /> {SITE.navn}</a>
         <nav class="site-nav" aria-label="Hovedmenu">
-          <ul>
+          <button class="menu-knap" type="button" aria-expanded="false" aria-controls="hovedmenu" hidden>
+            <span class="menu-ikon" aria-hidden="true"></span>
+            <span class="menu-tekst">Menu</span>
+          </button>
+          <ul id="hovedmenu">
+            <li class="kun-mobil"><a href="/" aria-current={path === '/' ? 'page' : undefined}>Alle forhandlere</a></li>
             {
               nav.map((n) => (
                 <li>
@@ -76,8 +81,39 @@ const visCrumbs = crumbs.length > 1;
                 </li>
               ))
             }
+            <li class="kun-mobil"><a href="/ret-oplysninger/">Ret oplysninger</a></li>
           </ul>
         </nav>
+        <script is:inline>
+          // Hamburgermenu på mobil. Kører med det samme, så menuen ikke blinker.
+          // Uden JavaScript vises menuen bare som almindelige links.
+          (function () {
+            var nav = document.querySelector('.site-nav');
+            var knap = nav.querySelector('.menu-knap');
+            var tekst = knap.querySelector('.menu-tekst');
+            knap.hidden = false;
+            document.documentElement.classList.add('har-menu');
+            function saet(aaben) {
+              nav.classList.toggle('aaben', aaben);
+              knap.setAttribute('aria-expanded', String(aaben));
+              tekst.textContent = aaben ? 'Luk' : 'Menu';
+              document.body.style.overflow = aaben ? 'hidden' : '';
+              if (aaben) nav.querySelector('#hovedmenu a').focus();
+            }
+            knap.addEventListener('click', function () {
+              saet(!nav.classList.contains('aaben'));
+            });
+            document.addEventListener('keydown', function (e) {
+              if (e.key === 'Escape' && nav.classList.contains('aaben')) {
+                saet(false);
+                knap.focus();
+              }
+            });
+            window.matchMedia('(max-width: 47.99rem)').addEventListener('change', function () {
+              saet(false);
+            });
+          })();
+        </script>
       </div>
     </header>
     <main id="indhold">
