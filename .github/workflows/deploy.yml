@@ -1,4 +1,5 @@
-# Bygger siden og lægger den på GitHub Pages, hver gang der pushes til main.
+# Bygger siden og lægger den på GitHub Pages, hver gang der pushes til repoets standard-branch
+# (den branch, der er valgt som "default" under Settings → General).
 # Engangsopsætning: Settings → Pages → Source: "GitHub Actions".
 #
 # Uden eget domæne ligger siden på https://<bruger>.github.io/<repo>/.
@@ -8,7 +9,6 @@ name: Udrul til GitHub Pages
 
 on:
   push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -22,6 +22,8 @@ concurrency:
 
 jobs:
   build:
+    # Kun standard-branchen udrulles. Push til andre branches gør ingenting.
+    if: github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
     env:
       SITE_ORIGIN: ${{ vars.CUSTOM_DOMAIN && format('https://{0}', vars.CUSTOM_DOMAIN) || format('https://{0}.github.io', github.repository_owner) }}

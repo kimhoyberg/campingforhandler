@@ -36,11 +36,10 @@ npm run preview
 
 ### GitHub Pages (gratis, direkte fra repoet)
 
-Workflowen `.github/workflows/deploy.yml` bygger og udruller siden, hver gang der pushes til `main`.
+Workflowen `.github/workflows/deploy.yml` bygger og udruller siden, hver gang der pushes til repoets standard-branch (Settings → General → Default branch).
 
-1. Flet ændringerne ind i `main`.
-2. Gå til **Settings → Pages** i repoet, og vælg **Source: GitHub Actions**.
-3. Push til `main`, eller kør workflowen manuelt under **Actions → Udrul til GitHub Pages → Run workflow**.
+1. Gå til **Settings → Pages** i repoet, og vælg **Source: GitHub Actions**.
+2. Push til standard-branchen, eller kør workflowen manuelt under **Actions → Udrul til GitHub Pages → Run workflow**.
 
 Siden ligger derefter på `https://kimhoyberg.github.io/campingforhandler/`. Alle links tilpasses automatisk til undermappen.
 
