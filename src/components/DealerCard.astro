@@ -38,20 +38,19 @@ const features = [
         ))}
       </ul>
     ) : (
-      <p class="small">Mærker ikke bekræftet</p>
+      <p class="small no-chips">Mærker ikke bekræftet</p>
     )
   }
-  {
-    features.length > 0 && (
-      <ul class="features" aria-label="Ydelser">
-        {features.map((f) => (
-          <li>
-            <Icon name={f.icon} size={16} />
-            {f.text}
-          </li>
-        ))}
-      </ul>
-    )
-  }
+  {/* Altid med, også tom, så kortenes rækker står over for hinanden */}
+  <ul class="features" aria-label={features.length ? 'Ydelser' : undefined}>
+    {
+      features.map((f) => (
+        <li>
+          <Icon name={f.icon} size={16} />
+          {f.text}
+        </li>
+      ))
+    }
+  </ul>
   <p class="checked">Sidst tjekket {formatDato(d.sidstTjekket)}{erForaeldet(d) && ' – kan være forældet'}</p>
 </li>

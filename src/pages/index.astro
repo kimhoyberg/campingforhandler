@@ -31,7 +31,7 @@ const website = {
     oplysningerne hos hver forhandler.
   </p>
 
-  <form class="filter" id="filter" action="/" method="get" aria-describedby="filter-hjaelp">
+  <form class="filter" id="filter" action="/" method="get">
     <fieldset>
       <legend>Filtrér forhandlere</legend>
       <div>
@@ -60,7 +60,6 @@ const website = {
       <p class="count" id="antal" aria-live="polite">{antal(forhandlere.length, 'forhandler', 'forhandlere')}</p>
       <button type="reset" class="linkbtn" id="nulstil" hidden>Nulstil filter</button>
     </div>
-    <p id="filter-hjaelp" class="small" style="margin:0.25rem 0 0">Listen opdateres, når du vælger.</p>
     <noscript>
       <p class="small">
         Filteret kræver JavaScript. Brug i stedet siderne for <a href="/maerke/">mærker</a>, <a href="/region/">regioner</a> og
@@ -127,7 +126,6 @@ const website = {
       opdater();
     });
     form.addEventListener('reset', () => setTimeout(() => opdater()));
-    document.getElementById('filter-hjaelp')!.hidden = false;
     opdater(false);
   </script>
 </Base>
