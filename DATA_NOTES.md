@@ -99,7 +99,7 @@ Fundet undervejs, men ikke tjekket eller tilføjet endnu:
 - **Silkeborg Caravan Center**, Priorsvej 11, 8600 Silkeborg (står på DCU's liste). Hjemmesiden har et ugyldigt sikkerhedscertifikat og kunne ikke læses.
 - **Vendelbo Vans**, Tårs, og **Jels Autoværksted**, Rødding (DCU's liste, men kun autocampere).
 - **Camping-Specialisten.dk**, Funder Dalsgårdsvej 1, 8600 Silkeborg (står i Knaus Tabberts forhandlersøgning).
-- Klarup Caravan, Toftlund Caravan, Kais Caravan og Camping-Specialisten (set i søgeresultater).
+- Klarup Caravan, Toftlund Caravan og Kais Caravan (set i søgeresultater).
 - **Hovedstaden** har stadig kun Bijé. Der blev ikke fundet flere kandidater i denne runde. Producenternes forhandlersøgninger (Knaus Tabbert, Hobby, Adria) er det næste sted at lede. Knaus Tabberts søgning henter data fra api.knaustabbert.de, som skal tillades i netværket først.
 
 Når nye mærker tilføjes i `maerker.json`, melder kildetjekket én gang, at mærket er "nyt" på sider, der allerede nævnte det (fx Tabbert hos Østsjællands Camping Center). Det er ikke en ændring hos forhandleren.
