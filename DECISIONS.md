@@ -42,6 +42,7 @@ Valg truffet undervejs, og hvorfor.
 
 - **Kildetjekket foreslår, det retter ikke.** Kun DCU-feltet rettes automatisk, fordi DCU's liste er entydig. Det sker kun, hvis listen kunne læses og indeholder mindst 8 centre, så en ændret DCU-side ikke kan nulstille alle forhandlere. Alt andet bliver til et issue, som et menneske tager stilling til. Ellers ville der blive skrevet gæt ind.
 - **Kun stabile ting sammenlignes:** om siden kan hentes, linjer med åbningstider, hvilke mærker en mærkeside nævner (som hele ord), og hvilke ydelser en værkstedsside nævner. Lagerlister og nyheder skifter hver uge og ville give falske alarmer.
+- **Dynamiske bannere ignoreres:** linjer som "I dag: 10–17" eller "Vi har lukket – på gensyn torsdag" skifter efter klokken og tælles ikke som ændrede åbningstider.
 - **En død side meldes kun én gang**, når den går fra at virke til ikke at virke. Proff og De Gule Sider afviser robotter og bliver derfor stående som "kan ikke hentes".
 - **Gamle oplysninger:** forhandlere, der ikke er tjekket i 180 dage, får teksten "kan være forældet" på kortet og en advarsel på forhandlersiden.
 

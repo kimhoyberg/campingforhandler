@@ -1,0 +1,98 @@
+{
+  "slug": "juels-auto-camp",
+  "navn": "Juels Auto & Camp",
+  "adresse": "Ibjergvej 5",
+  "postnr": "5792",
+  "by": "Årslev",
+  "region": "Syddanmark",
+  "breddegrad": 55.322631,
+  "laengdegrad": 10.524431,
+  "telefon": "63 90 70 80",
+  "email": "morten@juelsautoogcamp.dk",
+  "hjemmeside": "https://www.juelsautoogcamp.dk/",
+  "aabningstider": {
+    "mandag": "07:30-17:30",
+    "tirsdag": "07:30-17:30",
+    "onsdag": "07:30-17:30",
+    "torsdag": "07:30-17:30",
+    "fredag": "07:30-15:00",
+    "loerdag": "lukket",
+    "soendag": "11:00-16:00",
+    "note": null
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Bürstner",
+    "Weinsberg",
+    "Vega"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Elnagh"
+  ],
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": "35410090",
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Kombineret auto- og campingværksted ved Årslev sydøst for Odense. Sælger nye Bürstner-, Weinsberg- og Vega-campingvogne samt brugte vogne. Campingværkstedet laver gastest, fugttest og forsikringsskader.",
+  "kilder": [
+    {
+      "url": "https://www.juelsautoogcamp.dk/",
+      "hvad": "Adresse, telefon, e-mail, CVR, åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.juelsautoogcamp.dk/kontakt-os",
+      "hvad": "Kontakt",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.juelsautoogcamp.dk/alle-nye-campingvogne",
+      "hvad": "Nye campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.juelsautoogcamp.dk/brugte-campingvogne",
+      "hvad": "Brugte campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.juelsautoogcamp.dk/autocamper/klar-til-nye-eventyr-find-din-autocamper-hos-os/elnagh",
+      "hvad": "Elnagh-autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.juelsautoogcamp.dk/campingvaerkstedet",
+      "hvad": "Campingværksted",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://api.knaustabbert.de/api/dealer?country=DK",
+      "hvad": "Fundet i Knaus Tabberts forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Ibjergvej+5&postalcode=5792&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "kais-caravan",
+  "navn": "Kai's Caravan",
+  "adresse": "Algade 76",
+  "postnr": "5592",
+  "by": "Ejby",
+  "region": "Syddanmark",
+  "breddegrad": 55.239779,
+  "laengdegrad": 10.477585,
+  "telefon": "64 46 26 46",
+  "email": "kontakt@kais-caravan.dk",
+  "hjemmeside": "https://www.kais-caravan.dk/",
+  "aabningstider": {
+    "mandag": "09:00-17:30",
+    "tirsdag": "lukket",
+    "onsdag": "09:00-17:30",
+    "torsdag": "09:00-17:30",
+    "fredag": "09:00-17:30",
+    "loerdag": "lukket",
+    "soendag": "11:00-16:00",
+    "note": null
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Fendt",
+    "Hobby",
+    "Knaus",
+    "Polar"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Sunlight"
+  ],
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": true,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": [
+    "Camping Branchen"
+  ],
+  "cvr": "33862903",
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Forhandler på Vestfyn med Fendt, Hobby, Knaus og Polar samt Sunlight-autocampere. Har værksted og udlejning. Bemærk at der er lukket om tirsdagen.",
+  "kilder": [
+    {
+      "url": "https://www.kais-caravan.dk/",
+      "hvad": "Mærker, kontakt, CVR",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.kais-caravan.dk/om-os/find-os/",
+      "hvad": "Adresse og åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.kais-caravan.dk/campingvogne/nye-og-brugte-campingvogne/",
+      "hvad": "Nye og brugte campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.kais-caravan.dk/autocampere/nye-og-brugte-autocampere/",
+      "hvad": "Autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.kais-caravan.dk/udlejning/",
+      "hvad": "Udlejning",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.kais-caravan.dk/vaerksted/",
+      "hvad": "Værksted, gastest, fugttest, forsikringsskader",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://api.knaustabbert.de/api/dealer?country=DK",
+      "hvad": "Fundet i Knaus Tabberts forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Algade+76&postalcode=5592&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

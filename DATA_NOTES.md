@@ -1,6 +1,6 @@
 # Datanoter
 
-Alle 20 forhandlere er tjekket **24. november 2026**. De første 10 kom fra opgavens startliste, de næste 10 fra DCU's liste over test- og servicecentre (se "Runde 2" nederst). Forhandlerens egen hjemmeside er brugt som hovedkilde for 9 af 10. Kilderne for hvert felt står i `kilder` i den enkelte JSON-fil og vises nederst på forhandlersiden.
+Alle 29 forhandlere er tjekket **24. november 2026**. De første 10 kom fra opgavens startliste, de næste 10 fra DCU's liste over test- og servicecentre ("Runde 2"), Struer Caravan som afdeling af Viborg Caravan Center, og 8 fra Knaus Tabberts forhandlerliste ("Runde 3"). Forhandlerens egen hjemmeside er brugt som hovedkilde for 9 af 10. Kilderne for hvert felt står i `kilder` i den enkelte JSON-fil og vises nederst på forhandlersiden.
 
 ## Dækning pr. forhandler
 
@@ -92,14 +92,34 @@ Kilde til listen: DCU's oversigt over test- og servicecentre (dcu.dk/da/medlemsf
 | Jyderup Camping Center | Mærker | Siden har kun en salgsliste med brugte vogne. Ingen nye mærker kunne bekræftes. |
 | Svendborg Camping Center | E-mail | Den eneste e-mail på kontaktsiden er en medarbejders. |
 
+## Runde 3: 8 forhandlere fra Knaus Tabberts forhandlerliste
+
+Kilde til listen: Knaus Tabberts forhandler-API (api.knaustabbert.de/api/dealer?country=DK), som gav 19 danske forhandlere. 8 var nye og kunne tjekkes på deres egen hjemmeside. Ingen af dem står på DCU's liste over testcentre.
+
+| Forhandler | Region | Bemærkning |
+|---|---|---|
+| Brønderslev Caravan & Trailer Center | Nordjylland | Mange mærker, også italienske autocampere (Elnagh, Giottiline). Brugte vogne og opbevaring er ikke bekræftet. |
+| Hjørring Camping & Fritid | Nordjylland | Siden er uenig med sig selv om søndag (lukket / 13–16) og værkstedets start (7.00 / 7.30). Åbningstidssiden er brugt. |
+| Kai's Caravan | Syddanmark | Lukket om tirsdagen. |
+| Juels Auto & Camp | Syddanmark | Både autoværksted og campingværksted. Eneste e-mail er en medarbejders. |
+| NH Camping | Syddanmark | Værkstedets tider står både som man.–fre. og man.–tors. |
+| Camping-Specialisten.dk | Midtjylland | **Butikken i Aarhus (Viby J) er lukket** ifølge deres egen historieside, selv om den stadig står hos Knaus Tabbert. Kun Silkeborg er med. Adressen staves "Funder Dalgårdsvej" på deres side og "Funder Dalsgårdsvej" hos Knaus Tabbert; deres egen stavning er brugt. |
+| Toftlund Caravan | Syddanmark | Mest et serviceværksted. Nye mærker kunne ikke bekræftes. |
+| Vonsild Camping | Syddanmark | Siden 1964. Nye autocampermærker kunne ikke bekræftes. |
+
+**Samlet for alle 29: 331 af 493 felter (67 %).** Andelen er faldet lidt, fordi de nye forhandleres sider oplyser færre ting, fx CVR og medlemskab.
+
+Knaus Tabberts liste viser i øvrigt den samme standardtid for alle forhandlere, så den er kun brugt til at finde navne og adresser.
+
 ## Kandidater til næste runde
 
 Fundet undervejs, men ikke tjekket eller tilføjet endnu:
 
 - **Silkeborg Caravan Center**, Priorsvej 11, 8600 Silkeborg (står på DCU's liste). Hjemmesiden har et ugyldigt sikkerhedscertifikat og kunne ikke læses.
 - **Vendelbo Vans**, Tårs, og **Jels Autoværksted**, Rødding (DCU's liste, men kun autocampere).
-- **Camping-Specialisten.dk**, Funder Dalsgårdsvej 1, 8600 Silkeborg (står i Knaus Tabberts forhandlersøgning).
-- Klarup Caravan, Toftlund Caravan og Kais Caravan (set i søgeresultater).
-- **Hovedstaden** har stadig kun Bijé. Der blev ikke fundet flere kandidater i denne runde. Producenternes forhandlersøgninger (Knaus Tabbert, Hobby, Adria) er det næste sted at lede. Knaus Tabberts søgning henter data fra api.knaustabbert.de, som skal tillades i netværket først.
+- **Intercamp** (Vejen og Lunderskov) står hos Knaus Tabbert, men hjemmesiden indlæses kun med script og kunne ikke læses.
+- **Antoncamp**, Videbæk, står hos Knaus Tabbert, men hjemmesiden svarer ikke.
+- Klarup Caravan og Steens MC-Center (Esbjerg) er set i søgeresultater, men kunne ikke bekræftes.
+- **Hovedstaden** har stadig kun Bijé. Heller ikke Knaus Tabberts liste har nogen forhandler i Hovedstaden. JP Caravan i Hedehusene er nævnt som lukket i en ældre oversigt. Næste skridt er Hobbys, Adrias og Kabes forhandlersøgninger, som ikke kunne læses automatisk i denne runde, og Krak/De Gule Sider, der blokerer robotter.
 
 Når nye mærker tilføjes i `maerker.json`, melder kildetjekket én gang, at mærket er "nyt" på sider, der allerede nævnte det (fx Tabbert hos Østsjællands Camping Center). Det er ikke en ændring hos forhandleren.

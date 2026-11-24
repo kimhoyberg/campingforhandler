@@ -37,6 +37,8 @@ const forrige = existsSync(snapshotFil) ? JSON.parse(readFileSync(snapshotFil, '
 
 const YDELSER = ['værksted', 'dcu', 'gastest', 'fugttest', 'forsikringsskade', 'mover', 'udlejning', 'opbevaring', 'autocamper', 'teltvogn', 'brugte'];
 const DAG = /\b(mandag|tirsdag|onsdag|torsdag|fredag|lørdag|søndag|hverdage|weekend|helligdag|man|tirs|ons|tors|fre|lør|søn)\b/i;
+// Linjer der skifter efter klokken ("I dag: 10–17", "Vi har lukket – på gensyn torsdag", "Åbner 10:00 onsdag")
+const DYNAMISK = /\b(i ?dag|på gensyn|åbner kl|åbner \d|åben til|åbent indtil|åbent nu|lukker om|har lukket|vi har åben|lukket ·)/i;
 const TIDSRUM = /\b\d{1,2}(?:[.:]\d{2})?\s*(?:-|–|til)\s*\d{1,2}(?:[.:]\d{2})?\b/;
 
 async function hent(url) {
@@ -68,7 +70,9 @@ function tekst(html) {
 function udtraek(html, hvad) {
   const linjer = tekst(html);
   const alt = linjer.join(' ').toLowerCase();
-  const tider = [...new Set(linjer.filter((l) => l.length < 160 && (DAG.test(l) || TIDSRUM.test(l)) && /\d|lukket/i.test(l)))].slice(0, 80);
+  const tider = [
+    ...new Set(linjer.filter((l) => l.length < 160 && !DYNAMISK.test(l) && (DAG.test(l) || TIDSRUM.test(l)) && /\d|lukket/i.test(l))),
+  ].slice(0, 80);
   const ud = { tider };
   // Hele ord, så fx "Kabe" ikke findes i "kabel".
   const ord = (m) => new RegExp(`(^|[^a-z0-9æøå])${m.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}($|[^a-z0-9æøå])`);

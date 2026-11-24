@@ -1,0 +1,112 @@
+{
+  "slug": "broenderslev-caravan",
+  "navn": "Brønderslev Caravan & Trailer Center",
+  "adresse": "Eventyrvej 18-22",
+  "postnr": "9700",
+  "by": "Brønderslev",
+  "region": "Nordjylland",
+  "breddegrad": 57.27419,
+  "laengdegrad": 9.969606,
+  "telefon": "98 82 28 75",
+  "email": "info@bctc.dk",
+  "hjemmeside": "https://www.bronderslevcaravan.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "11:00-16:00",
+    "note": null
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "08:00-16:00",
+    "tirsdag": "08:00-16:00",
+    "onsdag": "08:00-16:00",
+    "torsdag": "08:00-16:00",
+    "fredag": "08:00-16:00",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": "Værkstedets telefon er åben man., ons. og fre. 10–12 og 13–15."
+  },
+  "nyeMaerkerCampingvogne": [
+    "Caravelair",
+    "Eriba",
+    "Hobby",
+    "Kabe",
+    "Tabbert",
+    "Vega"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Elnagh",
+    "Giottiline"
+  ],
+  "teltvogne": null,
+  "saelgerBrugte": null,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader",
+    "service alle mærker"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": "30038347",
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Campingforhandler i Brønderslev med mange mærker, blandt andet Hobby, Kabe, Tabbert og Eriba samt italienske autocampere fra Elnagh og Giottiline. Værkstedet har seks baner og laver service, gastest, fugttest og forsikringsskader.",
+  "kilder": [
+    {
+      "url": "https://www.bronderslevcaravan.dk/",
+      "hvad": "Adresse, telefon, e-mail, CVR, åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.bronderslevcaravan.dk/vaerksted/åbningstider/",
+      "hvad": "Værkstedets åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.bronderslevcaravan.dk/vaerksted/service-og-reparation/",
+      "hvad": "Service, gastest, fugttest",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.bronderslevcaravan.dk/vaerksted/forsikringsskade/",
+      "hvad": "Forsikringsskader",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.bronderslevcaravan.dk/campingvogne/campingvogne/",
+      "hvad": "Mærker: campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.bronderslevcaravan.dk/autocampere/autocampere/",
+      "hvad": "Mærker: autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://api.knaustabbert.de/api/dealer?country=DK",
+      "hvad": "Fundet i Knaus Tabberts forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Eventyrvej+20&postalcode=9700&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

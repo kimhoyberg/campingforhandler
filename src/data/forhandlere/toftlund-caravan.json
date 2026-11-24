@@ -1,0 +1,92 @@
+{
+  "slug": "toftlund-caravan",
+  "navn": "Toftlund Caravan",
+  "adresse": "Jyllandsgade 6",
+  "postnr": "6520",
+  "by": "Toftlund",
+  "region": "Syddanmark",
+  "breddegrad": 55.188382,
+  "laengdegrad": 9.07159,
+  "telefon": "21 91 61 60",
+  "email": "info@toftlundcaravan.dk",
+  "hjemmeside": "https://www.toftlundcaravan.dk/",
+  "aabningstider": {
+    "mandag": "09:00-17:00",
+    "tirsdag": "09:00-17:00",
+    "onsdag": "09:00-17:00",
+    "torsdag": "09:00-17:00",
+    "fredag": "09:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "12:00-16:00",
+    "note": "Ring gerne inden besøg."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "09:00-16:00",
+    "tirsdag": "09:00-16:00",
+    "onsdag": "09:00-16:00",
+    "torsdag": "09:00-16:00",
+    "fredag": "09:00-16:00",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": null
+  },
+  "nyeMaerkerCampingvogne": null,
+  "nyeMaerkerAutocampere": null,
+  "teltvogne": null,
+  "saelgerBrugte": null,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader",
+    "service alle mærker"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": "28417799",
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Lille forhandler og autoriseret serviceværksted i Toftlund i Sønderjylland. Værkstedet laver blandt andet tæthedskontrol, gastest og forsikringsskader og er fordelsværksted for flere forsikringsselskaber. Ring før besøg.",
+  "kilder": [
+    {
+      "url": "https://www.toftlundcaravan.dk/",
+      "hvad": "Telefon, e-mail, åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.toftlundcaravan.dk/kontakt-os/index",
+      "hvad": "Kontakt og CVR",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.toftlundcaravan.dk/kontakt-os/hvem-er-vi",
+      "hvad": "Om forretningen",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.toftlundcaravan.dk/serviceværksted/services",
+      "hvad": "Værkstedets ydelser",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://api.knaustabbert.de/api/dealer?country=DK",
+      "hvad": "Fundet i Knaus Tabberts forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Jyllandsgade+6&postalcode=6520&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

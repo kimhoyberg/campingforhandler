@@ -3,6 +3,11 @@
   "status": 0,
   "fejl": "ENOTFOUND"
  },
+ "https://api.knaustabbert.de/api/dealer?country=DK": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
  "https://damsgaardscaravancenter.dk/": {
   "status": 200,
   "hash": "6e591dfe7476",
@@ -91,10 +96,8 @@
  },
  "https://jcc.dk/": {
   "status": 200,
-  "hash": "3dae006438e1",
+  "hash": "87e5f44246aa",
   "tider": [
-   "Sommer ferie Så syntes “ chefen “ at vi har fortjent en lille ferie 😊🌞 så vi holder lukket i uge 33 🍦 På gensyn mandag den 17/8",
-   "Åbningstider Kristi Himmelfartsdag den 14 maj og fredag den 15 maj holder vi lukket På gensyn mandag den 18 maj",
    "Vi ønsker alle vores kunde en rigtig god påske 🐥vi holder lukket Skærtorsdag den 2 april til og med 2. påskedag mandag den 6 april🐣"
   ]
  },
@@ -551,6 +554,209 @@
    "Søndag: 10:00 - 16:00"
   ]
  },
+ "https://www.bronderslevcaravan.dk/": {
+  "status": 200,
+  "hash": "d656c5bfac16",
+  "tider": [
+   "10:00 - 17:00",
+   "11:00 - 16:00",
+   "Eventyrvej 18-22"
+  ]
+ },
+ "https://www.bronderslevcaravan.dk/autocampere/autocampere/": {
+  "status": 200,
+  "hash": "90ec69be25c8",
+  "tider": [
+   "10:00 - 17:00",
+   "11:00 - 16:00",
+   "Eventyrvej 18-22"
+  ],
+  "maerker": [
+   "Caravelair",
+   "Elnagh",
+   "Eriba",
+   "Giottiline",
+   "Hobby",
+   "Kabe",
+   "Tabbert",
+   "Vega"
+  ]
+ },
+ "https://www.bronderslevcaravan.dk/campingvogne/campingvogne/": {
+  "status": 200,
+  "hash": "90ec69be25c8",
+  "tider": [
+   "10:00 - 17:00",
+   "11:00 - 16:00",
+   "Eventyrvej 18-22"
+  ],
+  "maerker": [
+   "Caravelair",
+   "Elnagh",
+   "Eriba",
+   "Giottiline",
+   "Hobby",
+   "Kabe",
+   "Tabbert",
+   "Vega"
+  ]
+ },
+ "https://www.bronderslevcaravan.dk/vaerksted/åbningstider/": {
+  "status": 200,
+  "hash": "3d4476ee183f",
+  "tider": [
+   "08:00 - 16:00",
+   "10:00 - 17:00",
+   "11:00 - 16:00",
+   "Eventyrvej 18-22"
+  ],
+  "ydelser": [
+   "værksted",
+   "forsikringsskade",
+   "autocamper"
+  ]
+ },
+ "https://www.bronderslevcaravan.dk/vaerksted/forsikringsskade/": {
+  "status": 200,
+  "hash": "30db802735c2",
+  "tider": [
+   "10:00 - 17:00",
+   "11:00 - 16:00",
+   "Eventyrvej 18-22"
+  ],
+  "ydelser": [
+   "værksted",
+   "forsikringsskade",
+   "autocamper"
+  ]
+ },
+ "https://www.bronderslevcaravan.dk/vaerksted/service-og-reparation/": {
+  "status": 200,
+  "hash": "30db802735c2",
+  "tider": [
+   "10:00 - 17:00",
+   "11:00 - 16:00",
+   "Eventyrvej 18-22"
+  ],
+  "ydelser": [
+   "værksted",
+   "forsikringsskade",
+   "autocamper"
+  ]
+ },
+ "https://www.camping-specialisten.dk/": {
+  "status": 200,
+  "hash": "b289433c18a0",
+  "tider": [
+   "Dato: 14- 10- 2026",
+   "Dato: 24- 09- 2026",
+   "Dato: 22- 09- 2026",
+   "Dato: 09- 09- 2026"
+  ]
+ },
+ "https://www.camping-specialisten.dk/autocampere/nye/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.camping-specialisten.dk/campingvogne/nye/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.camping-specialisten.dk/information/åbningstider/": {
+  "status": 200,
+  "hash": "1e889fc80211",
+  "tider": [
+   "Skærtorsdag d. 25. marts: 11.00 - 16:00",
+   "Lørdag d. 27. marts: 11.00 - 16:00",
+   "2. påskedag d. 29. marts: 11.00 - 16.00",
+   "Kristi himmelfart d. 6. maj: 11:00 - 16:00",
+   "2. pinsedag d. 17. maj: 11:00 - 16:00",
+   "09:30 - 17:00",
+   "11:00 - 16:00",
+   "07:00 - 16:00",
+   "07:00 - 12:30",
+   "Mandag - Torsdag 9:30 - 15:30",
+   "Fredag 9:30 - 12:30",
+   "Lørdag - Søndag Lukket"
+  ],
+  "ydelser": [
+   "værksted",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.camping-specialisten.dk/information/historie/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.camping-specialisten.dk/information/opbevaring-af-campingvogn/": {
+  "status": 200,
+  "hash": "4fd9d8fdced5",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.camping-specialisten.dk/lej-en-autocamper/udlejning-af-autocamper/": {
+  "status": 200,
+  "hash": "104845a27238",
+  "tider": [
+   "Lavsæson 1/11-1/4",
+   "Mellemsæson 1/4-21/6 & 1/9-1/11",
+   "Højsæson 21/6-1/9",
+   "4 dage i lavsæsonen 1/11-1/4"
+  ],
+  "ydelser": [
+   "værksted",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.camping-specialisten.dk/vaerksted/priser/": {
+  "status": 200,
+  "hash": "c8085fc31ed0",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "mover",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.camping-specialisten.dk/vaerksted/truma-partner/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.camping-specialisten.dk/vaerksted/udekoerende-servicevogn/": {
+  "status": 200,
+  "hash": "c5ddbe724127",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
  "https://www.campinggaarden-slagelse.dk/": {
   "status": 200,
   "hash": "ec9617e0330e",
@@ -774,14 +980,13 @@
   ]
  },
  "https://www.degulesider.dk/le+camping+frederikshavn/66208225/firma": {
-  "status": 0,
-  "fejl": 0
+  "status": 403,
+  "fejl": null
  },
  "https://www.hinshoj.dk/": {
   "status": 200,
-  "hash": "b6ba031cef62",
+  "hash": "d1e22cabda33",
   "tider": [
-   "I dag: 10:00 - 17:00",
    "I morgen: 10:00 - 17:00"
   ],
   "maerker": [
@@ -796,23 +1001,21 @@
  },
  "https://www.hinshoj.dk/autocampere/nye-autocampere/": {
   "status": 200,
-  "hash": "14c9fc7474c4",
+  "hash": "8b9916ff7e80",
   "tider": [
-   "I dag: 10:00 - 17:00",
    "I morgen: 10:00 - 17:00"
   ]
  },
  "https://www.hinshoj.dk/campingvogne/nye-campingvogne/": {
   "status": 200,
-  "hash": "14c9fc7474c4",
+  "hash": "8b9916ff7e80",
   "tider": [
-   "I dag: 10:00 - 17:00",
    "I morgen: 10:00 - 17:00"
   ]
  },
  "https://www.hinshoj.dk/information/aabningstider/": {
   "status": 200,
-  "hash": "04e5e34dbef1",
+  "hash": "2102597c239a",
   "tider": [
    "Mandag - Fredag kl. 10.00 - kl. 17.00",
    "Lørdag Lukket",
@@ -820,16 +1023,13 @@
    "Søndag kl. 11.00 - kl. 16.00",
    "Kr. himmelfartsdag 10.00 - 16.00",
    "Grundlovsdag 10.00 - 16.00",
-   "I dag: 10:00 - 17:00",
    "I morgen: 10:00 - 17:00"
   ]
  },
  "https://www.hinshoj.dk/information/om-os/": {
   "status": 200,
-  "hash": "757f46a74881",
+  "hash": "d1e22cabda33",
   "tider": [
-   "...bliver Hinshøj Caravan A/S igen Kåret som Danmarks største Fendt forhandler. Hinshøj sælger idag ca 15 - 18 % af det samlede salg af Fendt i Danmark.",
-   "I dag: 10:00 - 17:00",
    "I morgen: 10:00 - 17:00"
   ],
   "maerker": [
@@ -844,19 +1044,17 @@
  },
  "https://www.hinshoj.dk/kontakt/kontakt-os/": {
   "status": 200,
-  "hash": "311d06502757",
+  "hash": "4d2ccef9c8d8",
   "tider": [
    "Tr&aelig;ffe tid Mandag til Fredag 10.00-12.00 og 13.00-17.00",
-   "I dag: 10:00 - 17:00",
    "I morgen: 10:00 - 17:00"
   ]
  },
  "https://www.hinshoj.dk/vaerksted/information/": {
   "status": 200,
-  "hash": "e28e91eeae02",
+  "hash": "de40873e8d5a",
   "tider": [
    "Du kan tr&aelig;ffe Bente mandag Kl. 10.00-14.00 Tirsdag - Fredag 13.00-17.00",
-   "I dag: 10:00 - 17:00",
    "I morgen: 10:00 - 17:00"
   ],
   "ydelser": [
@@ -865,6 +1063,212 @@
    "forsikringsskade",
    "autocamper",
    "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.hjorringcamping.dk/": {
+  "status": 200,
+  "hash": "914806d2f7d6",
+  "tider": [
+   "[4-6]",
+   "[3-7]"
+  ]
+ },
+ "https://www.hjorringcamping.dk/campingvogne/brugte-campingvogne/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.hjorringcamping.dk/campingvogne/nye-campingvogne/": {
+  "status": 200,
+  "hash": "a0e536ae25cb",
+  "tider": [],
+  "maerker": [
+   "Adria",
+   "Knaus"
+  ]
+ },
+ "https://www.hjorringcamping.dk/kontakt/": {
+  "status": 200,
+  "hash": "07cc3df47b0b",
+  "tider": [
+   "Mandag&#x2013;fredag",
+   "Mandag&#x2013;torsdag"
+  ]
+ },
+ "https://www.hjorringcamping.dk/kontakt/aabningstider/": {
+  "status": 200,
+  "hash": "5a5ad73135a3",
+  "tider": [
+   "Mandag 09:00 - 17:00",
+   "Tirsdag 09:00 - 17:00",
+   "Onsdag 09:00 - 17:00",
+   "Torsdag 09:00 - 17:00",
+   "Fredag 09:00 - 17:00",
+   "Lørdag Lukket",
+   "Søndag Lukket",
+   "07:00 - 15:30",
+   "07:00 - 12:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "brugte"
+  ]
+ },
+ "https://www.hjorringcamping.dk/vaerksted/": {
+  "status": 200,
+  "hash": "a2f5f298c017",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
+   "fugttest",
+   "brugte"
+  ]
+ },
+ "https://www.juelsautoogcamp.dk/": {
+  "status": 200,
+  "hash": "71d29b80e550",
+  "tider": [
+   "Mandag - torsdag: 07.30 - 17.30",
+   "Fredag: 07.30 - 15.00",
+   "Lørdag: Lukket",
+   "Søndag: 11.00 - 16.00"
+  ]
+ },
+ "https://www.juelsautoogcamp.dk/alle-nye-campingvogne": {
+  "status": 200,
+  "hash": "71d29b80e550",
+  "tider": [
+   "Mandag - torsdag: 07.30 - 17.30",
+   "Fredag: 07.30 - 15.00",
+   "Lørdag: Lukket",
+   "Søndag: 11.00 - 16.00"
+  ]
+ },
+ "https://www.juelsautoogcamp.dk/autocamper/klar-til-nye-eventyr-find-din-autocamper-hos-os/elnagh": {
+  "status": 200,
+  "hash": "71d29b80e550",
+  "tider": [
+   "Mandag - torsdag: 07.30 - 17.30",
+   "Fredag: 07.30 - 15.00",
+   "Lørdag: Lukket",
+   "Søndag: 11.00 - 16.00"
+  ]
+ },
+ "https://www.juelsautoogcamp.dk/brugte-campingvogne": {
+  "status": 200,
+  "hash": "71d29b80e550",
+  "tider": [
+   "Mandag - torsdag: 07.30 - 17.30",
+   "Fredag: 07.30 - 15.00",
+   "Lørdag: Lukket",
+   "Søndag: 11.00 - 16.00"
+  ]
+ },
+ "https://www.juelsautoogcamp.dk/campingvaerkstedet": {
+  "status": 200,
+  "hash": "0f153a3008d5",
+  "tider": [
+   "Mandag - torsdag: 07.30 - 17.30",
+   "Fredag: 07.30 - 15.00",
+   "Lørdag: Lukket",
+   "Søndag: 11.00 - 16.00"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "mover",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.juelsautoogcamp.dk/kontakt-os": {
+  "status": 200,
+  "hash": "71d29b80e550",
+  "tider": [
+   "Mandag - torsdag: 07.30 - 17.30",
+   "Fredag: 07.30 - 15.00",
+   "Lørdag: Lukket",
+   "Søndag: 11.00 - 16.00"
+  ]
+ },
+ "https://www.kais-caravan.dk/": {
+  "status": 200,
+  "hash": "8dcc706a2e9a",
+  "tider": [
+   "09:00 - 17:30",
+   "11:00 - 16:00"
+  ],
+  "maerker": [
+   "Fendt",
+   "Hobby",
+   "Knaus",
+   "Polar",
+   "Sunlight",
+   "T@B",
+   "Tabbert"
+  ]
+ },
+ "https://www.kais-caravan.dk/autocampere/nye-og-brugte-autocampere/": {
+  "status": 200,
+  "hash": "464d09a667c0",
+  "tider": [
+   "09:00 - 17:30",
+   "11:00 - 16:00"
+  ]
+ },
+ "https://www.kais-caravan.dk/campingvogne/nye-og-brugte-campingvogne/": {
+  "status": 200,
+  "hash": "464d09a667c0",
+  "tider": [
+   "09:00 - 17:30",
+   "11:00 - 16:00"
+  ]
+ },
+ "https://www.kais-caravan.dk/om-os/find-os/": {
+  "status": 200,
+  "hash": "464d09a667c0",
+  "tider": [
+   "09:00 - 17:30",
+   "11:00 - 16:00"
+  ]
+ },
+ "https://www.kais-caravan.dk/udlejning/": {
+  "status": 200,
+  "hash": "414243311531",
+  "tider": [
+   "Fra 01/01 - 31/05: Pris pr. uge - inkl. 2100 km. Kr. 7.800,-",
+   "Fra 01/06 - 31/08: Pris pr. uge - inkl. 2100 km. Kr. 9.800,-",
+   "Fra 01/09 - 31/12: Pris pr. uge - inkl. 2100 km. Kr. 7.800,-",
+   "En uges leje gælder fra fredag kl. 16:00 til og med fredag kl. 12:00",
+   "09:00 - 17:30",
+   "11:00 - 16:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "udlejning",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.kais-caravan.dk/vaerksted/": {
+  "status": 200,
+  "hash": "8b3bb2300138",
+  "tider": [
+   "09:00 - 17:30",
+   "11:00 - 16:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "fugttest",
+   "mover",
+   "udlejning",
+   "autocamper",
    "brugte"
   ]
  },
@@ -1209,6 +1613,119 @@
    "brugte"
   ]
  },
+ "https://www.nhcamping.dk/": {
+  "status": 200,
+  "hash": "14ef21f5d98c",
+  "tider": [
+   "Man-Fre: 9.00 - 17.00",
+   "Lør: Lukket",
+   "Søn: 11.00 - 16.00",
+   "Helligdage: 11.00 - 16.00",
+   "Man-Tor: 8.00 - 16.00",
+   "Fre: 8.00 - 16.00"
+  ],
+  "maerker": [
+   "Adria",
+   "Camp-Let",
+   "Kabe",
+   "Knaus"
+  ]
+ },
+ "https://www.nhcamping.dk/campingvogne/brugte-campingvogne": {
+  "status": 200,
+  "hash": "2a1e7b65b272",
+  "tider": [
+   "Man-Fre: 9.00 - 17.00",
+   "Lør: Lukket",
+   "Søn: 11.00 - 16.00",
+   "Helligdage: 11.00 - 16.00",
+   "Man-Tor: 8.00 - 16.00",
+   "Fre: 8.00 - 16.00"
+  ]
+ },
+ "https://www.nhcamping.dk/campingvogne/nye-campingvogne": {
+  "status": 200,
+  "hash": "2a1e7b65b272",
+  "tider": [
+   "Man-Fre: 9.00 - 17.00",
+   "Lør: Lukket",
+   "Søn: 11.00 - 16.00",
+   "Helligdage: 11.00 - 16.00",
+   "Man-Tor: 8.00 - 16.00",
+   "Fre: 8.00 - 16.00"
+  ]
+ },
+ "https://www.nhcamping.dk/om-os/aabningstider": {
+  "status": 200,
+  "hash": "c5cbe51d3ebe",
+  "tider": [
+   "Mandag - Fredag: 9.00 - 17.00",
+   "S&oslash;ndag: 11.00 - 16.00",
+   "Mandag - Fredag: 8.00 - 16.00",
+   "Man-Fre: 9.00 - 17.00",
+   "Lør: Lukket",
+   "Søn: 11.00 - 16.00",
+   "Helligdage: 11.00 - 16.00",
+   "Man-Tor: 8.00 - 16.00",
+   "Fre: 8.00 - 16.00"
+  ],
+  "ydelser": [
+   "værksted",
+   "udlejning",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.nhcamping.dk/om-os/camping-branchen": {
+  "status": 200,
+  "hash": "2a1e7b65b272",
+  "tider": [
+   "Man-Fre: 9.00 - 17.00",
+   "Lør: Lukket",
+   "Søn: 11.00 - 16.00",
+   "Helligdage: 11.00 - 16.00",
+   "Man-Tor: 8.00 - 16.00",
+   "Fre: 8.00 - 16.00"
+  ]
+ },
+ "https://www.nhcamping.dk/teltvogne/brugte-camplet": {
+  "status": 200,
+  "hash": "2a1e7b65b272",
+  "tider": [
+   "Man-Fre: 9.00 - 17.00",
+   "Lør: Lukket",
+   "Søn: 11.00 - 16.00",
+   "Helligdage: 11.00 - 16.00",
+   "Man-Tor: 8.00 - 16.00",
+   "Fre: 8.00 - 16.00"
+  ]
+ },
+ "https://www.nhcamping.dk/vaerksted": {
+  "status": 200,
+  "hash": "42d8dbe89ee7",
+  "tider": [
+   "Mandag - Fredag 8.00 - 16.00",
+   "Mandag - Fredag 09.00 - 15.00 (middagspause 12.00 - 12.30).",
+   "Man-Fre: 9.00 - 17.00",
+   "Lør: Lukket",
+   "Søn: 11.00 - 16.00",
+   "Helligdage: 11.00 - 16.00",
+   "Man-Tor: 8.00 - 16.00",
+   "Fre: 8.00 - 16.00"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "mover",
+   "udlejning",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
  "https://www.proff.dk/firma/vestjysk-campingcenter-aps/-/-/12210787": {
   "status": 403,
   "fejl": null
@@ -1454,6 +1971,41 @@
   "hash": "225604aa1985",
   "tider": []
  },
+ "https://www.toftlundcaravan.dk/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.toftlundcaravan.dk/kontakt-os/hvem-er-vi": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.toftlundcaravan.dk/kontakt-os/index": {
+  "status": 200,
+  "hash": "270dbbd04715",
+  "tider": [
+   "Mandag - fredag kl. 9-17.",
+   "Lørdag Lukket.",
+   "Søndag kl. 12-16.",
+   "Mandag - fredag kl. 9-16.",
+   "Lørdag og søndag lukket."
+  ]
+ },
+ "https://www.toftlundcaravan.dk/serviceværksted/services": {
+  "status": 200,
+  "hash": "7058e977f56a",
+  "tider": [
+   "(Ind og udlevering af vogne til værkstedet KUN i værkstedets åbningstid mandag-fredag kl. 9-17)"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "autocamper"
+  ]
+ },
  "https://www.vejlecaravans.dk/": {
   "status": 200,
   "hash": "e1bede6897be",
@@ -1509,6 +2061,79 @@
    "udlejning",
    "autocamper",
    "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.vonsildcamping.com/": {
+  "status": 200,
+  "hash": "607fa342e4ab",
+  "tider": [
+   "Mandag-Fredag kl. 10.00-17.00",
+   "Lørdag LUKKET",
+   "Søndag kl. 10.00-16.00",
+   "Mandag-Torsdag kl. 7.00-15.30",
+   "Fredag kl. 7.00-12.00",
+   "Søndag LUKKET"
+  ]
+ },
+ "https://www.vonsildcamping.com/Autocampere/nye-autocampere": {
+  "status": 200,
+  "hash": "607fa342e4ab",
+  "tider": [
+   "Mandag-Fredag kl. 10.00-17.00",
+   "Lørdag LUKKET",
+   "Søndag kl. 10.00-16.00",
+   "Mandag-Torsdag kl. 7.00-15.30",
+   "Fredag kl. 7.00-12.00",
+   "Søndag LUKKET"
+  ]
+ },
+ "https://www.vonsildcamping.com/campingvogne/brugte-campingvogne": {
+  "status": 200,
+  "hash": "607fa342e4ab",
+  "tider": [
+   "Mandag-Fredag kl. 10.00-17.00",
+   "Lørdag LUKKET",
+   "Søndag kl. 10.00-16.00",
+   "Mandag-Torsdag kl. 7.00-15.30",
+   "Fredag kl. 7.00-12.00",
+   "Søndag LUKKET"
+  ]
+ },
+ "https://www.vonsildcamping.com/campingvogne/maerker": {
+  "status": 200,
+  "hash": "20bd66ecc797",
+  "tider": [
+   "Mandag-Fredag kl. 10.00-17.00",
+   "Lørdag LUKKET",
+   "Søndag kl. 10.00-16.00",
+   "Mandag-Torsdag kl. 7.00-15.30",
+   "Fredag kl. 7.00-12.00",
+   "Søndag LUKKET"
+  ],
+  "maerker": [
+   "Dethleffs",
+   "Knaus",
+   "Silver"
+  ]
+ },
+ "https://www.vonsildcamping.com/vaerksted": {
+  "status": 200,
+  "hash": "ae18255bc9b5",
+  "tider": [
+   "Mandag-Fredag kl. 10.00-17.00",
+   "Lørdag LUKKET",
+   "Søndag kl. 10.00-16.00",
+   "Mandag-Torsdag kl. 7.00-15.30",
+   "Fredag kl. 7.00-12.00",
+   "Søndag LUKKET"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "autocamper",
    "brugte"
   ]
  },

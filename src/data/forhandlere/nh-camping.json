@@ -1,0 +1,114 @@
+{
+  "slug": "nh-camping",
+  "navn": "NH Camping",
+  "adresse": "Nr. Hostrupvej 27",
+  "postnr": "6230",
+  "by": "Rødekro",
+  "region": "Syddanmark",
+  "breddegrad": 55.088447,
+  "laengdegrad": 9.275656,
+  "telefon": "74 66 23 63",
+  "email": "butik@nhcamping.dk",
+  "hjemmeside": "https://www.nhcamping.dk/",
+  "aabningstider": {
+    "mandag": "09:00-17:00",
+    "tirsdag": "09:00-17:00",
+    "onsdag": "09:00-17:00",
+    "torsdag": "09:00-17:00",
+    "fredag": "09:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "11:00-16:00",
+    "note": "Butikken."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "08:00-16:00",
+    "tirsdag": "08:00-16:00",
+    "onsdag": "08:00-16:00",
+    "torsdag": "08:00-16:00",
+    "fredag": "08:00-16:00",
+    "loerdag": null,
+    "soendag": "lukket",
+    "note": "Ét sted på hjemmesiden står mandag–torsdag."
+  },
+  "nyeMaerkerCampingvogne": [
+    "Adria",
+    "Kabe",
+    "Knaus"
+  ],
+  "nyeMaerkerAutocampere": null,
+  "teltvogne": [
+    "Camp-Let"
+  ],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": true,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": [
+    "Camping Outdoor Danmark"
+  ],
+  "cvr": null,
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Campingforhandler ved Rødekro i Sønderjylland med Adria, Kabe og Knaus samt Camp-Let teltvogne. Har værksted og udlejning, og er medlem af Camping Outdoor Danmark.",
+  "kilder": [
+    {
+      "url": "https://www.nhcamping.dk/",
+      "hvad": "Telefon, e-mail, mærker",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.nhcamping.dk/om-os/aabningstider",
+      "hvad": "Åbningstider butik og værksted",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.nhcamping.dk/om-os/camping-branchen",
+      "hvad": "Medlemskab",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.nhcamping.dk/campingvogne/nye-campingvogne",
+      "hvad": "Nye campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.nhcamping.dk/campingvogne/brugte-campingvogne",
+      "hvad": "Brugte campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.nhcamping.dk/teltvogne/brugte-camplet",
+      "hvad": "Camp-Let teltvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.nhcamping.dk/vaerksted",
+      "hvad": "Værksted",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://api.knaustabbert.de/api/dealer?country=DK",
+      "hvad": "Fundet i Knaus Tabberts forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=N%C3%B8rre+Hostrupvej+27&postalcode=6230&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

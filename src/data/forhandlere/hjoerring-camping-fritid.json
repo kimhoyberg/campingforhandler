@@ -1,0 +1,105 @@
+{
+  "slug": "hjoerring-camping-fritid",
+  "navn": "Hjørring Camping & Fritid",
+  "adresse": "Johs. E. Rasmussens Vej 2",
+  "postnr": "9800",
+  "by": "Hjørring",
+  "region": "Nordjylland",
+  "breddegrad": 57.443734,
+  "laengdegrad": 10.017126,
+  "telefon": "98 92 01 10",
+  "email": "hjoerringcamping@mail.dk",
+  "hjemmeside": "https://www.hjorringcamping.dk/",
+  "aabningstider": {
+    "mandag": "09:00-17:00",
+    "tirsdag": "09:00-17:00",
+    "onsdag": "09:00-17:00",
+    "torsdag": "09:00-17:00",
+    "fredag": "09:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": "Fra siden med åbningstider. Andre steder på hjemmesiden står søndag 13–16."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "07:00-15:30",
+    "tirsdag": "07:00-15:30",
+    "onsdag": "07:00-15:30",
+    "torsdag": "07:00-15:30",
+    "fredag": "07:00-12:00",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": "Eller efter aftale. Andre steder på hjemmesiden står 7.30."
+  },
+  "nyeMaerkerCampingvogne": [
+    "Adria",
+    "Knaus"
+  ],
+  "nyeMaerkerAutocampere": null,
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "brugtvognstest",
+    "forsikringsskader"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": null,
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Forhandler i Hjørring med nye Adria- og Knaus-campingvogne og et udvalg af brugte vogne. Værkstedet laver gastest, fugttest, brugtvognstest og forsikringsskader.",
+  "kilder": [
+    {
+      "url": "https://www.hjorringcamping.dk/",
+      "hvad": "Telefon, e-mail, åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hjorringcamping.dk/kontakt/aabningstider/",
+      "hvad": "Åbningstider butik og værksted",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hjorringcamping.dk/kontakt/",
+      "hvad": "Kontakt",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hjorringcamping.dk/campingvogne/nye-campingvogne/",
+      "hvad": "Nye mærker",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hjorringcamping.dk/campingvogne/brugte-campingvogne/",
+      "hvad": "Brugte campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hjorringcamping.dk/vaerksted/",
+      "hvad": "Værkstedets ydelser",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://api.knaustabbert.de/api/dealer?country=DK",
+      "hvad": "Fundet i Knaus Tabberts forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Johannes+E.+Rasmussens+Vej+2&postalcode=9800&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

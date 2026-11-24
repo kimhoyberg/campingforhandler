@@ -24,6 +24,14 @@
     "tip": "Benimar er spanske autocampere, som er nye på det danske marked. Spørg om reservedele og garantiservice kan klares hos forhandleren selv."
   },
   {
+    "navn": "Bürstner",
+    "slug": "buerstner",
+    "producentland": "Tyskland",
+    "link": null,
+    "type": "campingvogne og autocampere",
+    "tip": "Bürstner laver både campingvogne og autocampere med fokus på design. Spørg om forhandleren er autoriseret Bürstner-værksted, så tæthedsgarantien kan holdes."
+  },
+  {
     "navn": "Camp-Let",
     "slug": "camp-let",
     "producentland": "Danmark",
@@ -48,6 +56,14 @@
     "tip": "Dethleffs findes både som campingvogn og autocamper. Hvis du vil bevare fabrikkens tæthedsgaranti, skal vognen have en årlig fugttest – spørg om forhandlerens værksted er autoriseret til mærket."
   },
   {
+    "navn": "Elnagh",
+    "slug": "elnagh",
+    "producentland": "Italien",
+    "link": null,
+    "type": "autocampere",
+    "tip": "Elnagh er italienske autocampere til en forholdsvis lav pris. Spørg om reservedele og garanti kan klares hos forhandleren selv."
+  },
+  {
     "navn": "Eriba",
     "slug": "eriba",
     "producentland": "Tyskland",
@@ -70,6 +86,14 @@
     "link": "https://www.fendt-caravan.com/",
     "type": "campingvogne",
     "tip": "Fendt er Hobbys søstermærke i den dyrere ende. Mange forhandlere giver ekstra fordele som gratis fugttest de første år – få det skrevet ind i slutsedlen."
+  },
+  {
+    "navn": "Giottiline",
+    "slug": "giottiline",
+    "producentland": "Italien",
+    "link": null,
+    "type": "autocampere",
+    "tip": "Giottiline er italienske autocampere. Der er få forhandlere i Danmark, så spørg om værkstedet kan servicere både bodel og bildel."
   },
   {
     "navn": "Hobby",

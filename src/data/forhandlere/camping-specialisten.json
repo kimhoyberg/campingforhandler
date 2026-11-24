@@ -1,0 +1,137 @@
+{
+  "slug": "camping-specialisten",
+  "navn": "Camping-Specialisten.dk",
+  "adresse": "Funder Dalgårdsvej 1",
+  "postnr": "8600",
+  "by": "Silkeborg",
+  "region": "Midtjylland",
+  "breddegrad": 56.148056,
+  "laengdegrad": 9.451306,
+  "telefon": "97 12 53 66",
+  "email": "cs@camping-specialisten.dk",
+  "hjemmeside": "https://www.camping-specialisten.dk/",
+  "aabningstider": {
+    "mandag": "09:30-17:00",
+    "tirsdag": "09:30-17:00",
+    "onsdag": "09:30-17:00",
+    "torsdag": "09:30-17:00",
+    "fredag": "09:30-17:00",
+    "loerdag": "lukket",
+    "soendag": "11:00-16:00",
+    "note": "Særlige tider på helligdage står på hjemmesiden."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "07:00-16:00",
+    "tirsdag": "07:00-16:00",
+    "onsdag": "07:00-16:00",
+    "torsdag": "07:00-16:00",
+    "fredag": "07:00-12:30",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": null
+  },
+  "nyeMaerkerCampingvogne": [
+    "Fendt",
+    "Hobby",
+    "Kabe",
+    "Knaus",
+    "Tabbert",
+    "Weinsberg"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Bürstner",
+    "Kabe",
+    "Knaus",
+    "Weinsberg"
+  ],
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "brugtvognstest",
+    "forsikringsskader",
+    "Truma-service",
+    "montering af ekstraudstyr",
+    "udekørende service"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": true,
+  "opbevaring": true,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": null,
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Stor forhandler i Funder vest for Silkeborg med mange mærker af både campingvogne og autocampere. Værkstedet er Truma-partner, laver forsikringsskader og har en servicevogn, der kører ud. Udlejer autocampere og tilbyder opbevaring.",
+  "kilder": [
+    {
+      "url": "https://www.camping-specialisten.dk/",
+      "hvad": "Telefon, e-mail, adresse",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.camping-specialisten.dk/information/åbningstider/",
+      "hvad": "Åbningstider butik og værksted",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.camping-specialisten.dk/information/historie/",
+      "hvad": "Historie (butikken i Aarhus er lukket)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.camping-specialisten.dk/campingvogne/nye/",
+      "hvad": "Nye campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.camping-specialisten.dk/autocampere/nye/",
+      "hvad": "Nye autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.camping-specialisten.dk/vaerksted/priser/",
+      "hvad": "Gastest, fugttest, brugtvognstest",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.camping-specialisten.dk/vaerksted/truma-partner/",
+      "hvad": "Truma-partner",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.camping-specialisten.dk/vaerksted/udekoerende-servicevogn/",
+      "hvad": "Servicevogn",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.camping-specialisten.dk/lej-en-autocamper/udlejning-af-autocamper/",
+      "hvad": "Udlejning",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.camping-specialisten.dk/information/opbevaring-af-campingvogn/",
+      "hvad": "Opbevaring",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://api.knaustabbert.de/api/dealer?country=DK",
+      "hvad": "Fundet i Knaus Tabberts forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Funder+Dalg%C3%A5rdsvej+1&postalcode=8600&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}
