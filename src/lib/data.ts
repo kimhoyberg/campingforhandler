@@ -6,10 +6,18 @@ export type Dag = 'mandag' | 'tirsdag' | 'onsdag' | 'torsdag' | 'fredag' | 'loer
 export type Uge = Record<Dag, string | null> & { note: string | null };
 
 export interface Kilde {
-  url: string;
+  /** web (standard): en side på nettet. forhandler: bekræftet af forhandleren selv. redaktion: kendt af redaktionen. */
+  type?: 'web' | 'forhandler' | 'redaktion';
+  url: string | null;
   hvad: string;
   tjekketDato: string;
 }
+
+export const KILDETYPE_NAVN = {
+  web: '',
+  forhandler: 'Bekræftet af forhandleren',
+  redaktion: 'Oplyst af redaktionen',
+} as const;
 
 export interface Forhandler {
   slug: string;

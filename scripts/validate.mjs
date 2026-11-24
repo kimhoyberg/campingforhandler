@@ -22,6 +22,9 @@ const REGIONER = ['Nordjylland', 'Midtjylland', 'Syddanmark', 'Sjælland', 'Hove
 const DAGE = ['mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'loerdag', 'soendag'];
 const TID = /^\d{2}:\d{2}-\d{2}:\d{2}(, \d{2}:\d{2}-\d{2}:\d{2})*$/;
 const DATO = /^\d{4}-\d{2}-\d{2}$/;
+// web: en side på nettet (standard). forhandler: bekræftet direkte af forhandleren (mail/telefon).
+// redaktion: kendt af redaktionen, fx ved eget besøg. De to sidste behøver ingen URL.
+const KILDETYPER = ['web', 'forhandler', 'redaktion'];
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const idag = new Date().toISOString().slice(0, 10);
 
@@ -139,7 +142,11 @@ for (const fil of filer) {
   if (saetninger < 2 || saetninger > 3) fejl(f, `beskrivelse skal være 2-3 sætninger (fandt ${saetninger})`);
 
   (d.kilder ?? []).forEach((k, i) => {
-    if (!isUrl(k.url)) fejl(f, `kilder[${i}].url er ikke en gyldig URL`);
+    const type = k.type ?? 'web';
+    if (!KILDETYPER.includes(type)) fejl(f, `kilder[${i}].type skal være en af: ${KILDETYPER.join(', ')}`);
+    if (type === 'web' && !isUrl(k.url)) fejl(f, `kilder[${i}].url er ikke en gyldig URL`);
+    if (type !== 'web' && !nullOr(isUrl)(k.url ?? null)) fejl(f, `kilder[${i}].url skal være en URL eller null`);
+    for (const key of Object.keys(k)) if (!['url', 'hvad', 'tjekketDato', 'type'].includes(key)) fejl(f, `kilder[${i}]: ukendt felt "${key}"`);
     if (!isStr(k.hvad)) fejl(f, `kilder[${i}].hvad mangler`);
     if (!DATO.test(k.tjekketDato ?? '') || k.tjekketDato > idag) fejl(f, `kilder[${i}].tjekketDato skal være en dato (ÅÅÅÅ-MM-DD), ikke i fremtiden`);
   });

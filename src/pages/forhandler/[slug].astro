@@ -11,6 +11,7 @@ import {
   telefonHref,
   rutevejledning,
   harKombination,
+  KILDETYPE_NAVN,
   type Forhandler,
 } from '../../lib/data';
 import { servicesFor } from '../../lib/services';
@@ -43,7 +44,8 @@ const description = `${d.navn} i ${d.by} (${d.region}). ${
   alleMaerker.length ? `Nye ${alleMaerker.join(', ')}. ` : ''
 }${services.length ? services.map((s) => s.kort).join(', ') + '. ' : ''}Åbningstider, kontakt og rutevejledning. Tjekket ${formatDato(d.sidstTjekket)}.`;
 
-const egenKilde = d.hjemmeside !== null && d.kilder.some((k) => new URL(k.url).hostname.replace(/^www\./, '') === new URL(d.hjemmeside!).hostname.replace(/^www\./, ''));
+const fraForhandler = d.kilder.some((k) => k.type === 'forhandler');
+const egenKilde = fraForhandler || (d.hjemmeside !== null && d.kilder.some((k) => k.url !== null && new URL(k.url).hostname.replace(/^www\./, '') === new URL(d.hjemmeside!).hostname.replace(/^www\./, '')));
 const emne = encodeURIComponent(`Ret oplysninger: ${d.navn} (${d.slug})`);
 const krop = encodeURIComponent(
   `Hej\n\nVi vil gerne rette følgende oplysninger om ${d.navn} på ${abs(`/forhandler/${d.slug}/`)} :\n\n- \n\nVenlig hilsen\n`,
@@ -238,7 +240,16 @@ const ret = `mailto:${SITE.rettelserEmail}?subject=${emne}&body=${krop}`;
       {
         d.kilder.map((k) => (
           <li>
-            {k.hvad} – <a href={k.url} rel="noopener nofollow">{k.url.replace(/^https?:\/\//, '').slice(0, 60)}{k.url.replace(/^https?:\/\//, '').length > 60 ? '…' : ''}</a> (tjekket {formatDato(k.tjekketDato)})
+            {k.hvad} –{' '}
+            {k.type && k.type !== 'web' ? (
+              <strong>{KILDETYPE_NAVN[k.type]}</strong>
+            ) : (
+              <a href={k.url!} rel="noopener nofollow">
+                {k.url!.replace(/^https?:\/\//, '').slice(0, 60)}
+                {k.url!.replace(/^https?:\/\//, '').length > 60 ? '…' : ''}
+              </a>
+            )}{' '}
+            (tjekket {formatDato(k.tjekketDato)})
           </li>
         ))
       }

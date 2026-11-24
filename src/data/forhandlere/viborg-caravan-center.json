@@ -28,7 +28,7 @@
   "nyeMaerkerAutocampere": [],
   "teltvogne": [],
   "saelgerBrugte": true,
-  "saelgerAutocampere": null,
+  "saelgerAutocampere": false,
   "vaerksted": true,
   "ydelser": [
     "gastest",
@@ -79,6 +79,12 @@
     {
       "url": "https://nominatim.openstreetmap.org/search?street=Fuglev%C3%A6nget+10&postalcode=8800&country=Denmark&format=jsonv2",
       "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "type": "redaktion",
+      "url": null,
+      "hvad": "Sælger ikke autocampere",
       "tjekketDato": "2026-11-24"
     }
   ],

@@ -83,6 +83,9 @@ I `src/config.ts` står `ANALYTICS.provider: null`. Skriv `'plausible'` eller `'
 5. **Find koordinaterne.** Søg adressen på [openstreetmap.org](https://www.openstreetmap.org), højreklik på stedet og vælg "Vis adresse". Kopiér de to tal til `breddegrad` (det første, ca. 55–57) og `laengdegrad` (det andet, ca. 8–15).
 6. **Skriv en beskrivelse** på 2–3 korte sætninger med dine egne ord. Kopiér aldrig forhandlerens tekst.
 7. **Skriv kilderne.** Under `kilder` skriver du hver side, du har brugt: adressen, hvad du fandt der, og datoen. Sæt `sidstTjekket` til dagens dato.
+   - Har forhandleren selv bekræftet noget på mail eller telefon, så skriv `"type": "forhandler"` og `"url": null`.
+   - Ved du det selv, fx fra et besøg, så skriv `"type": "redaktion"` og `"url": null`.
+   - Eksempel: `{ "type": "forhandler", "url": null, "hvad": "Sælger ikke autocampere", "tjekketDato": "2026-11-24" }`
 8. **Tjek og byg.** Kør `npm run build`. Er der fejl, står der præcis hvilken fil og hvilket felt. Ret og kør igen.
 
 Forhandleren kommer nu automatisk med på forsiden og på de rigtige mærke-, region- og servicesider. Får et mærke i en region 2 forhandlere, laves siden `/maerke/<mærke>/<region>/` af sig selv.
