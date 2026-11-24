@@ -1,0 +1,128 @@
+{
+  "slug": "silkeborg-caravan-center",
+  "navn": "Silkeborg Caravan Center",
+  "adresse": "Priorsvej 9-11",
+  "postnr": "8600",
+  "by": "Silkeborg",
+  "region": "Midtjylland",
+  "breddegrad": 56.20166,
+  "laengdegrad": 9.574222,
+  "telefon": "86 81 42 11",
+  "email": "scc@silkeborgcaravan.dk",
+  "hjemmeside": "https://www.silkeborgcaravancenter.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "11:00-15:00",
+    "note": null
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Adria",
+    "Hobby"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Hobby"
+  ],
+  "teltvogne": [
+    "Camp-Let",
+    "Combi-Camp"
+  ],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "brugtvognstest",
+    "forsikringsskader"
+  ],
+  "dcuTestcenter": true,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": [
+    "Camping Outdoor Danmark"
+  ],
+  "cvr": "36465174",
+  "etableret": 1985,
+  "sammeFirma": null,
+  "beskrivelse": "Campingforretning i Silkeborg, etableret i 1985, med Adria og Hobby samt Hobby-autocampere og teltvogne fra Camp-Let og Combi-Camp. Værkstedet er DCU-testcenter.",
+  "kilder": [
+    {
+      "url": "https://www.silkeborgcaravancenter.dk/",
+      "hvad": "Telefon, e-mail, CVR, åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.silkeborgcaravancenter.dk/om-os",
+      "hvad": "Historie, DCU-testcenter, medlemskab",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.silkeborgcaravancenter.dk/om-os/find-os",
+      "hvad": "Adresse",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.silkeborgcaravancenter.dk/Campingvogne/adria",
+      "hvad": "Adria",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.silkeborgcaravancenter.dk/Campingvogne/hobby",
+      "hvad": "Hobby",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.silkeborgcaravancenter.dk/Autocampere",
+      "hvad": "Autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.silkeborgcaravancenter.dk/combi-camp-teltvogne",
+      "hvad": "Teltvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.silkeborgcaravancenter.dk/Service/gastest",
+      "hvad": "Gastest",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.silkeborgcaravancenter.dk/Service/fugttest",
+      "hvad": "Fugttest",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.silkeborgcaravancenter.dk/Service/brugtvognstest",
+      "hvad": "Brugtvognstest",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://data.hobby-caravan.de/dk/api/dealers",
+      "hvad": "Fundet i Hobbys forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://dk.adria-mobil.com/find-forhandler",
+      "hvad": "Fundet i Adrias forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Priorsvej+11&postalcode=8600&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

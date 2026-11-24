@@ -1,6 +1,6 @@
 # Datanoter
 
-Alle 29 forhandlere er tjekket **24. november 2026**. De første 10 kom fra opgavens startliste, de næste 10 fra DCU's liste over test- og servicecentre ("Runde 2"), Struer Caravan som afdeling af Viborg Caravan Center, og 8 fra Knaus Tabberts forhandlerliste ("Runde 3"). Forhandlerens egen hjemmeside er brugt som hovedkilde for 9 af 10. Kilderne for hvert felt står i `kilder` i den enkelte JSON-fil og vises nederst på forhandlersiden.
+Alle 34 forhandlere er tjekket **24. november 2026**. De første 10 kom fra opgavens startliste, de næste 10 fra DCU's liste over test- og servicecentre ("Runde 2"), Struer Caravan som afdeling af Viborg Caravan Center, 8 fra Knaus Tabberts forhandlerliste ("Runde 3") og 5 fra Hobbys og Adrias forhandlerlister ("Runde 4"). Forhandlerens egen hjemmeside er brugt som hovedkilde for 9 af 10. Kilderne for hvert felt står i `kilder` i den enkelte JSON-fil og vises nederst på forhandlersiden.
 
 ## Dækning pr. forhandler
 
@@ -111,15 +111,38 @@ Kilde til listen: Knaus Tabberts forhandler-API (api.knaustabbert.de/api/dealer?
 
 Knaus Tabberts liste viser i øvrigt den samme standardtid for alle forhandlere, så den er kun brugt til at finde navne og adresser.
 
+## Runde 4: Hobby, Adria og Kabe
+
+Producenternes forhandlersøgninger gav disse danske lister:
+
+| Kilde | Danske forhandlere | Nye for os |
+|---|---|---|
+| Hobby (data.hobby-caravan.de/dk/api/dealers) | 17 | Ulkebøl Camping Gård, Slagelse Camping & Outdoor Center, Esbjerg Caravan Center, Silkeborg Caravan Center (+ Campex, som er importør) |
+| Adria (dk.adria-mobil.com/find-forhandler) | 14 | Holbæk Caravan Center, Esbjerg Caravan Center, Silkeborg Caravan Center (+ Autocamp i Låsby, kun autocampere) |
+| Kabe (kabe.se/umbraco/api/dealers) | 10 | Ingen. 9 er allerede med, den sidste er Intercamp (importør). |
+
+Tilføjet: **Ulkebøl Camping Gård, Slagelse Camping & Outdoor Center, Esbjerg Caravan Center, Silkeborg Caravan Center og Holbæk Caravan Center.**
+
+| Forhandler | Bemærkning |
+|---|---|
+| Ulkebøl Camping Gård | Åbningstider vises med script og kunne ikke læses. |
+| Slagelse Camping & Outdoor Center | Åbningstider, e-mail og CVR vises med script og kunne ikke læses. Telefon fra Hobbys liste. |
+| Silkeborg Caravan Center | DCU-testcenter (står på DCU's liste). Hjemmesiden hedder silkeborgcaravancenter.dk; den gamle adresse på DCU's liste (silkeborgcaravan.dk) har et ugyldigt certifikat. |
+| Holbæk Caravan Center | Weekendtider står kun som særlige november/december-tider. Udlejning sker gennem en samarbejdspartner og er ikke markeret. |
+
+**Uenigheder mellem producenternes lister og forhandlernes egne sider:**
+- Kronjyllands Camping Center står med adressen Grenåvej 29-31 hos Hobby, Adria og Kabe. Deres egen side siger Suderholmen 10 ("lige ud til Grenåvej"). Egen side er brugt.
+- SK Caravan og Svendborg Camping Center nævner Hobby på deres egne sider, men står ikke på Hobbys liste. Hobby er beholdt, fordi forhandlerens egen side gælder, men det bør tjekkes.
+- Hovedstaden: Ingen af de tre producenter har en forhandler i Region Hovedstaden ud over Bijé.
+
 ## Kandidater til næste runde
 
 Fundet undervejs, men ikke tjekket eller tilføjet endnu:
 
-- **Silkeborg Caravan Center**, Priorsvej 11, 8600 Silkeborg (står på DCU's liste). Hjemmesiden har et ugyldigt sikkerhedscertifikat og kunne ikke læses.
-- **Vendelbo Vans**, Tårs, og **Jels Autoværksted**, Rødding (DCU's liste, men kun autocampere).
+- **Vendelbo Vans**, Tårs, **Jels Autoværksted**, Rødding, og **Autocamp**, Låsby, sælger kun autocampere og er ikke taget med.
 - **Intercamp** (Vejen og Lunderskov) står hos Knaus Tabbert, men hjemmesiden indlæses kun med script og kunne ikke læses.
 - **Antoncamp**, Videbæk, står hos Knaus Tabbert, men hjemmesiden svarer ikke.
 - Klarup Caravan og Steens MC-Center (Esbjerg) er set i søgeresultater, men kunne ikke bekræftes.
-- **Hovedstaden** har stadig kun Bijé. Heller ikke Knaus Tabberts liste har nogen forhandler i Hovedstaden. JP Caravan i Hedehusene er nævnt som lukket i en ældre oversigt. Næste skridt er Hobbys, Adrias og Kabes forhandlersøgninger, som ikke kunne læses automatisk i denne runde, og Krak/De Gule Sider, der blokerer robotter.
+- **Hovedstaden** har stadig kun Bijé. Heller ikke Knaus Tabberts liste har nogen forhandler i Hovedstaden. JP Caravan i Hedehusene er nævnt som lukket i en ældre oversigt. Hobbys, Adrias og Kabes lister har heller ingen. Tilbage er Dethleffs', Fendts og Weinsbergs forhandlersøgninger samt Krak/De Gule Sider (blokerer robotter).
 
 Når nye mærker tilføjes i `maerker.json`, melder kildetjekket én gang, at mærket er "nyt" på sider, der allerede nævnte det (fx Tabbert hos Østsjællands Camping Center). Det er ikke en ændring hos forhandleren.

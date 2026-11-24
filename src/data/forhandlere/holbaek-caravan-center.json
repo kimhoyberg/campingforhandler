@@ -1,0 +1,103 @@
+{
+  "slug": "holbaek-caravan-center",
+  "navn": "Holbæk Caravan Center",
+  "adresse": "Højvang 2",
+  "postnr": "4300",
+  "by": "Holbæk",
+  "region": "Sjælland",
+  "breddegrad": 55.699529,
+  "laengdegrad": 11.726441,
+  "telefon": "59 46 46 36",
+  "email": "salg@hbcc.dk",
+  "hjemmeside": "https://www.hbcc.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": null,
+    "soendag": null,
+    "note": "Weekendtider står ikke fast på siden. Julelukket 5. december – 4. januar."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Adria",
+    "Fendt"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Sun Living"
+  ],
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader",
+    "montering af ekstraudstyr"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": null,
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Forhandler i Holbæk med nye Adria- og Fendt-vogne samt Sun Living-autocampere. Det autoriserede værksted laver gastest, fugttest og forsikringsskader og monterer ekstraudstyr.",
+  "kilder": [
+    {
+      "url": "https://www.hbcc.dk/",
+      "hvad": "Telefon, e-mail, åbningstider, Sun Living",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hbcc.dk/om-os/kontakt/",
+      "hvad": "Kontakt",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hbcc.dk/campingvogne/adria/",
+      "hvad": "Adria",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hbcc.dk/campingvogne/fendt/",
+      "hvad": "Fendt",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hbcc.dk/campingvogne/brugte-campingvogne/",
+      "hvad": "Brugte campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hbcc.dk/autocampere/alle-autocampere/",
+      "hvad": "Autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hbcc.dk/vaerksted/",
+      "hvad": "Værksted",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://dk.adria-mobil.com/find-forhandler",
+      "hvad": "Fundet i Adrias forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=H%C3%B8jvang+2&postalcode=4300&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

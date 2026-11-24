@@ -83,6 +83,11 @@
    "brugte"
   ]
  },
+ "https://data.hobby-caravan.de/dk/api/dealers": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
  "https://dealer.knaustabbert.de/en-gb/dealers/ostsjaellands-camping-center-aps-41d246b335/": {
   "status": 200,
   "hash": "225604aa1985",
@@ -93,6 +98,13 @@
   "hash": "7d6772b5fa1c",
   "tider": [],
   "ydelser": []
+ },
+ "https://dk.adria-mobil.com/find-forhandler": {
+  "status": 200,
+  "hash": "45e502fafbe5",
+  "tider": [
+   "Grenåvej 29-31, 8960 Randers SØ"
+  ]
  },
  "https://jcc.dk/": {
   "status": 200,
@@ -983,6 +995,153 @@
   "status": 403,
   "fejl": null
  },
+ "https://www.ecc.dk/": {
+  "status": 200,
+  "hash": "6bb2da7a50cb",
+  "tider": [
+   "Hverdage: 10.00 til 17.00",
+   "S&oslash;ndag & helligdage: 11.00 til 16.00",
+   "Mandag-torsdag: 7.00 til 14.30",
+   "Fredag: 7.00 til 13.00"
+  ]
+ },
+ "https://www.ecc.dk/aabningstider": {
+  "status": 200,
+  "hash": "a6854fab3f1e",
+  "tider": [
+   "Hverdage 10.00 - 17.00",
+   "S&oslash;ndag 11.00 - 16.00",
+   "V&aelig;rkstedet har telefon tid 07.00 - 10.00",
+   "Kr. himmelfartsdag 11.00 - 16.00",
+   "Vi i butikken g&aring;r p&aring; juleferie d. 11/12-26 kl 17.00 og er tilbage igen den 4/1-27",
+   "V&aelig;rkstedet g&aring;r p&aring; juleferie d 18/12-26 kl 12.00 og er tilbage igen d. 4/1-27",
+   "Hverdage: 10.00 til 17.00",
+   "S&oslash;ndag & helligdage: 11.00 til 16.00",
+   "Mandag-torsdag: 7.00 til 14.30",
+   "Fredag: 7.00 til 13.00"
+  ]
+ },
+ "https://www.ecc.dk/campingvogne/brugte-vogne": {
+  "status": 200,
+  "hash": "6bb2da7a50cb",
+  "tider": [
+   "Hverdage: 10.00 til 17.00",
+   "S&oslash;ndag & helligdage: 11.00 til 16.00",
+   "Mandag-torsdag: 7.00 til 14.30",
+   "Fredag: 7.00 til 13.00"
+  ]
+ },
+ "https://www.ecc.dk/campingvogne/nye-vogne": {
+  "status": 200,
+  "hash": "6bb2da7a50cb",
+  "tider": [
+   "Hverdage: 10.00 til 17.00",
+   "S&oslash;ndag & helligdage: 11.00 til 16.00",
+   "Mandag-torsdag: 7.00 til 14.30",
+   "Fredag: 7.00 til 13.00"
+  ]
+ },
+ "https://www.ecc.dk/kontakt": {
+  "status": 200,
+  "hash": "573f1f627cdd",
+  "tider": [
+   "Hverdage: 10.00 til 17.00",
+   "S&oslash;ndag:11.00 til 16.00",
+   "Helligdage 11.00 til 16.00",
+   "Man - tors: 8.00 til 14.30",
+   "Fredag: 8.00 til 13.00",
+   "S&oslash;ndag & helligdage: 11.00 til 16.00",
+   "Mandag-torsdag: 7.00 til 14.30",
+   "Fredag: 7.00 til 13.00"
+  ]
+ },
+ "https://www.ecc.dk/vaerksted": {
+  "status": 200,
+  "hash": "6a165f9196c7",
+  "tider": [
+   "Arbejdstider: Mandag - Torsdag 07.00 - 14.30",
+   "Fredag 07.00 -13.00",
+   "Telefon 75 15 25 88 fra 07.00 - 10.00",
+   "Hverdage: 10.00 til 17.00",
+   "S&oslash;ndag & helligdage: 11.00 til 16.00",
+   "Mandag-torsdag: 7.00 til 14.30",
+   "Fredag: 7.00 til 13.00"
+  ],
+  "ydelser": [
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "autocamper"
+  ]
+ },
+ "https://www.hbcc.dk/": {
+  "status": 200,
+  "hash": "037df41e6e03",
+  "tider": [
+   "Lør.–søn. 28.–29. nov. kl. 10–15 · Hverdage 30. nov.–4. dec. kl. 10–17 · Julelukket 5. dec.–4 januar kl. 10 ",
+   "10:00 - 17:00",
+   "10:00 - 15:00"
+  ]
+ },
+ "https://www.hbcc.dk/autocampere/alle-autocampere/": {
+  "status": 200,
+  "hash": "7ccb4569d179",
+  "tider": [
+   "10:00 - 17:00",
+   "10:00 - 15:00"
+  ]
+ },
+ "https://www.hbcc.dk/campingvogne/adria/": {
+  "status": 200,
+  "hash": "7ccb4569d179",
+  "tider": [
+   "10:00 - 17:00",
+   "10:00 - 15:00"
+  ]
+ },
+ "https://www.hbcc.dk/campingvogne/brugte-campingvogne/": {
+  "status": 200,
+  "hash": "7ccb4569d179",
+  "tider": [
+   "10:00 - 17:00",
+   "10:00 - 15:00"
+  ]
+ },
+ "https://www.hbcc.dk/campingvogne/fendt/": {
+  "status": 200,
+  "hash": "7ccb4569d179",
+  "tider": [
+   "10:00 - 17:00",
+   "10:00 - 15:00"
+  ]
+ },
+ "https://www.hbcc.dk/om-os/kontakt/": {
+  "status": 200,
+  "hash": "64073ff9c239",
+  "tider": [
+   "Mandag - Fredag 10-17",
+   "Weekend og helligdage 10-15",
+   "10:00 - 17:00",
+   "10:00 - 15:00"
+  ]
+ },
+ "https://www.hbcc.dk/vaerksted/": {
+  "status": 200,
+  "hash": "9abb546a13f2",
+  "tider": [
+   "10:00 - 17:00",
+   "10:00 - 15:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "udlejning",
+   "autocamper",
+   "brugte"
+  ]
+ },
  "https://www.hinshoj.dk/": {
   "status": 200,
   "hash": "d1e22cabda33",
@@ -1734,6 +1893,140 @@
   "status": 403,
   "fejl": null
  },
+ "https://www.silkeborgcaravancenter.dk/": {
+  "status": 200,
+  "hash": "cf2d77416c97",
+  "tider": [
+   "Priorsvej 9 - 11",
+   "Salgsafdelingen: 10:00 - 17:00",
+   "Værksted: 08:00 - 16:00"
+  ]
+ },
+ "https://www.silkeborgcaravancenter.dk/Autocampere": {
+  "status": 200,
+  "hash": "17310fea2743",
+  "tider": [
+   "I 2026 kan vi byde velkommen til det franske luksus m&aelig;rke Autostar som tilbyder autocampere hvor man lige f&aring;r lidt mere af det hele!",
+   "Priorsvej 9 - 11",
+   "Salgsafdelingen: 10:00 - 17:00",
+   "Værksted: 08:00 - 16:00"
+  ]
+ },
+ "https://www.silkeborgcaravancenter.dk/Campingvogne/adria": {
+  "status": 200,
+  "hash": "cf2d77416c97",
+  "tider": [
+   "Priorsvej 9 - 11",
+   "Salgsafdelingen: 10:00 - 17:00",
+   "Værksted: 08:00 - 16:00"
+  ]
+ },
+ "https://www.silkeborgcaravancenter.dk/Campingvogne/hobby": {
+  "status": 200,
+  "hash": "d3731f278684",
+  "tider": [
+   "I 460 SFf modellen finder man en dejlig queenseng i forenden af vognen, stort køleskab, endekøkkenet og lækkert nyt badeværelse med mulighed for brusebad.",
+   "Priorsvej 9 - 11",
+   "Salgsafdelingen: 10:00 - 17:00",
+   "Værksted: 08:00 - 16:00"
+  ]
+ },
+ "https://www.silkeborgcaravancenter.dk/combi-camp-teltvogne": {
+  "status": 200,
+  "hash": "cf2d77416c97",
+  "tider": [
+   "Priorsvej 9 - 11",
+   "Salgsafdelingen: 10:00 - 17:00",
+   "Værksted: 08:00 - 16:00"
+  ]
+ },
+ "https://www.silkeborgcaravancenter.dk/om-os": {
+  "status": 200,
+  "hash": "d7481c95b796",
+  "tider": [
+   "Priorsvej 9 - 11",
+   "Salgsafdelingen: 10:00 - 17:00",
+   "Værksted: 08:00 - 16:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "udlejning",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.silkeborgcaravancenter.dk/om-os/find-os": {
+  "status": 200,
+  "hash": "cf2d77416c97",
+  "tider": [
+   "Priorsvej 9 - 11",
+   "Salgsafdelingen: 10:00 - 17:00",
+   "Værksted: 08:00 - 16:00"
+  ]
+ },
+ "https://www.silkeborgcaravancenter.dk/Service/brugtvognstest": {
+  "status": 200,
+  "hash": "bbfddba9f722",
+  "tider": [
+   "Karakter: Der gives en karakter for vognen p&aring; en skala fra 1 - 5, hvor 1 er bedst. Vognen forsynes med &aring;rsm&aelig;rke, DCU Testet.",
+   "Priorsvej 9 - 11",
+   "Salgsafdelingen: 10:00 - 17:00",
+   "Værksted: 08:00 - 16:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "udlejning",
+   "autocamper",
+   "teltvogn"
+  ]
+ },
+ "https://www.silkeborgcaravancenter.dk/Service/fugttest": {
+  "status": 200,
+  "hash": "3add7b299fb1",
+  "tider": [
+   "Priorsvej 9 - 11",
+   "Salgsafdelingen: 10:00 - 17:00",
+   "Værksted: 08:00 - 16:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "udlejning",
+   "autocamper",
+   "teltvogn"
+  ]
+ },
+ "https://www.silkeborgcaravancenter.dk/Service/gastest": {
+  "status": 200,
+  "hash": "3add7b299fb1",
+  "tider": [
+   "Priorsvej 9 - 11",
+   "Salgsafdelingen: 10:00 - 17:00",
+   "Værksted: 08:00 - 16:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "udlejning",
+   "autocamper",
+   "teltvogn"
+  ]
+ },
  "https://www.skcaravan.dk/": {
   "status": 200,
   "hash": "a69a0a2e6734",
@@ -1812,6 +2105,92 @@
    "mover",
    "udlejning",
    "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.slagelsecamping.dk/": {
+  "status": 200,
+  "hash": "5343c10dcf12",
+  "tider": [
+   "Fredag d. 30. oktober kl. 11.00-17.00Lørdag d..."
+  ]
+ },
+ "https://www.slagelsecamping.dk/camping/autocamper/benimar/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.slagelsecamping.dk/camping/autocamper/hobby/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.slagelsecamping.dk/camping/campingvogne/brugte-campingvogne/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.slagelsecamping.dk/camping/campingvogne/nye-campingvogne/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.slagelsecamping.dk/camping/camplet/alle-teltvogne/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.slagelsecamping.dk/camping/info/vinteropbevaring/": {
+  "status": 200,
+  "hash": "31d73c4c7d3e",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "mover",
+   "opbevaring",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.slagelsecamping.dk/camping/kontakt/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.slagelsecamping.dk/camping/leje/": {
+  "status": 200,
+  "hash": "7827c556d946",
+  "tider": [
+   "2.000 km. / lejer man mere end 14 dage, er der fri kilometer"
+  ],
+  "ydelser": [
+   "værksted",
+   "mover",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.slagelsecamping.dk/camping/vaerksted/test-af-truma-xt-mover/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.slagelsecamping.dk/camping/vaerksted/vaerksted/": {
+  "status": 200,
+  "hash": "d6f50f65fd73",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "fugttest",
+   "forsikringsskade",
+   "mover",
+   "opbevaring",
+   "autocamper",
+   "teltvogn",
    "brugte"
   ]
  },
@@ -2004,6 +2383,87 @@
    "fugttest",
    "forsikringsskade",
    "autocamper"
+  ]
+ },
+ "https://www.ucg.dk/": {
+  "status": 200,
+  "hash": "1e467f2d4e0d",
+  "tider": [
+   "Ulkebøl Camping Gård | Agtoftsvej 15-17 | 6400 Sønderborg | Tlf. 74423256 | E-mail ucg@ucg.dk"
+  ]
+ },
+ "https://www.ucg.dk/Kontakt/Adresse-find-vej": {
+  "status": 200,
+  "hash": "e96879338a40",
+  "tider": [
+   "Agtoftsvej 15-17",
+   "Ulkebøl Camping Gård | Agtoftsvej 15-17 | 6400 Sønderborg | Tlf. 74423256 | E-mail ucg@ucg.dk"
+  ]
+ },
+ "https://www.ucg.dk/Kontakt/Historie": {
+  "status": 200,
+  "hash": "1e467f2d4e0d",
+  "tider": [
+   "Ulkebøl Camping Gård | Agtoftsvej 15-17 | 6400 Sønderborg | Tlf. 74423256 | E-mail ucg@ucg.dk"
+  ]
+ },
+ "https://www.ucg.dk/Vaerksted/Er-skaden-sket": {
+  "status": 200,
+  "hash": "d4e2d014f010",
+  "tider": [
+   "Ulkebøl Camping Gård | Agtoftsvej 15-17 | 6400 Sønderborg | Tlf. 74423256 | E-mail ucg@ucg.dk"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.ucg.dk/Vaerksted/Fugttest": {
+  "status": 200,
+  "hash": "d4e2d014f010",
+  "tider": [
+   "Ulkebøl Camping Gård | Agtoftsvej 15-17 | 6400 Sønderborg | Tlf. 74423256 | E-mail ucg@ucg.dk"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.ucg.dk/Vaerksted/Gastest": {
+  "status": 200,
+  "hash": "d4e2d014f010",
+  "tider": [
+   "Ulkebøl Camping Gård | Agtoftsvej 15-17 | 6400 Sønderborg | Tlf. 74423256 | E-mail ucg@ucg.dk"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.ucg.dk/Vogne/Brugte-vogne": {
+  "status": 200,
+  "hash": "1e467f2d4e0d",
+  "tider": [
+   "Ulkebøl Camping Gård | Agtoftsvej 15-17 | 6400 Sønderborg | Tlf. 74423256 | E-mail ucg@ucg.dk"
+  ]
+ },
+ "https://www.ucg.dk/Vogne/Nye-vogne": {
+  "status": 200,
+  "hash": "1e467f2d4e0d",
+  "tider": [
+   "Ulkebøl Camping Gård | Agtoftsvej 15-17 | 6400 Sønderborg | Tlf. 74423256 | E-mail ucg@ucg.dk"
   ]
  },
  "https://www.vejlecaravans.dk/": {

@@ -1,0 +1,106 @@
+{
+  "slug": "ulkeboel-camping-gaard",
+  "navn": "Ulkebøl Camping Gård",
+  "adresse": "Agtoftsvej 15-17",
+  "postnr": "6400",
+  "by": "Sønderborg",
+  "region": "Syddanmark",
+  "breddegrad": 54.92433,
+  "laengdegrad": 9.818184,
+  "telefon": "74 42 32 56",
+  "email": "ucg@ucg.dk",
+  "hjemmeside": "https://www.ucg.dk/",
+  "aabningstider": {
+    "mandag": null,
+    "tirsdag": null,
+    "onsdag": null,
+    "torsdag": null,
+    "fredag": null,
+    "loerdag": null,
+    "soendag": null,
+    "note": "Ukendt. Hjemmesiden viser åbningstiderne med et script, som ikke kunne læses. Ring før besøg."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Fendt",
+    "Hobby"
+  ],
+  "nyeMaerkerAutocampere": null,
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader",
+    "service alle mærker"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": null,
+  "etableret": 1968,
+  "sammeFirma": null,
+  "beskrivelse": "Campingforretning ved Sønderborg, etableret i 1968, med nye Fendt- og Hobby-vogne og brugte vogne. Værkstedet laver gastest, fugttest, serviceeftersyn og forsikringsskader.",
+  "kilder": [
+    {
+      "url": "https://www.ucg.dk/",
+      "hvad": "Telefon, e-mail",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.ucg.dk/Kontakt/Adresse-find-vej",
+      "hvad": "Adresse",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.ucg.dk/Kontakt/Historie",
+      "hvad": "Etableret 1968",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.ucg.dk/Vogne/Nye-vogne",
+      "hvad": "Nye vogne (Fendt, Hobby)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.ucg.dk/Vogne/Brugte-vogne",
+      "hvad": "Brugte vogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.ucg.dk/Vaerksted/Gastest",
+      "hvad": "Gastest",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.ucg.dk/Vaerksted/Fugttest",
+      "hvad": "Fugttest",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.ucg.dk/Vaerksted/Er-skaden-sket",
+      "hvad": "Forsikringsskader",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://data.hobby-caravan.de/dk/api/dealers",
+      "hvad": "Fundet i Hobbys forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Agtoftsvej+15&postalcode=6400&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

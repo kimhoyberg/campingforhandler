@@ -1,0 +1,111 @@
+{
+  "slug": "esbjerg-caravan-center",
+  "navn": "Esbjerg Caravan Center",
+  "adresse": "Tarphagevej 135",
+  "postnr": "6710",
+  "by": "Esbjerg V",
+  "region": "Syddanmark",
+  "breddegrad": 55.534518,
+  "laengdegrad": 8.41627,
+  "telefon": "75 15 25 88",
+  "email": "ecc@ecc.dk",
+  "hjemmeside": "https://www.ecc.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "11:00-16:00",
+    "note": "Helligdage 11–16."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "07:00-14:30",
+    "tirsdag": "07:00-14:30",
+    "onsdag": "07:00-14:30",
+    "torsdag": "07:00-14:30",
+    "fredag": "07:00-13:00",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": "Værkstedets telefon er åben 7.00–10.00."
+  },
+  "nyeMaerkerCampingvogne": [
+    "Adria",
+    "Hobby",
+    "Fendt"
+  ],
+  "nyeMaerkerAutocampere": null,
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "brugtvognstest",
+    "forsikringsskader"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": null,
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Campingforhandler i Esbjerg med nye Adria-, Hobby- og Fendt-vogne og brugte vogne. Værkstedet laver gastest, fugttest, brugtvognstest og forsikringsskader.",
+  "kilder": [
+    {
+      "url": "https://www.ecc.dk/",
+      "hvad": "Adresse, telefon, e-mail",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.ecc.dk/aabningstider",
+      "hvad": "Åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.ecc.dk/kontakt",
+      "hvad": "Kontakt",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.ecc.dk/campingvogne/nye-vogne",
+      "hvad": "Nye campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.ecc.dk/campingvogne/brugte-vogne",
+      "hvad": "Brugte campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.ecc.dk/vaerksted",
+      "hvad": "Værksted",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://data.hobby-caravan.de/dk/api/dealers",
+      "hvad": "Fundet i Hobbys forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://dk.adria-mobil.com/find-forhandler",
+      "hvad": "Fundet i Adrias forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Tarphagevej+135&postalcode=6710&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

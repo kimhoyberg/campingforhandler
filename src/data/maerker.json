@@ -48,6 +48,14 @@
     "tip": "Caravelair er kendt for lette vogne, der kan trækkes af mindre biler. Tjek vognens totalvægt mod bilens trækvægt, før du handler, og spørg om forhandleren kan lave fugttest efter mærkets garantikrav."
   },
   {
+    "navn": "Combi-Camp",
+    "slug": "combi-camp",
+    "producentland": "Danmark",
+    "link": null,
+    "type": "teltvogne",
+    "tip": "Combi-Camp er danske teltvogne, der er hurtige at slå op. Bed om at se teltet slået op, og spørg om værkstedet også servicerer teltvogne."
+  },
+  {
     "navn": "Dethleffs",
     "slug": "dethleffs",
     "producentland": "Tyskland",

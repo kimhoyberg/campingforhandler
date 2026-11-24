@@ -1,0 +1,126 @@
+{
+  "slug": "slagelse-camping-outdoor",
+  "navn": "Slagelse Camping & Outdoor Center",
+  "adresse": "Karolinevej 2C",
+  "postnr": "4200",
+  "by": "Slagelse",
+  "region": "Sjælland",
+  "breddegrad": 55.398259,
+  "laengdegrad": 11.328659,
+  "telefon": "55 70 00 20",
+  "email": null,
+  "hjemmeside": "https://www.slagelsecamping.dk/",
+  "aabningstider": {
+    "mandag": null,
+    "tirsdag": null,
+    "onsdag": null,
+    "torsdag": null,
+    "fredag": null,
+    "loerdag": null,
+    "soendag": null,
+    "note": "Ukendt. Hjemmesiden viser åbningstiderne med et script, som ikke kunne læses. Ring før besøg."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Eriba",
+    "Fendt",
+    "Hobby"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Benimar",
+    "Hobby"
+  ],
+  "teltvogne": [
+    "Camp-Let"
+  ],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "mover-service"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": true,
+  "opbevaring": true,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": null,
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Forhandler i Slagelse med Fendt, Hobby og Eriba samt autocampere fra Hobby og Benimar og Camp-Let teltvogne. Udlejer autocampere og tilbyder vinteropbevaring. Har eget værksted.",
+  "kilder": [
+    {
+      "url": "https://www.slagelsecamping.dk/",
+      "hvad": "Forside",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.slagelsecamping.dk/camping/kontakt/",
+      "hvad": "Kontakt",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.slagelsecamping.dk/camping/campingvogne/nye-campingvogne/",
+      "hvad": "Nye campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.slagelsecamping.dk/camping/campingvogne/brugte-campingvogne/",
+      "hvad": "Brugte campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.slagelsecamping.dk/camping/autocamper/benimar/",
+      "hvad": "Benimar autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.slagelsecamping.dk/camping/autocamper/hobby/",
+      "hvad": "Hobby autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.slagelsecamping.dk/camping/camplet/alle-teltvogne/",
+      "hvad": "Camp-Let teltvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.slagelsecamping.dk/camping/leje/",
+      "hvad": "Udlejning af autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.slagelsecamping.dk/camping/info/vinteropbevaring/",
+      "hvad": "Vinteropbevaring",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.slagelsecamping.dk/camping/vaerksted/vaerksted/",
+      "hvad": "Værksted",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.slagelsecamping.dk/camping/vaerksted/test-af-truma-xt-mover/",
+      "hvad": "Mover",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://data.hobby-caravan.de/dk/api/dealers",
+      "hvad": "Fundet i Hobbys forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Karolinevej+2C&postalcode=4200&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}
