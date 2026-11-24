@@ -1,0 +1,100 @@
+{
+  "slug": "sk-caravan",
+  "navn": "SK Caravan",
+  "adresse": "Ubberudvej 121",
+  "postnr": "5491",
+  "by": "Blommenslyst",
+  "region": "Syddanmark",
+  "breddegrad": 55.389736,
+  "laengdegrad": 10.243732,
+  "telefon": "54 34 88 88",
+  "email": "info@skcaravan.dk",
+  "hjemmeside": "https://www.skcaravan.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "10:00-16:00",
+    "note": "Gælder butik."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "10:00-15:00",
+    "tirsdag": "10:00-15:00",
+    "onsdag": "10:00-15:00",
+    "torsdag": "10:00-15:00",
+    "fredag": "10:00-12:00",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": null
+  },
+  "nyeMaerkerCampingvogne": [
+    "Hobby",
+    "Caravelair",
+    "Silver"
+  ],
+  "nyeMaerkerAutocampere": [],
+  "teltvogne": [],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "fugttest",
+    "brugtvognstest",
+    "bremseeftersyn",
+    "mover-service"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": true,
+  "opbevaring": null,
+  "webshop": true,
+  "brancheforening": null,
+  "cvr": null,
+  "etableret": null,
+  "beskrivelse": "Familieejet forhandler i Blommenslyst vest for Odense, tæt på motorvejen. Fokus på Hobby og Caravelair, og der udlejes campingvogne. Værkstedet laver fugttest, brugtvognstest og eftersyn.",
+  "kilder": [
+    {
+      "url": "https://www.skcaravan.dk/",
+      "hvad": "Mærker, adresse, telefon, e-mail, åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.skcaravan.dk/praktisk-info/åbningstider/",
+      "hvad": "Åbningstider butik og værksted",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.skcaravan.dk/vaerksted/vaerksted/",
+      "hvad": "Værkstedets ydelser og priser",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.skcaravan.dk/udlejning-af-campingvogne/udlejning-af-campingvogne/",
+      "hvad": "Udlejning af campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.skcaravan.dk/autocamper/autocamper/",
+      "hvad": "Autocampere til salg",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.skcaravan.dk/campingvogne/nye-campingvogne/",
+      "hvad": "Nye campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Ubberudvej+121&postalcode=5491&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

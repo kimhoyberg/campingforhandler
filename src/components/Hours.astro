@@ -1,0 +1,33 @@
+---
+import type { Uge } from '../lib/data';
+import { DAGE } from '../lib/data';
+
+interface Props {
+  uge: Uge;
+  titel: string;
+}
+const { uge, titel } = Astro.props;
+const visTekst = (v: string | null) => (v === null ? 'Ukendt' : v === 'lukket' ? 'Lukket' : v.replace(/-/g, '–').replace(/:00/g, '.00').replace(/:(\d\d)/g, '.$1'));
+const alleUkendte = DAGE.every(({ key }) => uge[key] === null);
+---
+
+<div>
+  {
+    alleUkendte ? (
+      <p class="note">{uge.note ?? 'Åbningstiderne er ukendte. Ring før besøg.'}</p>
+    ) : (
+      <table class="hours">
+        <caption>{titel}</caption>
+        <tbody>
+          {DAGE.map(({ key, navn }) => (
+            <tr>
+              <th scope="row">{navn}</th>
+              <td>{visTekst(uge[key])}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )
+  }
+  {!alleUkendte && uge.note && <p class="small" style="margin-top:0.5rem">{uge.note}</p>}
+</div>

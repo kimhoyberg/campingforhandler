@@ -1,0 +1,95 @@
+{
+  "slug": "damsgaards-caravancenter",
+  "navn": "Damsgaards CaravanCenter",
+  "adresse": "Funder Bakke 53",
+  "postnr": "8600",
+  "by": "Silkeborg",
+  "region": "Midtjylland",
+  "breddegrad": 56.151053,
+  "laengdegrad": 9.488353,
+  "telefon": "86 82 58 26",
+  "email": "info@dccs.dk",
+  "hjemmeside": "https://damsgaardscaravancenter.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "10:00-16:00",
+    "soendag": "11:00-16:00",
+    "note": "Fra forhandlerens profil på DBA. Egen hjemmeside viser ikke tiderne i tekstform."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Fendt"
+  ],
+  "nyeMaerkerAutocampere": [],
+  "teltvogne": [
+    "Camp-Let"
+  ],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader",
+    "mover-montering",
+    "montering af ekstraudstyr",
+    "Truma-service"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": true,
+  "brancheforening": [
+    "Camping Outdoor Danmark"
+  ],
+  "cvr": "37859486",
+  "etableret": 2002,
+  "beskrivelse": "Forhandler på Funder Bakke vest for Silkeborg med nye Fendt-campingvogne, brugte vogne og Camp-Let teltvogne. Værkstedet laver gastest, fugttest og forsikringsskader og er Truma-partner med montering af movere.",
+  "kilder": [
+    {
+      "url": "https://damsgaardscaravancenter.dk/",
+      "hvad": "Mærker, webshop, medlemskab",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://damsgaardscaravancenter.dk/information/om-os",
+      "hvad": "Historie (grundlagt 2002), Truma-partner",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://damsgaardscaravancenter.dk/campingvogne/nye-campingvogne",
+      "hvad": "Nye Fendt",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://damsgaardscaravancenter.dk/vaerksted/service-og-eftersyn",
+      "hvad": "Gastest, fugttest, telefon",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://damsgaardscaravancenter.dk/vaerksted/forsikringsskader",
+      "hvad": "Forsikringsskader på alle mærker",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dba.dk/mobility/item/26575498",
+      "hvad": "Åbningstider, CVR, link til hjemmeside (DBA-forhandlerprofil)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Funder+Bakke+53&postalcode=8600&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

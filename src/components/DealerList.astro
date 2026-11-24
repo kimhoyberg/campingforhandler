@@ -1,0 +1,14 @@
+---
+import type { Forhandler } from '../lib/data';
+import DealerCard from './DealerCard.astro';
+
+interface Props {
+  liste: Forhandler[];
+  id?: string;
+}
+const { liste, id } = Astro.props;
+---
+
+<ul class="cards" id={id}>
+  {liste.map((d) => <DealerCard d={d} />)}
+</ul>

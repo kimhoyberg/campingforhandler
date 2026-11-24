@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import { regioner, forhandlereForRegion, antal } from '../../lib/data';
+
+const liste = regioner.map((r) => ({ r, n: forhandlereForRegion(r).length }));
+const title = 'Campingvognsforhandlere efter region';
+const description = `Find forhandlere af campingvogne i din del af Danmark: ${liste.map((x) => `${x.r.navn} (${x.n})`).join(', ')}.`;
+---
+
+<Base {title} {description} crumbs={[{ navn: 'Forside', url: '/' }, { navn: 'Regioner', url: '/region/' }]}>
+  <h1>Regioner</h1>
+  <p class="lead">Vælg din region for at se forhandlere tæt på dig.</p>
+  <ul class="linklist">
+    {
+      liste.map(({ r, n }) => (
+        <li>
+          {n > 0 ? <a href={`/region/${r.slug}/`}>{r.navn}</a> : r.navn}{' '}
+          <span class="small">({antal(n, 'forhandler', 'forhandlere')})</span>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

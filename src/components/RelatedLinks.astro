@@ -1,0 +1,65 @@
+---
+// Interne links til de andre oversigter – styrker linkstrukturen.
+import { maerker, regioner, forhandlereForMaerke, forhandlereForRegion } from '../lib/data';
+import { services, forhandlereForService } from '../lib/services';
+
+interface Props {
+  skjul?: 'maerker' | 'regioner' | 'services';
+}
+const { skjul } = Astro.props;
+const aktiveMaerker = maerker.filter((m) => forhandlereForMaerke(m).length > 0);
+const aktiveRegioner = regioner.filter((r) => forhandlereForRegion(r).length > 0);
+const aktiveServices = services.filter((s) => forhandlereForService(s).length > 0);
+---
+
+<section aria-labelledby="se-ogsaa">
+  <h2 id="se-ogsaa">Find forhandlere på en anden måde</h2>
+  {
+    skjul !== 'maerker' && (
+      <>
+        <h3>Efter mærke</h3>
+        <ul class="chips">
+          {aktiveMaerker.map((m) => (
+            <li>
+              <a class="chip" href={`/maerke/${m.slug}/`}>
+                {m.navn}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </>
+    )
+  }
+  {
+    skjul !== 'regioner' && (
+      <>
+        <h3 style="margin-top:1rem">Efter region</h3>
+        <ul class="chips">
+          {aktiveRegioner.map((r) => (
+            <li>
+              <a class="chip" href={`/region/${r.slug}/`}>
+                {r.navn}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </>
+    )
+  }
+  {
+    skjul !== 'services' && (
+      <>
+        <h3 style="margin-top:1rem">Efter værksted og service</h3>
+        <ul class="chips">
+          {aktiveServices.map((s) => (
+            <li>
+              <a class="chip" href={`/service/${s.slug}/`}>
+                {s.kort}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </>
+    )
+  }
+</section>

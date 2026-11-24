@@ -1,0 +1,65 @@
+---
+import Overview from '../../components/Overview.astro';
+import { regioner, forhandlereForRegion, maerkerFor, maerkeByNavn, maerkeRegionKombinationer, type Region } from '../../lib/data';
+import { opsummering, byer } from '../../lib/tekst';
+
+export function getStaticPaths() {
+  return regioner
+    .filter((r) => forhandlereForRegion(r).length > 0)
+    .map((r) => ({ params: { slug: r.slug }, props: { r } }));
+}
+const { r } = Astro.props as { r: Region };
+const liste = forhandlereForRegion(r);
+const maerkerHer = [...new Set(liste.flatMap(maerkerFor))].sort((a, b) => a.localeCompare(b, 'da'));
+const kombi = maerkeRegionKombinationer().filter((k) => k.region.slug === r.slug);
+const title = `Campingvognsforhandlere i ${r.navn} – ${opsummering(liste)}`;
+const description = `${liste.length === 1 ? 'Forhandler' : 'Forhandlere'} af campingvogne i ${r.navn}: ${byer(liste)}. ${
+  maerkerHer.length ? `Mærker: ${maerkerHer.slice(0, 6).join(', ')}. ` : ''
+}Se værksted, åbningstider og kontakt.`;
+---
+
+<Overview
+  {title}
+  {description}
+  h1={`Campingvognsforhandlere i ${r.navn}`}
+  intro={r.intro}
+  {liste}
+  skjul="regioner"
+  crumbs={[
+    { navn: 'Forside', url: '/' },
+    { navn: 'Regioner', url: '/region/' },
+    { navn: r.navn, url: `/region/${r.slug}/` },
+  ]}
+>
+  <Fragment slot="foer">
+    {
+      kombi.length > 0 && (
+        <p>
+          Mærker med flere forhandlere i {r.navn}:{' '}
+          {kombi.map((k, i) => (
+            <>
+              {i > 0 && ', '}
+              <a href={`/maerke/${k.maerke.slug}/${r.slug}/`}>{k.maerke.navn}</a>
+            </>
+          ))}
+        </p>
+      )
+    }
+  </Fragment>
+  {
+    maerkerHer.length > 0 && (
+      <>
+        <h2>Mærker i {r.navn}</h2>
+        <ul class="chips">
+          {maerkerHer.map((n) => (
+            <li>
+              <a class="chip" href={`/maerke/${maerkeByNavn(n)!.slug}/`}>
+                {n}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </>
+    )
+  }
+</Overview>

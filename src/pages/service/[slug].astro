@@ -1,0 +1,35 @@
+---
+import Overview from '../../components/Overview.astro';
+import { services, forhandlereForService, type Service } from '../../lib/services';
+import { regioner } from '../../lib/data';
+import { opsummering, byer } from '../../lib/tekst';
+
+export function getStaticPaths() {
+  return services
+    .filter((s) => forhandlereForService(s).length > 0)
+    .map((s) => ({ params: { slug: s.slug }, props: { s } }));
+}
+const { s } = Astro.props as { s: Service };
+const liste = forhandlereForService(s);
+const iRegioner = regioner.filter((r) => liste.some((d) => d.region === r.navn)).map((r) => r.navn);
+const title = `${s.titel} – ${opsummering(liste)}`;
+const description = `${s.titel}: ${liste.length} ${liste.length === 1 ? 'forhandler' : 'forhandlere'} i ${byer(liste)}. Se åbningstider og kontakt – tjekket hos forhandlerne.`;
+---
+
+<Overview
+  {title}
+  {description}
+  h1={s.titel}
+  intro={s.intro}
+  {liste}
+  skjul="services"
+  crumbs={[
+    { navn: 'Forside', url: '/' },
+    { navn: 'Værksted & service', url: '/service/' },
+    { navn: s.kort, url: `/service/${s.slug}/` },
+  ]}
+>
+  <p class="small" style="margin-top:1.25rem">
+    Findes i: {iRegioner.join(', ')}. Mangler der en forhandler? <a href="/ret-oplysninger/">Skriv til os</a>.
+  </p>
+</Overview>

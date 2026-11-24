@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import { forhandlere } from '../lib/data';
+import { SITE } from '../config';
+
+const mail = (emne: string, krop: string) =>
+  `mailto:${SITE.rettelserEmail}?subject=${encodeURIComponent(emne)}&body=${encodeURIComponent(krop)}`;
+const ny = mail(
+  'Ny forhandler til Campingforhandler.dk',
+  'Hej\n\nVi vil gerne være med på Campingforhandler.dk.\n\nNavn:\nAdresse:\nTelefon:\nHjemmeside:\nMærker:\nVærksted (ja/nej):\n\nVenlig hilsen\n',
+);
+const title = 'Ret oplysninger om din forretning';
+const description = 'Er du forhandler af campingvogne? Ret dine oplysninger på Campingforhandler.dk eller bliv tilføjet – det er gratis.';
+---
+
+<Base {title} {description} crumbs={[{ navn: 'Forside', url: '/' }, { navn: 'Ret oplysninger', url: '/ret-oplysninger/' }]}>
+  <h1>Ret oplysninger</h1>
+  <p class="lead">Er noget forkert, eller mangler din forretning? Skriv til os, så retter vi det. Det er gratis.</p>
+
+  <h2>Vælg din forretning</h2>
+  <p>Klik på dit navn. Så åbner din mail med et færdigt emne, og du skal bare skrive, hvad der skal rettes.</p>
+  <ul class="linklist">
+    {
+      forhandlere.map((d) => (
+        <li>
+          <a
+            href={mail(
+              `Ret oplysninger: ${d.navn} (${d.slug})`,
+              `Hej\n\nVi vil gerne rette følgende oplysninger om ${d.navn} på ${SITE.url}/forhandler/${d.slug}/ :\n\n- \n\nVenlig hilsen\n`,
+            )}
+          >
+            {d.navn}, {d.by}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <h2>Ny forhandler?</h2>
+  <p><a class="btn" href={ny}>Skriv til os om at blive tilføjet</a></p>
+
+  <p class="small">
+    Vi tjekker altid rettelser mod din egen hjemmeside, før de kommer på siden. Du kan også skrive direkte til
+    <a href={`mailto:${SITE.rettelserEmail}`}>{SITE.rettelserEmail}</a>.
+  </p>
+</Base>

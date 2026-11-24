@@ -1,0 +1,7 @@
+[
+  { "navn": "Nordjylland", "slug": "nordjylland", "intro": "Nordjylland har langt mellem forhandlerne, så det kan betale sig at vælge en med eget værksted. Så slipper du for lange ture, når vognen skal til service eller fugttest." },
+  { "navn": "Midtjylland", "slug": "midtjylland", "intro": "Midtjylland har mange forhandlere og et bredt udvalg af mærker. Sammenlign værkstedernes priser på gastest og fugttest – de varierer en del." },
+  { "navn": "Syddanmark", "slug": "syddanmark", "intro": "Region Syddanmark dækker både Fyn og Sydjylland. Tjek forhandlerens åbningstider før besøg, især i weekenden og uden for sæsonen." },
+  { "navn": "Sjælland", "slug": "sjaelland", "intro": "På Sjælland ligger mange forhandlere tæt ved motorvejene. Spørg om opbevaring, før du køber – ikke alle forhandlere har plads til din vogn om vinteren." },
+  { "navn": "Hovedstaden", "slug": "hovedstaden", "intro": "I hovedstadsområdet er pladsen trang, og opbevaring kan være svær at finde. Spørg forhandleren om opbevaring og om de kan tage vognen ind til service uden lang ventetid." }
+]

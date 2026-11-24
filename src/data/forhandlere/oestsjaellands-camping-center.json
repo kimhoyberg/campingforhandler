@@ -1,0 +1,116 @@
+{
+  "slug": "oestsjaellands-camping-center",
+  "navn": "Østsjællands Camping Center",
+  "adresse": "Jersie Strandvej 88",
+  "postnr": "2680",
+  "by": "Solrød Strand",
+  "region": "Sjælland",
+  "breddegrad": 55.51356,
+  "laengdegrad": 12.204936,
+  "telefon": "56 14 33 55",
+  "email": "info@oecc.dk",
+  "hjemmeside": "https://oecc.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "lukket",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "10:00-14:00",
+    "soendag": "11:00-15:00",
+    "note": "Gælder butik og salg."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "10:00-16:30",
+    "tirsdag": "10:00-16:30",
+    "onsdag": "lukket",
+    "torsdag": "10:00-16:30",
+    "fredag": "10:00-16:30",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": "Aflevering og afhentning af vogne i værkstedets åbningstid."
+  },
+  "nyeMaerkerCampingvogne": [
+    "Knaus",
+    "T@B",
+    "Kabe"
+  ],
+  "nyeMaerkerAutocampere": [],
+  "teltvogne": [],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader",
+    "mover-montering",
+    "service alle mærker",
+    "vejning",
+    "bremseeftersyn",
+    "montering af ekstraudstyr"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": false,
+  "webshop": true,
+  "brancheforening": [
+    "Camping Branchen"
+  ],
+  "cvr": null,
+  "etableret": 1977,
+  "beskrivelse": "Familiedrevet campingcenter i Solrød Strand tæt på Køge Bugt-motorvejen. Sælger nye Knaus, T@B og Kabe samt omkring 40 brugte vogne. Værkstedet laver gastest, fugttest og forsikringsskader på alle mærker, men der er ingen opbevaring på stedet.",
+  "kilder": [
+    {
+      "url": "https://oecc.dk/",
+      "hvad": "Adresse, telefon, mærker, webshop, medlemskab (sidefod)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://oecc.dk/kontakt/",
+      "hvad": "Åbningstider butik og salg, e-mail",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://oecc.dk/kontakt/lidt-om-oecc/",
+      "hvad": "Etableret 1977, mærker, brugte vogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://oecc.dk/nye-campingvogne/",
+      "hvad": "Nye mærker",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://oecc.dk/vaerksted/",
+      "hvad": "Værksted, ydelser og åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://oecc.dk/vaerksted/vaerkstedsprisliste/",
+      "hvad": "Gastest, fugttest, vejning, bremser",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://oecc.dk/vaerksted/opbevaring-af-campingvogn/",
+      "hvad": "Ingen opbevaring på stedet",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://dealer.knaustabbert.de/en-gb/dealers/ostsjaellands-camping-center-aps-41d246b335/",
+      "hvad": "Knaus Tabbert forhandlersøgning (adresse bekræftet)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Jersie+Strandvej+88&postalcode=2680&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import { antal } from '../../lib/data';
+import { services, forhandlereForService } from '../../lib/services';
+
+const liste = services.map((s) => ({ s, n: forhandlereForService(s).length })).filter((x) => x.n > 0);
+const title = 'Værksted, DCU-test, udlejning og opbevaring – find forhandlere';
+const description = 'Find forhandlere med værksted, DCU-testcenter, gastest, fugttest, forsikringsskader, udlejning, opbevaring eller brugte campingvogne.';
+---
+
+<Base {title} {description} crumbs={[{ navn: 'Forside', url: '/' }, { navn: 'Værksted & service', url: '/service/' }]}>
+  <h1>Værksted og service</h1>
+  <p class="lead">Skal vognen til test, service eller reparation? Eller vil du leje, opbevare eller købe brugt? Vælg her.</p>
+  <ul class="linklist">
+    {
+      liste.map(({ s, n }) => (
+        <li>
+          <a href={`/service/${s.slug}/`}>{s.titel}</a> <span class="small">({antal(n, 'forhandler', 'forhandlere')})</span>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

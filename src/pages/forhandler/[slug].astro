@@ -1,0 +1,274 @@
+---
+import Base from '../../layouts/Base.astro';
+import Hours from '../../components/Hours.astro';
+import Icon from '../../components/Icon.astro';
+import {
+  forhandlere,
+  maerkeByNavn,
+  regionByNavn,
+  ydelseNavn,
+  formatDato,
+  telefonHref,
+  rutevejledning,
+  harKombination,
+  type Forhandler,
+} from '../../lib/data';
+import { servicesFor } from '../../lib/services';
+import { businessLd } from '../../lib/seo';
+import { SITE } from '../../config';
+
+export function getStaticPaths() {
+  return forhandlere.map((d) => ({ params: { slug: d.slug }, props: { d } }));
+}
+
+const { d } = Astro.props as { d: Forhandler };
+const region = regionByNavn(d.region);
+const services = servicesFor(d);
+
+const jaNej = (v: boolean | null) => (v === null ? 'Ukendt' : v ? 'Ja' : 'Nej');
+const maerkeLinks = (navne: string[] | null) =>
+  (navne ?? []).map((n) => {
+    const m = maerkeByNavn(n)!;
+    return { navn: n, url: harKombination(m.slug, region.slug) ? `/maerke/${m.slug}/${region.slug}/` : `/maerke/${m.slug}/` };
+  });
+
+const alleMaerker = [...new Set([...(d.nyeMaerkerCampingvogne ?? []), ...(d.nyeMaerkerAutocampere ?? [])])];
+const titelDele = [
+  alleMaerker.length ? alleMaerker.slice(0, 2).join(', ') : null,
+  d.vaerksted ? 'værksted' : null,
+  d.dcuTestcenter ? 'DCU-testcenter' : null,
+].filter(Boolean);
+const title = `${d.navn}, ${d.by}${titelDele.length ? ' – ' + titelDele.join(', ') : ''}`;
+const description = `${d.navn} i ${d.by} (${d.region}). ${
+  alleMaerker.length ? `Nye ${alleMaerker.join(', ')}. ` : ''
+}${services.length ? services.map((s) => s.kort).join(', ') + '. ' : ''}Åbningstider, kontakt og rutevejledning. Tjekket ${formatDato(d.sidstTjekket)}.`;
+
+const egenKilde = d.hjemmeside !== null && d.kilder.some((k) => new URL(k.url).hostname.replace(/^www\./, '') === new URL(d.hjemmeside!).hostname.replace(/^www\./, ''));
+const emne = encodeURIComponent(`Ret oplysninger: ${d.navn} (${d.slug})`);
+const krop = encodeURIComponent(
+  `Hej\n\nVi vil gerne rette følgende oplysninger om ${d.navn} på ${SITE.url}/forhandler/${d.slug}/ :\n\n- \n\nVenlig hilsen\n`,
+);
+const ret = `mailto:${SITE.rettelserEmail}?subject=${emne}&body=${krop}`;
+---
+
+<Base
+  title={title}
+  description={description}
+  ogType="business.business"
+  crumbs={[
+    { navn: 'Forside', url: '/' },
+    { navn: d.region, url: `/region/${region.slug}/` },
+    { navn: d.navn, url: `/forhandler/${d.slug}/` },
+  ]}
+  jsonLd={[businessLd(d)]}
+>
+  <h1>{d.navn}</h1>
+  <p class="lead" style="margin-bottom:0.5rem">{d.adresse}, {d.postnr} {d.by}</p>
+
+  {
+    services.length > 0 && (
+      <ul class="badges" aria-label="Ydelser">
+        {services.map((s) => (
+          <li>
+            <a class="badge" href={`/service/${s.slug}/`} style="text-decoration:none">
+              {s.kort}
+            </a>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+
+  <p class="checked-box"><Icon name="tjek" /> Sidst tjekket {formatDato(d.sidstTjekket)}{egenKilde ? ' hos forhandleren selv' : ' – forhandlerens egen hjemmeside kunne ikke bruges som kilde'}</p>
+
+  <p>{d.beskrivelse}</p>
+
+  <div class="cta">
+    {
+      d.telefon && (
+        <a class="btn" href={telefonHref(d.telefon)}>
+          <Icon name="telefon" /> Ring {d.telefon}
+        </a>
+      )
+    }
+    <a class="btn secondary" href={rutevejledning(d)} rel="noopener"><Icon name="rute" /> Rutevejledning</a>
+    {
+      d.hjemmeside && (
+        <a class="btn secondary" href={d.hjemmeside} rel="noopener">
+          <Icon name="web" /> Hjemmeside
+        </a>
+      )
+    }
+  </div>
+
+  <section class="panel" aria-labelledby="h-tider">
+    <h2 id="h-tider">Åbningstider</h2>
+    <div class:list={['hours-grid', { two: d.aabningstiderVaerksted }]}>
+      <Hours uge={d.aabningstider} titel={d.aabningstiderVaerksted ? 'Butik og salg' : 'Åbningstider'} />
+      {d.aabningstiderVaerksted && <Hours uge={d.aabningstiderVaerksted} titel="Værksted" />}
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="h-maerker">
+    <h2 id="h-maerker">Mærker</h2>
+    <dl class="facts">
+      <dt>Nye campingvogne</dt>
+      <dd>
+        {
+          d.nyeMaerkerCampingvogne === null ? (
+            'Ukendt'
+          ) : d.nyeMaerkerCampingvogne.length ? (
+            <ul class="chips">
+              {maerkeLinks(d.nyeMaerkerCampingvogne).map((m) => (
+                <li>
+                  <a class="chip" href={m.url}>
+                    {m.navn}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            'Ingen fundet'
+          )
+        }
+      </dd>
+      <dt>Nye autocampere</dt>
+      <dd>
+        {
+          d.nyeMaerkerAutocampere === null ? (
+            'Ukendt'
+          ) : d.nyeMaerkerAutocampere.length ? (
+            <ul class="chips">
+              {maerkeLinks(d.nyeMaerkerAutocampere).map((m) => (
+                <li>
+                  <a class="chip" href={m.url}>
+                    {m.navn}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            'Ingen fundet'
+          )
+        }
+      </dd>
+      <dt>Teltvogne</dt>
+      <dd>
+        {
+          d.teltvogne === null ? (
+            'Ukendt'
+          ) : d.teltvogne.length ? (
+            <ul class="chips">
+              {maerkeLinks(d.teltvogne).map((m) => (
+                <li>
+                  <a class="chip" href={m.url}>
+                    {m.navn}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            'Ingen fundet'
+          )
+        }
+      </dd>
+      <dt>Brugte vogne</dt>
+      <dd>{jaNej(d.saelgerBrugte)}</dd>
+      <dt>Sælger autocampere</dt>
+      <dd>{jaNej(d.saelgerAutocampere)}</dd>
+    </dl>
+  </section>
+
+  <section class="panel" aria-labelledby="h-vaerksted">
+    <h2 id="h-vaerksted">Værksted og service</h2>
+    <dl class="facts">
+      <dt>Værksted</dt>
+      <dd>{jaNej(d.vaerksted)}</dd>
+      <dt>DCU-testcenter</dt>
+      <dd>{jaNej(d.dcuTestcenter)}</dd>
+      <dt>Udlejning</dt>
+      <dd>{jaNej(d.udlejning)}</dd>
+      <dt>Opbevaring</dt>
+      <dd>{jaNej(d.opbevaring)}</dd>
+      <dt>Webshop</dt>
+      <dd>{jaNej(d.webshop)}</dd>
+    </dl>
+    {
+      d.ydelser.length > 0 && (
+        <>
+          <h3 style="margin-top:1rem">Værkstedet tilbyder blandt andet</h3>
+          <ul class="chips">
+            {d.ydelser.map((y) => (
+              <li class="chip">{ydelseNavn(y)}</li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+  </section>
+
+  <section class="panel" aria-labelledby="h-kontakt">
+    <h2 id="h-kontakt">Kontakt og firma</h2>
+    <dl class="facts">
+      <dt>Adresse</dt>
+      <dd>{d.adresse}, {d.postnr} {d.by}</dd>
+      <dt>Region</dt>
+      <dd><a href={`/region/${region.slug}/`}>{d.region}</a></dd>
+      <dt>Telefon</dt>
+      <dd>{d.telefon ? <a href={telefonHref(d.telefon)}>{d.telefon}</a> : 'Ukendt'}</dd>
+      <dt>E-mail</dt>
+      <dd>{d.email ? <a href={`mailto:${d.email}`}>{d.email}</a> : 'Ukendt'}</dd>
+      <dt>Hjemmeside</dt>
+      <dd>{d.hjemmeside ? <a href={d.hjemmeside} rel="noopener">{d.hjemmeside.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')}</a> : 'Ikke fundet'}</dd>
+      <dt>Brancheforening</dt>
+      <dd>{d.brancheforening?.length ? d.brancheforening.join(', ') : 'Ukendt'}</dd>
+      <dt>CVR</dt>
+      <dd>{d.cvr ?? 'Ukendt'}</dd>
+      <dt>Etableret</dt>
+      <dd>{d.etableret ?? 'Ukendt'}</dd>
+    </dl>
+  </section>
+
+  <section aria-labelledby="h-kilder">
+    <h2 id="h-kilder">Kilder</h2>
+    <p class="small">
+      Hvor vi har oplysningerne fra. Står der "Ukendt", har vi ikke kunnet finde en sikker kilde – vi gætter aldrig.
+    </p>
+    <ul class="sources">
+      {
+        d.kilder.map((k) => (
+          <li>
+            {k.hvad} – <a href={k.url} rel="noopener nofollow">{k.url.replace(/^https?:\/\//, '').slice(0, 60)}{k.url.replace(/^https?:\/\//, '').length > 60 ? '…' : ''}</a> (tjekket {formatDato(k.tjekketDato)})
+          </li>
+        ))
+      }
+    </ul>
+    <p>
+      Er du {d.navn}, og er noget forkert? <a href={ret}>Send en rettelse</a>.
+    </p>
+  </section>
+
+  <section aria-labelledby="h-flere">
+    <h2 id="h-flere">Flere forhandlere</h2>
+    <ul class="linklist">
+      <li><a href={`/region/${region.slug}/`}>Alle forhandlere i {d.region}</a></li>
+      {
+        alleMaerker.slice(0, 4).map((n) => {
+          const m = maerkeByNavn(n)!;
+          return (
+            <li>
+              <a href={`/maerke/${m.slug}/`}>Alle {n}-forhandlere i Danmark</a>
+            </li>
+          );
+        })
+      }
+      {
+        services.slice(0, 3).map((s) => (
+          <li>
+            <a href={`/service/${s.slug}/`}>{s.titel}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Base>

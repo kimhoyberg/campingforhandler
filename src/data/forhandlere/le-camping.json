@@ -1,0 +1,124 @@
+{
+  "slug": "le-camping",
+  "navn": "LE Camping",
+  "adresse": "Industrivej 15",
+  "postnr": "9900",
+  "by": "Frederikshavn",
+  "region": "Nordjylland",
+  "breddegrad": 57.384544,
+  "laengdegrad": 10.507825,
+  "telefon": "98 47 91 11",
+  "email": "info@le-camping.dk",
+  "hjemmeside": "https://www.le-camping.dk/",
+  "aabningstider": {
+    "mandag": "09:30-17:00",
+    "tirsdag": "09:30-17:00",
+    "onsdag": "09:30-17:00",
+    "torsdag": "09:30-17:00",
+    "fredag": "09:30-17:00",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": "Vintertider fra 1. november 2026. Juleferie 12. december 2026 – 3. januar 2027."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "08:00-16:00",
+    "tirsdag": "08:00-16:00",
+    "onsdag": "08:00-16:00",
+    "torsdag": "08:00-16:00",
+    "fredag": "08:00-15:30",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": "Tidsbestilling på værkstedet: tlf. 96 21 44 12."
+  },
+  "nyeMaerkerCampingvogne": [
+    "Dethleffs",
+    "Hobby",
+    "Fendt",
+    "Silver"
+  ],
+  "nyeMaerkerAutocampere": [],
+  "teltvogne": [
+    "Camp-Let"
+  ],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader",
+    "service alle mærker",
+    "mover-service",
+    "bremseeftersyn",
+    "vejning",
+    "udekørende service"
+  ],
+  "dcuTestcenter": true,
+  "udlejning": null,
+  "opbevaring": true,
+  "webshop": null,
+  "brancheforening": [
+    "Camping Outdoor Danmark"
+  ],
+  "cvr": "19699838",
+  "etableret": 1961,
+  "beskrivelse": "Campingforhandler i Frederikshavn med Dethleffs, Hobby og Fendt samt Camp-Let teltvogne. Værkstedet er DCU-testcenter og reparerer alle mærker. Har aflåst opbevaringsplads og en servicevogn, der kører ud til campingpladser i området.",
+  "kilder": [
+    {
+      "url": "https://www.le-camping.dk/",
+      "hvad": "Mærker, adresse, telefon, etableret 1961",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.le-camping.dk/om-os/kontakt-os/",
+      "hvad": "Kontakt og e-mail",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.le-camping.dk/om-os/åbningstider/",
+      "hvad": "Åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.le-camping.dk/vaerksted/vaerkstedet-generelt/",
+      "hvad": "Værksted, tider, DCU-værksted, ydelser",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.le-camping.dk/vaerksted/forsikringsskader/",
+      "hvad": "Forsikringsskader",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.le-camping.dk/vaerksted/service-paa-campingpladsen/",
+      "hvad": "Udekørende service",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.le-camping.dk/om-os/opbevaring-af-campingvogne-eller-autocampere/",
+      "hvad": "Opbevaring",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.le-camping.dk/om-os/medlem-af-camping-outdoor-danmark/",
+      "hvad": "Brancheforening",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.degulesider.dk/le+camping+frederikshavn/66208225/firma",
+      "hvad": "CVR-nummer (De Gule Sider, sidste udvej; set i søgeresultat, ikke bekræftet i CVR)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Industrivej+15&postalcode=9900&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

@@ -1,0 +1,122 @@
+---
+import '../styles/global.css';
+import { SITE, ANALYTICS } from '../config';
+import { abs, breadcrumbLd, type Crumb } from '../lib/seo';
+import Icon from '../components/Icon.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  crumbs: Crumb[];
+  jsonLd?: object[];
+  noindex?: boolean;
+  ogType?: string;
+}
+
+const { title, description, crumbs, jsonLd = [], noindex = false, ogType = 'website' } = Astro.props;
+const canonical = abs(Astro.url.pathname);
+const fullTitle = title.includes(SITE.navn) || title.length > 48 ? title : `${title} | ${SITE.navn}`;
+const ld = [breadcrumbLd(crumbs), ...jsonLd];
+const path = Astro.url.pathname;
+const nav = [
+  { href: '/maerke/', navn: 'Mærker' },
+  { href: '/region/', navn: 'Regioner' },
+  { href: '/service/', navn: 'Værksted & service' },
+  { href: '/om/', navn: 'Om siden' },
+];
+const visCrumbs = crumbs.length > 1;
+---
+
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+    <meta name="theme-color" content="#1d5a46" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={SITE.navn} />
+    <meta property="og:locale" content="da_DK" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={abs('/og.png')} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    {ld.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}
+    {
+      ANALYTICS.provider === 'plausible' && (
+        <script is:inline defer data-domain={ANALYTICS.plausibleDomain} src={ANALYTICS.plausibleSrc} />
+      )
+    }
+    {
+      ANALYTICS.provider === 'umami' && (
+        <script is:inline defer data-website-id={ANALYTICS.umamiWebsiteId} src={ANALYTICS.umamiSrc} />
+      )
+    }
+  </head>
+  <body>
+    <a class="skip" href="#indhold">Gå til indhold</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="logo" href="/"><Icon name="logo" size={26} /> {SITE.navn}</a>
+        <nav class="site-nav" aria-label="Hovedmenu">
+          <ul>
+            {
+              nav.map((n) => (
+                <li>
+                  <a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>
+                    {n.navn}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="indhold">
+      <div class="wrap">
+        {
+          visCrumbs && (
+            <nav class="crumbs" aria-label="Brødkrummer">
+              <ol>
+                {crumbs.map((c, i) =>
+                  i === crumbs.length - 1 ? (
+                    <li aria-current="page">{c.navn}</li>
+                  ) : (
+                    <li>
+                      <a href={c.url}>{c.navn}</a>
+                    </li>
+                  ),
+                )}
+              </ol>
+            </nav>
+          )
+        }
+        <slot />
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <ul>
+          <li><a href="/">Alle forhandlere</a></li>
+          <li><a href="/maerke/">Mærker</a></li>
+          <li><a href="/region/">Regioner</a></li>
+          <li><a href="/service/">Værksted & service</a></li>
+          <li><a href="/om/">Om siden</a></li>
+          <li><a href="/ret-oplysninger/">Ret oplysninger</a></li>
+        </ul>
+        <p>
+          {SITE.navn} er en uafhængig oversigt. Vi tjekker oplysningerne hos forhandlerne selv, men ring gerne før du kører
+          ud. Ingen cookies.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

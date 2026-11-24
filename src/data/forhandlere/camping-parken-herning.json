@@ -1,0 +1,124 @@
+{
+  "slug": "camping-parken-herning",
+  "navn": "Camping Parken Herning",
+  "adresse": "Tjelevej 10-12",
+  "postnr": "7400",
+  "by": "Herning",
+  "region": "Midtjylland",
+  "breddegrad": 56.149163,
+  "laengdegrad": 8.934299,
+  "telefon": "97 26 80 55",
+  "email": "info@campingparken.dk",
+  "hjemmeside": "https://www.campingparken.dk/",
+  "aabningstider": {
+    "mandag": "10:00-16:00",
+    "tirsdag": "10:00-16:00",
+    "onsdag": "10:00-16:00",
+    "torsdag": "10:00-16:00",
+    "fredag": "10:00-16:00",
+    "loerdag": "lukket",
+    "soendag": "10:00-15:00",
+    "note": "Gælder salg og butik."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "08:00-16:00",
+    "tirsdag": "08:00-16:00",
+    "onsdag": "08:00-16:00",
+    "torsdag": "08:00-16:00",
+    "fredag": "08:00-15:30",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": "Værksted og DCU-testcenter. Tlf. 99 29 10 59."
+  },
+  "nyeMaerkerCampingvogne": [
+    "Dethleffs"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Sunlight",
+    "Dethleffs",
+    "Niesmann+Bischoff"
+  ],
+  "teltvogne": [],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "brugtvognstest",
+    "forsikringsskader",
+    "mover-montering",
+    "service alle mærker",
+    "montering af ekstraudstyr"
+  ],
+  "dcuTestcenter": true,
+  "udlejning": true,
+  "opbevaring": null,
+  "webshop": true,
+  "brancheforening": [
+    "Camping Outdoor Danmark",
+    "DCU",
+    "Autobranchen Danmark"
+  ],
+  "cvr": "33080158",
+  "etableret": null,
+  "beskrivelse": "Stort campingcenter i Tjørring ved Herning med både campingvogne og autocampere. Værkstedet er DCU-testcenter for begge typer og har eget skadecenter. Udlejer nye Sunlight-autocampere.",
+  "kilder": [
+    {
+      "url": "https://www.campingparken.dk/",
+      "hvad": "Adresse, telefon, e-mail, CVR, medlemskaber (sidefod)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.campingparken.dk/kontakt-os/kontakt-salg/",
+      "hvad": "Åbningstider salg",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.campingparken.dk/vaerksted/kontakt-og-aabningstider/",
+      "hvad": "Åbningstider værksted",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.campingparken.dk/kontakt-os/firmaprofil/",
+      "hvad": "Autoriserede mærker",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.campingparken.dk/vaerksted/dcu-test-og-servicecenter/",
+      "hvad": "DCU-testcenter, gastest, fugttest, brugtvognstest",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.campingparken.dk/vaerksted/skadecenter/",
+      "hvad": "Forsikringsskader på alle mærker",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.campingparken.dk/autocamperudlejning",
+      "hvad": "Udlejning af autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.campingparken.dk/campingvogne/brugte-campingvogne/",
+      "hvad": "Brugte campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.campingparken.dk/kontakt-os/camping-parkens-historie/",
+      "hvad": "Historie (start i begyndelsen af 1960'erne)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Tjelevej+12&postalcode=7400&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

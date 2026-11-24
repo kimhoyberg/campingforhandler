@@ -1,0 +1,14 @@
+[
+  { "id": "gastest", "navn": "Gastest" },
+  { "id": "fugttest", "navn": "Fugttest" },
+  { "id": "brugtvognstest", "navn": "Brugtvognstest" },
+  { "id": "forsikringsskader", "navn": "Forsikringsskader" },
+  { "id": "mover-montering", "navn": "Montering af mover" },
+  { "id": "mover-service", "navn": "Service af mover" },
+  { "id": "service alle mærker", "navn": "Service på alle mærker" },
+  { "id": "montering af ekstraudstyr", "navn": "Montering af ekstraudstyr" },
+  { "id": "bremseeftersyn", "navn": "Bremseeftersyn" },
+  { "id": "vejning", "navn": "Vejning" },
+  { "id": "udekørende service", "navn": "Service ude hos dig" },
+  { "id": "Truma-service", "navn": "Truma-service" }
+]

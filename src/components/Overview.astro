@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+import DealerList from './DealerList.astro';
+import RelatedLinks from './RelatedLinks.astro';
+import type { Forhandler } from '../lib/data';
+import { antal } from '../lib/data';
+import { itemListLd, type Crumb } from '../lib/seo';
+
+interface Props {
+  title: string;
+  description: string;
+  h1: string;
+  intro: string;
+  liste: Forhandler[];
+  crumbs: Crumb[];
+  skjul?: 'maerker' | 'regioner' | 'services';
+}
+const { title, description, h1, intro, liste, crumbs, skjul } = Astro.props;
+// Tynde sider: kun 1 forhandler → noindex, indtil der kommer flere.
+const noindex = liste.length < 2;
+---
+
+<Base {title} {description} {crumbs} {noindex} jsonLd={[itemListLd(h1, liste)]}>
+  <h1>{h1}</h1>
+  <p class="lead">{intro}</p>
+  <slot name="foer" />
+  <h2>{antal(liste.length, 'forhandler', 'forhandlere')}</h2>
+  <DealerList {liste} />
+  <slot />
+  <RelatedLinks {skjul} />
+</Base>

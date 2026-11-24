@@ -1,0 +1,57 @@
+---
+import type { Forhandler } from '../lib/data';
+import { maerkerFor, maerkeByNavn, formatDato, regionByNavn } from '../lib/data';
+import { servicesFor } from '../lib/services';
+import Icon from './Icon.astro';
+
+interface Props {
+  d: Forhandler;
+  headingLevel?: 'h2' | 'h3';
+}
+const { d } = Astro.props;
+const maerker = maerkerFor(d);
+const services = servicesFor(d).map((s) => s.slug);
+const region = regionByNavn(d.region);
+
+const features = [
+  d.vaerksted === true && { icon: 'vaerksted' as const, text: 'Værksted' },
+  d.dcuTestcenter === true && { icon: 'dcu' as const, text: 'DCU-testcenter' },
+  d.udlejning === true && { icon: 'udlejning' as const, text: 'Udlejning' },
+  d.saelgerBrugte === true && { icon: 'brugte' as const, text: 'Brugte vogne' },
+  d.opbevaring === true && { icon: 'opbevaring' as const, text: 'Opbevaring' },
+].filter(Boolean) as { icon: 'vaerksted' | 'dcu' | 'udlejning' | 'brugte' | 'opbevaring'; text: string }[];
+---
+
+<li
+  class="card"
+  data-maerker={maerker.map((m) => maerkeByNavn(m)?.slug).join(' ')}
+  data-region={region.slug}
+  data-services={services.join(' ')}
+>
+  <h3><a href={`/forhandler/${d.slug}/`}>{d.navn}</a></h3>
+  <p class="place">{d.by} · {d.region}</p>
+  {
+    maerker.length > 0 ? (
+      <ul class="chips" aria-label="Nye mærker">
+        {maerker.map((m) => (
+          <li class="chip">{m}</li>
+        ))}
+      </ul>
+    ) : (
+      <p class="small">Mærker ikke bekræftet</p>
+    )
+  }
+  {
+    features.length > 0 && (
+      <ul class="features" aria-label="Ydelser">
+        {features.map((f) => (
+          <li>
+            <Icon name={f.icon} size={16} />
+            {f.text}
+          </li>
+        ))}
+      </ul>
+    )
+  }
+  <p class="checked">Sidst tjekket {formatDato(d.sidstTjekket)}</p>
+</li>

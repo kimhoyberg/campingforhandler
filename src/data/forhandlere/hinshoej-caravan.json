@@ -1,0 +1,110 @@
+{
+  "slug": "hinshoej-caravan",
+  "navn": "Hinshøj Caravan",
+  "adresse": "Gl. Viborgvej 392, Ålum",
+  "postnr": "8920",
+  "by": "Randers NV",
+  "region": "Midtjylland",
+  "breddegrad": 56.454245,
+  "laengdegrad": 9.82658,
+  "telefon": "86 46 60 72",
+  "email": "salg@hinshoj.dk",
+  "hjemmeside": "https://www.hinshoj.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "11:00-16:00",
+    "note": "1. september – 18. december. Fra 4. januar til 31. august er søndag 10–16. Særlige tider i påske og pinse."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Hobby",
+    "Fendt",
+    "Dethleffs",
+    "Eriba",
+    "Polar",
+    "T@B"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Eriba",
+    "Etrusco",
+    "Hobby"
+  ],
+  "teltvogne": [],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader",
+    "service alle mærker",
+    "montering af ekstraudstyr",
+    "udekørende service"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": true,
+  "brancheforening": null,
+  "cvr": null,
+  "etableret": null,
+  "beskrivelse": "Stor forhandler i Ålum nord for Randers med mange mærker, blandt andet Fendt, Hobby, Polar og Eriba. Sælger også autocampere fra Etrusco og Eriba Car. Værkstedet har en servicebil, der kommer ud til kunderne.",
+  "kilder": [
+    {
+      "url": "https://www.hinshoj.dk/",
+      "hvad": "Mærker, webshop, fremhævede vogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hinshoj.dk/information/aabningstider/",
+      "hvad": "Åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hinshoj.dk/information/om-os/",
+      "hvad": "Historie og mærker",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hinshoj.dk/kontakt/kontakt-os/",
+      "hvad": "Telefon og e-mail",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hinshoj.dk/campingvogne/nye-campingvogne/",
+      "hvad": "Nye campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hinshoj.dk/autocampere/nye-autocampere/",
+      "hvad": "Nye autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.hinshoj.dk/vaerksted/information/",
+      "hvad": "Værksted, gastest, fugttest, servicebil",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.bilbasen.dk/find-en-forhandler/bilforhandler-hinshoej-caravan-as-id2538",
+      "hvad": "Adresse, telefon, link til hjemmeside (Bilbasen)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Gl.+Viborgvej+392&postalcode=8920&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

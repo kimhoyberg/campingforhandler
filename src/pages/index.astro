@@ -1,0 +1,140 @@
+---
+import Base from '../layouts/Base.astro';
+import DealerList from '../components/DealerList.astro';
+import RelatedLinks from '../components/RelatedLinks.astro';
+import { forhandlere, maerker, regioner, forhandlereForMaerke, forhandlereForRegion, antal } from '../lib/data';
+import { services, forhandlereForService } from '../lib/services';
+import { itemListLd, abs } from '../lib/seo';
+import { SITE } from '../config';
+
+const aktiveMaerker = maerker.filter((m) => forhandlereForMaerke(m).length > 0);
+const aktiveRegioner = regioner.filter((r) => forhandlereForRegion(r).length > 0);
+const aktiveServices = services.filter((s) => forhandlereForService(s).length > 0);
+const antalDcu = forhandlere.filter((d) => d.dcuTestcenter).length;
+const antalVaerksted = forhandlere.filter((d) => d.vaerksted).length;
+
+const title = `Find campingvognsforhandler efter mærke, område og værksted – ${forhandlere.length} forhandlere`;
+const description = `Oversigt over ${forhandlere.length} danske forhandlere af campingvogne. Filtrér på mærke, region og ydelse – ${antalVaerksted} har værksted, ${antalDcu} er DCU-testcenter. Alle oplysninger tjekket hos forhandleren.`;
+const website = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.navn,
+  url: abs('/'),
+  inLanguage: 'da-DK',
+};
+---
+
+<Base title={title} description={description} crumbs={[{ navn: 'Forside', url: '/' }]} jsonLd={[website, itemListLd('Campingvognsforhandlere i Danmark', forhandlere)]}>
+  <h1>Find den rigtige campingvognsforhandler</h1>
+  <p class="lead">
+    Hvem sælger dit mærke i dit område? Hvem har værksted, DCU-testcenter eller udlejning? Vælg herunder – vi har tjekket
+    oplysningerne hos hver forhandler.
+  </p>
+
+  <form class="filter" id="filter" action="/" method="get" aria-describedby="filter-hjaelp">
+    <fieldset>
+      <legend>Filtrér forhandlere</legend>
+      <div>
+        <label for="f-maerke">Mærke</label>
+        <select id="f-maerke" name="maerke">
+          <option value="">Alle mærker</option>
+          {aktiveMaerker.map((m) => <option value={m.slug}>{m.navn}</option>)}
+        </select>
+      </div>
+      <div>
+        <label for="f-region">Region</label>
+        <select id="f-region" name="region">
+          <option value="">Hele Danmark</option>
+          {aktiveRegioner.map((r) => <option value={r.slug}>{r.navn}</option>)}
+        </select>
+      </div>
+      <div>
+        <label for="f-service">Værksted og service</label>
+        <select id="f-service" name="service">
+          <option value="">Alle</option>
+          {aktiveServices.map((s) => <option value={s.slug}>{s.kort}</option>)}
+        </select>
+      </div>
+    </fieldset>
+    <div class="actions">
+      <p class="count" id="antal" aria-live="polite">{antal(forhandlere.length, 'forhandler', 'forhandlere')}</p>
+      <button type="reset" class="linkbtn" id="nulstil" hidden>Nulstil filter</button>
+    </div>
+    <p id="filter-hjaelp" class="small" style="margin:0.25rem 0 0">Listen opdateres, når du vælger.</p>
+    <noscript>
+      <p class="small">
+        Filteret kræver JavaScript. Brug i stedet siderne for <a href="/maerke/">mærker</a>, <a href="/region/">regioner</a> og
+        <a href="/service/">værksted og service</a>.
+      </p>
+    </noscript>
+  </form>
+
+  <h2 class="sr-only" style="margin-top:1.25rem">Forhandlere</h2>
+  <DealerList liste={forhandlere} id="liste" />
+  <p class="empty" id="ingen" hidden>
+    Ingen forhandlere passer på alle tre valg. Prøv at fjerne et af dem – eller se alle forhandlere i <a href="/region/"
+      >din region</a
+    >.
+  </p>
+
+  <RelatedLinks />
+
+  <script>
+    const form = document.getElementById('filter') as HTMLFormElement;
+    const cards = Array.from(document.querySelectorAll<HTMLElement>('#liste > li'));
+    const antal = document.getElementById('antal')!;
+    const ingen = document.getElementById('ingen')!;
+    const nulstil = document.getElementById('nulstil')!;
+    const felter = ['maerke', 'region', 'service'] as const;
+    const sel = (n: string) => form.elements.namedItem(n) as HTMLSelectElement;
+
+    function opdater(skrivUrl = true) {
+      const [m, r, s] = felter.map((f) => sel(f).value);
+      let vist = 0;
+      for (const c of cards) {
+        const ok =
+          (!m || (c.dataset.maerker ?? '').split(' ').includes(m)) &&
+          (!r || c.dataset.region === r) &&
+          (!s || (c.dataset.services ?? '').split(' ').includes(s));
+        c.hidden = !ok;
+        if (ok) vist++;
+      }
+      antal.textContent = `${vist} ${vist === 1 ? 'forhandler' : 'forhandlere'}`;
+      ingen.hidden = vist > 0;
+      nulstil.hidden = !(m || r || s);
+      if (skrivUrl) {
+        const p = new URLSearchParams();
+        if (m) p.set('maerke', m);
+        if (r) p.set('region', r);
+        if (s) p.set('service', s);
+        const q = p.toString();
+        history.replaceState(null, '', q ? `?${q}` : location.pathname);
+      }
+    }
+
+    const start = new URLSearchParams(location.search);
+    for (const f of felter) {
+      const v = start.get(f);
+      if (v && Array.from(sel(f).options).some((o) => o.value === v)) sel(f).value = v;
+    }
+    form.addEventListener('change', () => opdater());
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      opdater();
+    });
+    form.addEventListener('reset', () => setTimeout(() => opdater()));
+    document.getElementById('filter-hjaelp')!.hidden = false;
+    opdater(false);
+  </script>
+</Base>
+
+<style>
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+</style>

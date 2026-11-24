@@ -1,0 +1,86 @@
+{
+  "slug": "viborg-caravan-center",
+  "navn": "Viborg Caravan Center",
+  "adresse": "Fuglevænget 6-10",
+  "postnr": "8800",
+  "by": "Viborg",
+  "region": "Midtjylland",
+  "breddegrad": 56.443176,
+  "laengdegrad": 9.192679,
+  "telefon": "86 64 62 00",
+  "email": "viborgcaravancenter@adslhome.dk",
+  "hjemmeside": "https://viborg-caravancenter.dk/",
+  "aabningstider": {
+    "mandag": "10:00-16:30",
+    "tirsdag": "10:00-16:30",
+    "onsdag": "lukket",
+    "torsdag": "10:00-16:30",
+    "fredag": "10:00-16:30",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": "Lukket i weekenden resten af 2026. Siden viser også weekendtider for sæsonen, som ikke stemmer overens. Har også en butik i Struer (Gimsinglundvej 2)."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Hobby",
+    "Knaus"
+  ],
+  "nyeMaerkerAutocampere": [],
+  "teltvogne": [],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader",
+    "service alle mærker",
+    "bremseeftersyn"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": "10084970",
+  "etableret": 1986,
+  "beskrivelse": "Forhandler i Viborg med en ekstra butik i Struer. Har nye Hobby- og Knaus-vogne og mange brugte vogne af forskellige mærker. Værkstedet reparerer alle mærker og laver gaseftersyn, fugttest og forsikringsskader.",
+  "kilder": [
+    {
+      "url": "https://viborg-caravancenter.dk/",
+      "hvad": "Adresser, siden 1986, weekendlukket, lager",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://viborg-caravancenter.dk/kontakt",
+      "hvad": "Telefon, e-mail, åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://viborg-caravancenter.dk/værksted",
+      "hvad": "Værkstedets ydelser og priser",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://viborg-caravancenter.dk/campingvogne",
+      "hvad": "Nye og brugte vogne på lager",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.proff.dk/firma/viborg-caravan-center-aps/viborg/detailhandel/0605M2I10MN",
+      "hvad": "CVR-nummer og stiftet 1986 (Proff, set i søgeresultat)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Fuglev%C3%A6nget+10&postalcode=8800&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

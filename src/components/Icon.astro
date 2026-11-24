@@ -1,0 +1,38 @@
+---
+// Små, enkle ikoner (tegnet til siden). Altid dekorative – teksten ved siden af bærer betydningen.
+interface Props {
+  name: 'vaerksted' | 'dcu' | 'udlejning' | 'brugte' | 'opbevaring' | 'tjek' | 'telefon' | 'rute' | 'web' | 'mail' | 'logo';
+  size?: number;
+}
+const { name, size = 18 } = Astro.props;
+const paths: Record<Props['name'], string> = {
+  vaerksted:
+    '<path d="M14.7 6.3a4 4 0 0 0-5.4 5.1L3.6 17.1a1.5 1.5 0 0 0 2.1 2.1l5.7-5.7a4 4 0 0 0 5.1-5.4l-2.4 2.4-2.1-.6-.6-2.1z"/>',
+  dcu: '<path d="M12 3l7 3v5c0 4.5-3 8.3-7 9.5C8 19.3 5 15.5 5 11V6z"/><path d="M9 12l2 2 4-4"/>',
+  udlejning: '<circle cx="8" cy="15" r="4"/><path d="M11 12l8-8"/><path d="M16 7l2 2"/><path d="M14 9l2 2"/>',
+  brugte: '<path d="M3 12V4h8l9 9-8 8z"/><circle cx="7.5" cy="8.5" r="1.3"/>',
+  opbevaring: '<path d="M3 10l9-6 9 6v10H3z"/><path d="M7 20v-6h10v6"/>',
+  tjek: '<circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/>',
+  telefon:
+    '<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/>',
+  rute: '<path d="M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11z"/><circle cx="12" cy="10" r="2.2"/>',
+  web: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18"/>',
+  mail: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>',
+  logo: '<path d="M2 16V8a3 3 0 0 1 3-3h11a5 5 0 0 1 5 5v6z"/><path d="M21 16h2"/><circle cx="8" cy="17" r="2.2"/><path d="M6 9h4v3H6z"/><path d="M13 9h4"/>',
+};
+---
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.8"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  aria-hidden="true"
+  focusable="false"
+  set:html={paths[name]}
+/>

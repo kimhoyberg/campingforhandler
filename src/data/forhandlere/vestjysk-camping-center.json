@@ -1,0 +1,67 @@
+{
+  "slug": "vestjysk-camping-center",
+  "navn": "Vestjysk Camping Center",
+  "adresse": "Sirvej 63",
+  "postnr": "7500",
+  "by": "Holstebro",
+  "region": "Midtjylland",
+  "breddegrad": 56.40452,
+  "laengdegrad": 8.60495,
+  "telefon": "97 43 22 11",
+  "email": "vestjyskcamping@mail.dk",
+  "hjemmeside": null,
+  "aabningstider": {
+    "mandag": null,
+    "tirsdag": null,
+    "onsdag": null,
+    "torsdag": null,
+    "fredag": null,
+    "loerdag": null,
+    "soendag": null,
+    "note": "Ukendt. Forhandlerens hjemmeside kunne ikke åbnes, og producentens forhandlersøgning viser kun standardtider. Ring før besøg."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": null,
+  "nyeMaerkerAutocampere": null,
+  "teltvogne": null,
+  "saelgerBrugte": null,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": "12210787",
+  "etableret": 1988,
+  "beskrivelse": "Mindre campingforhandler i Holstebro, som står i Knaus Tabberts forhandlersøgning med værksted. Hjemmesiden kunne ikke åbnes ved sidste tjek, så mærker og åbningstider er ikke bekræftet. Ring før du kører derud.",
+  "kilder": [
+    {
+      "url": "https://dealer.knaustabbert.de/en-uk/dealers/vestjysk-camping-center-aps-2175913576/",
+      "hvad": "Adresse, telefon, e-mail, værksted (Knaus Tabbert forhandlersøgning)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "http://www.vestjyskcamping.dk/",
+      "hvad": "Egen hjemmeside – kunne ikke åbnes (DNS-fejl)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.proff.dk/firma/vestjysk-campingcenter-aps/-/-/12210787",
+      "hvad": "CVR og startdato 1. juni 1988 (Proff, set i søgeresultat)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Sirvej+63&postalcode=7500&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

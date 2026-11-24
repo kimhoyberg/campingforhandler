@@ -1,0 +1,97 @@
+{
+  "slug": "vestsjaellands-campingcenter",
+  "navn": "Vestsjællands Campingcenter",
+  "adresse": "Falkevej 9",
+  "postnr": "4250",
+  "by": "Fuglebjerg",
+  "region": "Sjælland",
+  "breddegrad": 55.295598,
+  "laengdegrad": 11.549429,
+  "telefon": "58 11 22 12",
+  "email": "kontakt@vs-camping.dk",
+  "hjemmeside": "https://www.vs-camping.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "lukket",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "10:00-14:00",
+    "soendag": "10:00-14:00",
+    "note": "Helligdage 10–14. Lukket alle lørdage fra 1. oktober 2026 til 1. februar 2027."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Knaus",
+    "Weinsberg",
+    "Kabe",
+    "Vega"
+  ],
+  "nyeMaerkerAutocampere": [],
+  "teltvogne": [],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "brugtvognstest",
+    "forsikringsskader",
+    "mover-montering",
+    "vejning",
+    "bremseeftersyn",
+    "service alle mærker",
+    "montering af ekstraudstyr"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": null,
+  "etableret": 2003,
+  "beskrivelse": "Campingcenter i en stor hal i Fuglebjerg med indendørs udstilling af nye og brugte vogne. Sælger blandt andet Knaus, Weinsberg, Kabe og polske Vega. Værkstedet servicerer alle mærker og er autoriseret til gasinstallationer.",
+  "kilder": [
+    {
+      "url": "https://www.vs-camping.dk/",
+      "hvad": "Ydelser, mover-montering, vintertider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.vs-camping.dk/kontakt/",
+      "hvad": "Adresse, telefon, e-mail, åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.vs-camping.dk/nye-modeller/",
+      "hvad": "Nye mærker",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.vs-camping.dk/vaerksted/",
+      "hvad": "Værkstedets ydelser",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.vs-camping.dk/om-os/",
+      "hvad": "Historie, start i 2003",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://weinsberg.com/en-uk/support/dealer-search/dealers/vestsjaellands-campingcenter-aps-536b60747f/",
+      "hvad": "Weinsberg forhandlersøgning (adresse bekræftet)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Falkevej+9&postalcode=4250&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

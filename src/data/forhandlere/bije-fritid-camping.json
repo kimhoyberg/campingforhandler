@@ -1,0 +1,115 @@
+{
+  "slug": "bije-fritid-camping",
+  "navn": "Bijé Fritid & Camping",
+  "adresse": "Bomose Allé 19",
+  "postnr": "3200",
+  "by": "Helsinge",
+  "region": "Hovedstaden",
+  "breddegrad": 56.019931,
+  "laengdegrad": 12.172673,
+  "telefon": "48 79 31 10",
+  "email": "post@bije.dk",
+  "hjemmeside": "https://www.bije.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "10:00-16:00",
+    "note": "Lavsæson 1. september – 31. marts. I højsæsonen (1. april – 31. august) også åbent lørdag 10–14. Weekendlukket i december."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "07:30-15:30",
+    "tirsdag": "07:30-15:30",
+    "onsdag": "07:30-15:30",
+    "torsdag": "07:30-15:30",
+    "fredag": "07:30-15:00",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": "Værkstedets telefon er åben man.–tors. 10–15.30 og fre. 10–15."
+  },
+  "nyeMaerkerCampingvogne": [
+    "Adria",
+    "Hobby",
+    "Fendt",
+    "Kabe",
+    "Vega"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Hobby"
+  ],
+  "teltvogne": [
+    "Camp-Let"
+  ],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "brugtvognstest",
+    "forsikringsskader",
+    "mover-montering",
+    "montering af ekstraudstyr",
+    "Truma-service",
+    "vejning"
+  ],
+  "dcuTestcenter": true,
+  "udlejning": true,
+  "opbevaring": true,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": "41144556",
+  "etableret": null,
+  "beskrivelse": "Campingforretning i Helsinge med et stort værksted, der er DCU-testcenter og Truma-servicepartner. Sælger blandt andet Adria, Hobby, Fendt og Kabe samt Camp-Let teltvogne. Udlejer Hobby-autocampere og har aflåst opbevaring med årligt eftersyn.",
+  "kilder": [
+    {
+      "url": "https://www.bije.dk/",
+      "hvad": "Mærker, adresse, telefon, e-mail, CVR",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.bije.dk/kontakt/aabningstider",
+      "hvad": "Åbningstider butik og værksted, CVR",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.bije.dk/camping-vaerksted-nordsjaelland",
+      "hvad": "Værksted, DCU-testcenter, forsikringsskader",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.bije.dk/camping-vaerksted-nordsjaelland/priser",
+      "hvad": "DCU-tests: gastest, fugttest, brugtvognstest, vejning",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.bije.dk/camping-vaerksted-nordsjaelland/truma-servicepartner",
+      "hvad": "Truma-service og movere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.bije.dk/autocamper-udlejning",
+      "hvad": "Udlejning af autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.bije.dk/maerker/Hobby-campingvogne-autocampere",
+      "hvad": "Hobby campingvogne og autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Bomose+All%C3%A9+19&postalcode=3200&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

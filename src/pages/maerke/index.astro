@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import { maerker, forhandlereForMaerke, antal } from '../../lib/data';
+
+const liste = maerker.map((m) => ({ m, n: forhandlereForMaerke(m).length })).filter((x) => x.n > 0);
+const title = `Campingvognsmærker – find forhandlere af ${liste.length} mærker`;
+const description = `Vælg et mærke og se, hvilke danske forhandlere der sælger det nyt: ${liste.slice(0, 6).map((x) => x.m.navn).join(', ')} og flere.`;
+---
+
+<Base {title} {description} crumbs={[{ navn: 'Forside', url: '/' }, { navn: 'Mærker', url: '/maerke/' }]}>
+  <h1>Mærker</h1>
+  <p class="lead">
+    Vælg det mærke, du er interesseret i. Listen viser forhandlere, der sælger mærket nyt – de fleste kan også servicere det.
+  </p>
+  <ul class="linklist columns">
+    {
+      liste.map(({ m, n }) => (
+        <li>
+          <a href={`/maerke/${m.slug}/`}>{m.navn}</a> <span class="small">({antal(n, 'forhandler', 'forhandlere')})</span>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

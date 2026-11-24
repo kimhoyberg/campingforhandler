@@ -1,0 +1,52 @@
+---
+import Overview from '../../components/Overview.astro';
+import { maerker, forhandlereForMaerke, maerkeRegionKombinationer, type Maerke } from '../../lib/data';
+import { opsummering, byer } from '../../lib/tekst';
+
+export function getStaticPaths() {
+  return maerker
+    .filter((m) => forhandlereForMaerke(m).length > 0)
+    .map((m) => ({ params: { slug: m.slug }, props: { m } }));
+}
+const { m } = Astro.props as { m: Maerke };
+const liste = forhandlereForMaerke(m);
+const kombi = maerkeRegionKombinationer().filter((k) => k.maerke.slug === m.slug);
+const title = `${m.navn}-forhandlere i Danmark – ${opsummering(liste)}`;
+const description = `Se hvem der forhandler nye ${m.navn} ${m.type} i Danmark: ${byer(liste)}. Med åbningstider, værksted og kontakt – tjekket hos forhandlerne.`;
+---
+
+<Overview
+  {title}
+  {description}
+  h1={`${m.navn}-forhandlere i Danmark`}
+  intro={m.tip}
+  {liste}
+  skjul="maerker"
+  crumbs={[
+    { navn: 'Forside', url: '/' },
+    { navn: 'Mærker', url: '/maerke/' },
+    { navn: m.navn, url: `/maerke/${m.slug}/` },
+  ]}
+>
+  <Fragment slot="foer">
+    {
+      kombi.length > 0 && (
+        <p>
+          Se også:{' '}
+          {kombi.map((k, i) => (
+            <>
+              {i > 0 && ', '}
+              <a href={`/maerke/${m.slug}/${k.region.slug}/`}>
+                {m.navn} i {k.region.navn}
+              </a>
+            </>
+          ))}
+        </p>
+      )
+    }
+  </Fragment>
+  <p class="small" style="margin-top:1.25rem">
+    {m.navn} laver {m.type}{m.producentland ? ` og kommer fra ${m.producentland}` : ''}.
+    {m.link && <>Producentens side: <a href={m.link} rel="noopener">{m.link.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')}</a>.</>}
+  </p>
+</Overview>

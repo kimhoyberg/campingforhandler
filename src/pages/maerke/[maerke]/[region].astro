@@ -1,0 +1,37 @@
+---
+import Overview from '../../../components/Overview.astro';
+import { maerkeRegionKombinationer, type Maerke, type Region, type Forhandler } from '../../../lib/data';
+import { opsummering, byer } from '../../../lib/tekst';
+
+// Laves kun, når der er mindst 2 forhandlere af mærket i regionen.
+export function getStaticPaths() {
+  return maerkeRegionKombinationer().map((k) => ({
+    params: { maerke: k.maerke.slug, region: k.region.slug },
+    props: k,
+  }));
+}
+const { maerke: m, region: r, liste } = Astro.props as { maerke: Maerke; region: Region; liste: Forhandler[] };
+const medVaerksted = liste.filter((d) => d.vaerksted).length;
+const title = `${m.navn}-forhandlere i ${r.navn} – ${opsummering(liste)}`;
+const description = `${liste.length} forhandlere af ${m.navn} i ${r.navn}: ${byer(liste)}. ${medVaerksted} har eget værksted. Se åbningstider og kontakt.`;
+const intro = `Der er ${liste.length} forhandlere af ${m.navn} i ${r.navn}, i ${byer(liste)}. ${m.tip}`;
+---
+
+<Overview
+  {title}
+  {description}
+  h1={`${m.navn}-forhandlere i ${r.navn}`}
+  {intro}
+  {liste}
+  crumbs={[
+    { navn: 'Forside', url: '/' },
+    { navn: 'Mærker', url: '/maerke/' },
+    { navn: m.navn, url: `/maerke/${m.slug}/` },
+    { navn: r.navn, url: `/maerke/${m.slug}/${r.slug}/` },
+  ]}
+>
+  <p style="margin-top:1.25rem">
+    Se alle <a href={`/maerke/${m.slug}/`}>{m.navn}-forhandlere i Danmark</a> eller alle
+    <a href={`/region/${r.slug}/`}>forhandlere i {r.navn}</a>.
+  </p>
+</Overview>

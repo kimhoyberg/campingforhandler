@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+import { forhandlere, formatDato } from '../lib/data';
+
+const nyeste = forhandlere.map((d) => d.sidstTjekket).sort().at(-1)!;
+const title = 'Om siden – sådan indsamler og tjekker vi oplysningerne';
+const description = 'Campingforhandler.dk er en uafhængig oversigt over danske campingvognsforhandlere. Læs hvordan vi finder, tjekker og opdaterer oplysningerne.';
+---
+
+<Base {title} {description} crumbs={[{ navn: 'Forside', url: '/' }, { navn: 'Om siden', url: '/om/' }]}>
+  <h1>Om siden</h1>
+  <p class="lead">
+    Campingforhandler.dk hjælper dig med at finde den forhandler, der har dit mærke, et værksted tæt på eller den service, du
+    mangler.
+  </p>
+
+  <h2>Hvem står bag?</h2>
+  <p>
+    Siden er et uafhængigt projekt. Vi sælger ikke campingvogne, og forhandlerne betaler ikke for at være med. Der er ingen
+    reklamer og ingen cookies.
+  </p>
+
+  <h2>Hvor kommer oplysningerne fra?</h2>
+  <p>Vi bruger disse kilder i denne rækkefølge:</p>
+  <ol>
+    <li>Forhandlerens egen hjemmeside. Den gælder altid, hvis kilderne er uenige.</li>
+    <li>Producenternes forhandlersøgninger, fx Knaus Tabbert og Weinsberg.</li>
+    <li>Forhandlerens profil på DBA eller Bilbasen.</li>
+    <li>CVR-registeret og DCU's liste over test- og servicecentre.</li>
+    <li>Krak og De Gule Sider – kun hvis intet andet findes.</li>
+  </ol>
+  <p>
+    Hver forhandlerside viser kilderne og datoen for, hvornår vi sidst tjekkede dem. Står der "Ukendt", har vi ikke fundet en
+    sikker kilde. Vi gætter aldrig.
+  </p>
+
+  <h2>Hvor tit tjekker vi?</h2>
+  <p>
+    Vi gennemgår alle forhandlere jævnligt. Seneste gennemgang: {formatDato(nyeste)}. Åbningstider og mærker kan ændre sig, så
+    ring gerne før du kører ud.
+  </p>
+
+  <h2>Er du forhandler?</h2>
+  <p>Du kan altid få rettet dine oplysninger eller blive tilføjet. <a href="/ret-oplysninger/">Sådan gør du</a>.</p>
+</Base>
