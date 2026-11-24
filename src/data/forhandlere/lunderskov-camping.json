@@ -1,0 +1,105 @@
+{
+  "slug": "lunderskov-camping",
+  "navn": "Lunderskov Camping",
+  "adresse": "Tværvej 9",
+  "postnr": "6640",
+  "by": "Lunderskov",
+  "region": "Syddanmark",
+  "breddegrad": 55.488585,
+  "laengdegrad": 9.292605,
+  "telefon": "75 58 54 00",
+  "email": "mail@lunderskovcamping.dk",
+  "hjemmeside": "https://www.lunderskovcamping.dk/",
+  "aabningstider": {
+    "mandag": "09:00-17:00",
+    "tirsdag": "09:00-17:00",
+    "onsdag": "09:00-17:00",
+    "torsdag": "09:00-17:00",
+    "fredag": "09:00-17:00",
+    "loerdag": null,
+    "soendag": "10:00-16:00",
+    "note": "Salgsafdelingen. Siden er uenig med sig selv om lørdag (både lukket og 10–16). Helligdage 10–16."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "08:00-16:00",
+    "tirsdag": "08:00-16:00",
+    "onsdag": "08:00-16:00",
+    "torsdag": "08:00-16:00",
+    "fredag": "08:00-15:00",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": null
+  },
+  "nyeMaerkerCampingvogne": [
+    "Kabe",
+    "Knaus",
+    "Sprite",
+    "Vega",
+    "Weinsberg"
+  ],
+  "nyeMaerkerAutocampere": null,
+  "teltvogne": [
+    "Camp-Let"
+  ],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "forsikringsskader",
+    "service alle mærker"
+  ],
+  "dcuTestcenter": true,
+  "udlejning": null,
+  "opbevaring": true,
+  "webshop": null,
+  "brancheforening": [
+    "Camping Outdoor Danmark"
+  ],
+  "cvr": null,
+  "etableret": null,
+  "beskrivelse": "Forhandler i Lunderskov mellem Kolding og Vejen med blandt andet Kabe, Knaus, Weinsberg, Sprite og Vega. Værkstedet er DCU-testcenter og fordelsværksted for flere forsikringsselskaber. Tilbyder vinteropbevaring.",
+  "kilder": [
+    {
+      "url": "https://www.lunderskovcamping.dk/",
+      "hvad": "Telefon, e-mail, åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.lunderskovcamping.dk/information/kontakt",
+      "hvad": "Åbningstider salg og værksted",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.lunderskovcamping.dk/information/om-os",
+      "hvad": "Medlem af Camping Outdoor Danmark",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.lunderskovcamping.dk/campingvogne/campingvogne-nye",
+      "hvad": "Nye campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.lunderskovcamping.dk/Page31/vaerksted",
+      "hvad": "Værksted, forsikringsskader",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.lunderskovcamping.dk/information/vinteropbevaring",
+      "hvad": "Vinteropbevaring",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Tv%C3%A6rvej+9&postalcode=6640&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

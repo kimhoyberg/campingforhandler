@@ -1,0 +1,115 @@
+{
+  "slug": "moellegaardens-camping",
+  "navn": "Møllegårdens Camping",
+  "adresse": "Skyumvej 4",
+  "postnr": "7700",
+  "by": "Thisted",
+  "region": "Nordjylland",
+  "breddegrad": 56.882009,
+  "laengdegrad": 8.625923,
+  "telefon": "96 19 10 20",
+  "email": "info@moellegaarden.dk",
+  "hjemmeside": "https://www.moellegaarden.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": null,
+    "soendag": "11:00-16:00",
+    "note": "Butikken. Søndagsåbent står på forsiden; lørdag er ikke oplyst. Juleferie 12. december – 7. januar."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "07:30-16:00",
+    "tirsdag": "07:30-16:00",
+    "onsdag": "07:30-16:00",
+    "torsdag": "07:30-16:00",
+    "fredag": "07:30-16:00",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": "Værkstedet ligger på Ferskenvej 5. Tiderne gælder 1. september – 28. februar; fra 1. marts til 31. august til 17.00."
+  },
+  "nyeMaerkerCampingvogne": [
+    "Adria",
+    "Hobby",
+    "Fendt"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Sun Living"
+  ],
+  "teltvogne": [
+    "Camp-Let"
+  ],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader",
+    "mover-service",
+    "udekørende service"
+  ],
+  "dcuTestcenter": true,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": null,
+  "etableret": 1968,
+  "beskrivelse": "Campingforhandler ved Vildsund i Thy med Adria, Hobby og Fendt samt Sun Living-autocampere og Camp-Let teltvogne. Værkstedet er DCU-testcenter og har et skadecenter. En servicevogn kører ud til campingpladser og laver gastest og fugttest på stedet.",
+  "kilder": [
+    {
+      "url": "https://www.moellegaarden.dk/",
+      "hvad": "Adresse, telefon, e-mail, åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.moellegaarden.dk/om-os/åbningstider/",
+      "hvad": "Åbningstider butik og værksted",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.moellegaarden.dk/campingvogn/vore-vognmaerker/",
+      "hvad": "Mærker",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.moellegaarden.dk/om-os/firmaets-historie/",
+      "hvad": "Historie (første annonce i 1968)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.moellegaarden.dk/vaerksted/velkommen/",
+      "hvad": "Værksted og DCU-testcenter",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.moellegaarden.dk/vaerksted/hvorfor-og-hvordan/",
+      "hvad": "Gastest, fugttest, mover",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.moellegaarden.dk/vaerksted/skadecenter/",
+      "hvad": "Forsikringsskader",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.moellegaarden.dk/inspiration/servicetur-til-campingpladser/",
+      "hvad": "Servicevogn til campingpladser",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Skyumvej+4&postalcode=7700&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

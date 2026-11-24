@@ -1,0 +1,113 @@
+{
+  "slug": "jysk-caravan-center",
+  "navn": "Jysk Caravan Center",
+  "adresse": "Juelstrupparken 26",
+  "postnr": "9530",
+  "by": "Støvring",
+  "region": "Nordjylland",
+  "breddegrad": 56.880325,
+  "laengdegrad": 9.80692,
+  "telefon": "98 31 98 31",
+  "email": "salg@jysk-caravan.dk",
+  "hjemmeside": "https://jysk-caravan.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "11:00-16:00",
+    "note": "Helligdage 11–16."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "08:00-16:00",
+    "tirsdag": "08:00-16:00",
+    "onsdag": "08:00-16:00",
+    "torsdag": "08:00-16:00",
+    "fredag": "08:00-15:30",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": null
+  },
+  "nyeMaerkerCampingvogne": [
+    "Adria",
+    "Fendt",
+    "Hobby",
+    "Knaus",
+    "T@B",
+    "Vega"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Hobby",
+    "Ahorn"
+  ],
+  "teltvogne": [
+    "Camp-Let"
+  ],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "brugtvognstest",
+    "mover-service"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": true,
+  "opbevaring": true,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": null,
+  "etableret": null,
+  "beskrivelse": "Stor forhandler i Støvring syd for Aalborg med mange mærker, blandt andet Adria, Hobby, Knaus og Fendt. Sælger og udlejer autocampere. Har værksted med gastest og fugttest samt indendørs vinteropbevaring.",
+  "kilder": [
+    {
+      "url": "https://jysk-caravan.dk/kontakt-os/",
+      "hvad": "Åbningstider butik og værksted",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://jysk-caravan.dk/adria-campingvogn/",
+      "hvad": "Adresse, telefon, e-mail",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://jysk-caravan.dk/vogn-typer/ny-campingvogn/",
+      "hvad": "Nye campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://jysk-caravan.dk/vogn-typer/ny-teltvogn/",
+      "hvad": "Nye teltvogne (Camp-Let)",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://jysk-caravan.dk/autocamperliv/",
+      "hvad": "Autocampere: Hobby og Ahorn, udlejning",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://jysk-caravan.dk/vaerksted/vaerkstedspriser/",
+      "hvad": "Gastest, fugttest, brugtvognstest, mover",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://jysk-caravan.dk/vinteropbevaring/",
+      "hvad": "Vinteropbevaring",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Juelstrupparken+26&postalcode=9530&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

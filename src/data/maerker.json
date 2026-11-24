@@ -1,19 +1,186 @@
 [
-  { "navn": "Adria", "slug": "adria", "producentland": "Slovenien", "link": "https://www.adria-mobil.com/", "type": "campingvogne og autocampere", "tip": "Adria har et bredt program fra små, lette vogne til store familievogne. Spørg forhandleren, hvilke modeller de har stående, og om de selv kan lave garanti-fugttest, så tæthedsgarantien holdes." },
-  { "navn": "Camp-Let", "slug": "camp-let", "producentland": "Danmark", "link": "https://www.camp-let.dk/", "type": "teltvogne", "tip": "Camp-Let er en dansk teltvogn, som mange forhandlere har stående til fremvisning. Bed om at se teltet slået op, og spørg om værkstedet også servicerer teltvogne, fx bremser og lys." },
-  { "navn": "Caravelair", "slug": "caravelair", "producentland": "Frankrig", "link": null, "type": "campingvogne", "tip": "Caravelair er kendt for lette vogne, der kan trækkes af mindre biler. Tjek vognens totalvægt mod bilens trækvægt, før du handler, og spørg om forhandleren kan lave fugttest efter mærkets garantikrav." },
-  { "navn": "Dethleffs", "slug": "dethleffs", "producentland": "Tyskland", "link": "https://www.dethleffs.de/", "type": "campingvogne og autocampere", "tip": "Dethleffs findes både som campingvogn og autocamper. Hvis du vil bevare fabrikkens tæthedsgaranti, skal vognen have en årlig fugttest – spørg om forhandlerens værksted er autoriseret til mærket." },
-  { "navn": "Eriba", "slug": "eriba", "producentland": "Tyskland", "link": "https://www.eriba.com/", "type": "campingvogne og autocampere", "tip": "Eriba er kendt for de små Touring-vogne med hævetag og for Eriba Car-campervans. Der er få forhandlere i Danmark, så spørg om værkstedet har reservedele til hævetaget." },
-  { "navn": "Etrusco", "slug": "etrusco", "producentland": null, "link": "https://www.etrusco.com/", "type": "autocampere", "tip": "Etrusco laver autocampere og campervans. Spørg forhandleren, om værkstedet også servicerer bildelen, eller om den skal til et autoværksted." },
-  { "navn": "Fendt", "slug": "fendt", "producentland": "Tyskland", "link": "https://www.fendt-caravan.com/", "type": "campingvogne", "tip": "Fendt er Hobbys søstermærke i den dyrere ende. Mange forhandlere giver ekstra fordele som gratis fugttest de første år – få det skrevet ind i slutsedlen." },
-  { "navn": "Hobby", "slug": "hobby", "producentland": "Tyskland", "link": "https://www.hobby-caravan.de/", "type": "campingvogne og autocampere", "tip": "Hobby er et af de mest solgte mærker i Danmark, så der er mange brugte at vælge imellem. Tæthedsgarantien kræver en årlig fugttest hos et autoriseret værksted, så vælg gerne en forhandler med eget værksted." },
-  { "navn": "Kabe", "slug": "kabe", "producentland": "Sverige", "link": "https://www.kabe.se/", "type": "campingvogne og autocampere", "tip": "Kabe er en svensk helårsvogn med vandbåren varme. Spørg om værkstedet har erfaring med Alde-varmeanlæg, og om de kan lave den årlige fugttest, som garantien kræver." },
-  { "navn": "Knaus", "slug": "knaus", "producentland": "Tyskland", "link": "https://www.knaus.com/", "type": "campingvogne og autocampere", "tip": "Knaus har mange planløsninger, også lette vogne til elbiler. Spørg om forhandleren er autoriseret Knaus-værksted, så garanti og tæthedskontrol kan klares samme sted." },
-  { "navn": "Niesmann+Bischoff", "slug": "niesmann-bischoff", "producentland": "Tyskland", "link": "https://www.niesmann-bischoff.com/", "type": "autocampere", "tip": "Niesmann+Bischoff laver store, dyre autocampere. Tjek vægten og dit kørekort: nogle modeller vejer over 3.500 kg og kræver C1-kørekort." },
-  { "navn": "Polar", "slug": "polar", "producentland": "Sverige", "link": "https://polarvagnen.se/dk/", "type": "campingvogne", "tip": "Polar er bygget til vintercamping med tyk isolering og vandbåren varme. Spørg om forhandleren er autoriseret Polar-værksted, og om de har erfaring med Alde-anlæg." },
-  { "navn": "Silver", "slug": "silver", "producentland": null, "link": null, "type": "campingvogne", "tip": "Silver Mini Freestyle er en meget lille og let vogn. Spørg om sengemål og opbevaring, og om forhandleren kan servicere vognen på eget værksted." },
-  { "navn": "Sunlight", "slug": "sunlight", "producentland": "Tyskland", "link": "https://www.sunlight.de/", "type": "autocampere", "tip": "Sunlight er autocampere i den billigere ende. Prøvekør gerne, og spørg om forhandleren har udlejningsvogne, så du kan prøve modellen af på en ferie først." },
-  { "navn": "T@B", "slug": "tab", "producentland": "Tyskland", "link": "https://www.tabme.de/en", "type": "campingvogne", "tip": "T@B er små retrovogne, der passer til mindre biler og elbiler. Se vognen med fortelt opsat, så du ved, hvor meget plads I får." },
-  { "navn": "Vega", "slug": "vega", "producentland": "Polen", "link": null, "type": "campingvogne", "tip": "Vega er polske, lette og forholdsvis billige vogne. Der er få forhandlere, så spørg om reservedele og garantiservice kan klares hos forhandleren selv." },
-  { "navn": "Weinsberg", "slug": "weinsberg", "producentland": "Tyskland", "link": "https://www.weinsberg.com/", "type": "campingvogne og autocampere", "tip": "Weinsberg er Knaus' prisbillige søstermærke. Sammenlign udstyrslisten nøje, og spørg om forhandleren kan klare garantiservice for både Weinsberg og Knaus." }
+  {
+    "navn": "Adria",
+    "slug": "adria",
+    "producentland": "Slovenien",
+    "link": "https://www.adria-mobil.com/",
+    "type": "campingvogne og autocampere",
+    "tip": "Adria har et bredt program fra små, lette vogne til store familievogne. Spørg forhandleren, hvilke modeller de har stående, og om de selv kan lave garanti-fugttest, så tæthedsgarantien holdes."
+  },
+  {
+    "navn": "Ahorn",
+    "slug": "ahorn",
+    "producentland": "Tyskland",
+    "link": null,
+    "type": "autocampere",
+    "tip": "Ahorn laver autocampere på Renault Master til en lavere pris end mange andre. Spørg om værkstedet kan klare både bodel og bildel, eller om bilen skal til et autoværksted."
+  },
+  {
+    "navn": "Benimar",
+    "slug": "benimar",
+    "producentland": "Spanien",
+    "link": null,
+    "type": "autocampere",
+    "tip": "Benimar er spanske autocampere, som er nye på det danske marked. Spørg om reservedele og garantiservice kan klares hos forhandleren selv."
+  },
+  {
+    "navn": "Camp-Let",
+    "slug": "camp-let",
+    "producentland": "Danmark",
+    "link": "https://www.camp-let.dk/",
+    "type": "teltvogne",
+    "tip": "Camp-Let er en dansk teltvogn, som mange forhandlere har stående til fremvisning. Bed om at se teltet slået op, og spørg om værkstedet også servicerer teltvogne, fx bremser og lys."
+  },
+  {
+    "navn": "Caravelair",
+    "slug": "caravelair",
+    "producentland": "Frankrig",
+    "link": null,
+    "type": "campingvogne",
+    "tip": "Caravelair er kendt for lette vogne, der kan trækkes af mindre biler. Tjek vognens totalvægt mod bilens trækvægt, før du handler, og spørg om forhandleren kan lave fugttest efter mærkets garantikrav."
+  },
+  {
+    "navn": "Dethleffs",
+    "slug": "dethleffs",
+    "producentland": "Tyskland",
+    "link": "https://www.dethleffs.de/",
+    "type": "campingvogne og autocampere",
+    "tip": "Dethleffs findes både som campingvogn og autocamper. Hvis du vil bevare fabrikkens tæthedsgaranti, skal vognen have en årlig fugttest – spørg om forhandlerens værksted er autoriseret til mærket."
+  },
+  {
+    "navn": "Eriba",
+    "slug": "eriba",
+    "producentland": "Tyskland",
+    "link": "https://www.eriba.com/",
+    "type": "campingvogne og autocampere",
+    "tip": "Eriba er kendt for de små Touring-vogne med hævetag og for Eriba Car-campervans. Der er få forhandlere i Danmark, så spørg om værkstedet har reservedele til hævetaget."
+  },
+  {
+    "navn": "Etrusco",
+    "slug": "etrusco",
+    "producentland": null,
+    "link": "https://www.etrusco.com/",
+    "type": "autocampere",
+    "tip": "Etrusco laver autocampere og campervans. Spørg forhandleren, om værkstedet også servicerer bildelen, eller om den skal til et autoværksted."
+  },
+  {
+    "navn": "Fendt",
+    "slug": "fendt",
+    "producentland": "Tyskland",
+    "link": "https://www.fendt-caravan.com/",
+    "type": "campingvogne",
+    "tip": "Fendt er Hobbys søstermærke i den dyrere ende. Mange forhandlere giver ekstra fordele som gratis fugttest de første år – få det skrevet ind i slutsedlen."
+  },
+  {
+    "navn": "Hobby",
+    "slug": "hobby",
+    "producentland": "Tyskland",
+    "link": "https://www.hobby-caravan.de/",
+    "type": "campingvogne og autocampere",
+    "tip": "Hobby er et af de mest solgte mærker i Danmark, så der er mange brugte at vælge imellem. Tæthedsgarantien kræver en årlig fugttest hos et autoriseret værksted, så vælg gerne en forhandler med eget værksted."
+  },
+  {
+    "navn": "Kabe",
+    "slug": "kabe",
+    "producentland": "Sverige",
+    "link": "https://www.kabe.se/",
+    "type": "campingvogne og autocampere",
+    "tip": "Kabe er en svensk helårsvogn med vandbåren varme. Spørg om værkstedet har erfaring med Alde-varmeanlæg, og om de kan lave den årlige fugttest, som garantien kræver."
+  },
+  {
+    "navn": "Knaus",
+    "slug": "knaus",
+    "producentland": "Tyskland",
+    "link": "https://www.knaus.com/",
+    "type": "campingvogne og autocampere",
+    "tip": "Knaus har mange planløsninger, også lette vogne til elbiler. Spørg om forhandleren er autoriseret Knaus-værksted, så garanti og tæthedskontrol kan klares samme sted."
+  },
+  {
+    "navn": "Laika",
+    "slug": "laika",
+    "producentland": "Italien",
+    "link": null,
+    "type": "autocampere",
+    "tip": "Laika laver italienske autocampere i den dyrere ende. Tjek totalvægten og dit kørekort, og spørg om værkstedet kender modellernes styresystem."
+  },
+  {
+    "navn": "Niesmann+Bischoff",
+    "slug": "niesmann-bischoff",
+    "producentland": "Tyskland",
+    "link": "https://www.niesmann-bischoff.com/",
+    "type": "autocampere",
+    "tip": "Niesmann+Bischoff laver store, dyre autocampere. Tjek vægten og dit kørekort: nogle modeller vejer over 3.500 kg og kræver C1-kørekort."
+  },
+  {
+    "navn": "Polar",
+    "slug": "polar",
+    "producentland": "Sverige",
+    "link": "https://polarvagnen.se/dk/",
+    "type": "campingvogne",
+    "tip": "Polar er bygget til vintercamping med tyk isolering og vandbåren varme. Spørg om forhandleren er autoriseret Polar-værksted, og om de har erfaring med Alde-anlæg."
+  },
+  {
+    "navn": "Silver",
+    "slug": "silver",
+    "producentland": null,
+    "link": null,
+    "type": "campingvogne",
+    "tip": "Silver Mini Freestyle er en meget lille og let vogn. Spørg om sengemål og opbevaring, og om forhandleren kan servicere vognen på eget værksted."
+  },
+  {
+    "navn": "Sprite",
+    "slug": "sprite",
+    "producentland": null,
+    "link": null,
+    "type": "campingvogne",
+    "tip": "Sprite er lette og forholdsvis billige campingvogne. Tjek udstyrslisten, og spørg om forhandleren kan lave den fugttest, som garantien kræver."
+  },
+  {
+    "navn": "Sun Living",
+    "slug": "sun-living",
+    "producentland": "Slovenien",
+    "link": null,
+    "type": "autocampere",
+    "tip": "Sun Living er Adrias autocampere til en lavere pris. Mange Adria-forhandlere fører dem, så spørg om værkstedet kan servicere både bodel og bildel."
+  },
+  {
+    "navn": "Sunlight",
+    "slug": "sunlight",
+    "producentland": "Tyskland",
+    "link": "https://www.sunlight.de/",
+    "type": "autocampere",
+    "tip": "Sunlight er autocampere i den billigere ende. Prøvekør gerne, og spørg om forhandleren har udlejningsvogne, så du kan prøve modellen af på en ferie først."
+  },
+  {
+    "navn": "T@B",
+    "slug": "tab",
+    "producentland": "Tyskland",
+    "link": "https://www.tabme.de/en",
+    "type": "campingvogne",
+    "tip": "T@B er små retrovogne, der passer til mindre biler og elbiler. Se vognen med fortelt opsat, så du ved, hvor meget plads I får."
+  },
+  {
+    "navn": "Tabbert",
+    "slug": "tabbert",
+    "producentland": "Tyskland",
+    "link": "https://www.tabbert.com/",
+    "type": "campingvogne",
+    "tip": "Tabbert laver store, tunge vogne i den dyre ende. Tjek bilens trækvægt, og spørg om forhandleren er autoriseret Tabbert-værksted, så garantien holdes."
+  },
+  {
+    "navn": "Vega",
+    "slug": "vega",
+    "producentland": "Polen",
+    "link": null,
+    "type": "campingvogne",
+    "tip": "Vega er polske, lette og forholdsvis billige vogne. Der er få forhandlere, så spørg om reservedele og garantiservice kan klares hos forhandleren selv."
+  },
+  {
+    "navn": "Weinsberg",
+    "slug": "weinsberg",
+    "producentland": "Tyskland",
+    "link": "https://www.weinsberg.com/",
+    "type": "campingvogne og autocampere",
+    "tip": "Weinsberg er Knaus' prisbillige søstermærke. Sammenlign udstyrslisten nøje, og spørg om forhandleren kan klare garantiservice for både Weinsberg og Knaus."
+  }
 ]

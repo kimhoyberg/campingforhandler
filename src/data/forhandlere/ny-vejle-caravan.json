@@ -1,0 +1,90 @@
+{
+  "slug": "ny-vejle-caravan",
+  "navn": "Ny Vejle Caravan",
+  "adresse": "Isabellahøj 6",
+  "postnr": "7100",
+  "by": "Vejle",
+  "region": "Syddanmark",
+  "breddegrad": 55.720915,
+  "laengdegrad": 9.573428,
+  "telefon": "75 82 84 22",
+  "email": null,
+  "hjemmeside": "https://www.vejlecaravans.dk/",
+  "aabningstider": {
+    "mandag": null,
+    "tirsdag": null,
+    "onsdag": null,
+    "torsdag": null,
+    "fredag": null,
+    "loerdag": null,
+    "soendag": null,
+    "note": "Salgsafdelingens tider kunne ikke læses på hjemmesiden; den oplyser kun helligdage 10–16. Ring før besøg."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "07:00-15:30",
+    "tirsdag": "07:00-15:30",
+    "onsdag": "07:00-15:30",
+    "torsdag": "07:00-15:30",
+    "fredag": "07:00-14:45",
+    "loerdag": null,
+    "soendag": null,
+    "note": "Værkstedets telefon er åben man.–tors. 10–15.30 og fre. 10–14.45 (tast 5)."
+  },
+  "nyeMaerkerCampingvogne": null,
+  "nyeMaerkerAutocampere": null,
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "brugtvognstest"
+  ],
+  "dcuTestcenter": true,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": null,
+  "etableret": 1982,
+  "beskrivelse": "Campingforhandler på Isabellahøj i Vejle, startet i 1982. Sælger nye og brugte campingvogne, autocampere og teltvogne. Værkstedet er DCU-testcenter med faste priser på gastest, fugttest og brugtvognstest.",
+  "kilder": [
+    {
+      "url": "https://www.vejlecaravans.dk/",
+      "hvad": "Forside",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.vejlecaravans.dk/info/om-os/",
+      "hvad": "Historie (stiftet april 1982), adresse",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.vejlecaravans.dk/vaerksted/om-vaerkstedet/",
+      "hvad": "Værksted, åbningstider, DCU-tests, telefon",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.vejlecaravans.dk/campingvogne/brugte-campingvogne/",
+      "hvad": "Brugte campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.vejlecaravans.dk/autocampere/nye-autocampere/",
+      "hvad": "Autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Isabellah%C3%B8j+6&postalcode=7100&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

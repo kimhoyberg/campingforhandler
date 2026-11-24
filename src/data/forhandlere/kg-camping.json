@@ -1,0 +1,95 @@
+{
+  "slug": "kg-camping",
+  "navn": "KG Camping",
+  "adresse": "Mønten 6",
+  "postnr": "6000",
+  "by": "Kolding",
+  "region": "Syddanmark",
+  "breddegrad": 55.510099,
+  "laengdegrad": 9.453838,
+  "telefon": "76 33 20 80",
+  "email": "info@kg-camping.dk",
+  "hjemmeside": "https://www.kg-camping.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "10:00-16:00",
+    "note": "Lørdag og helligdage normalt 10–16, men lørdagslukket september–december (undtagen ved åbent hus)."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "08:00-16:00",
+    "tirsdag": "08:00-16:00",
+    "onsdag": "08:00-16:00",
+    "torsdag": "08:00-16:00",
+    "fredag": "08:00-15:00",
+    "loerdag": null,
+    "soendag": null,
+    "note": "Pauselukket 9.15–9.30."
+  },
+  "nyeMaerkerCampingvogne": [
+    "Adria",
+    "Eriba",
+    "Fendt",
+    "Hobby",
+    "T@B",
+    "Tabbert"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Adria"
+  ],
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "fugttest",
+    "forsikringsskader"
+  ],
+  "dcuTestcenter": true,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": [
+    "Camping Branchen"
+  ],
+  "cvr": null,
+  "etableret": null,
+  "beskrivelse": "Stor forhandler i Kolding, autoriseret til Adria, Eriba, Fendt, Hobby, T@B og Tabbert samt Adria-autocampere. Værkstedet er DCU-testcenter. Sælger også mange brugte vogne.",
+  "kilder": [
+    {
+      "url": "https://www.kg-camping.dk/",
+      "hvad": "Mærker, åbningstider, telefon",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.kg-camping.dk/om-os/kontakt/",
+      "hvad": "Åbningstider butik og værksted, e-mail",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.kg-camping.dk/nye-campingvogne",
+      "hvad": "Autoriserede mærker, medlemskab",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.kg-camping.dk/brugte-campingvogne",
+      "hvad": "Brugte campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=M%C3%B8nten+6&postalcode=6000&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

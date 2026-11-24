@@ -1,0 +1,100 @@
+{
+  "slug": "campinggaarden-slagelse",
+  "navn": "Campinggården Slagelse",
+  "adresse": "Sorøvej 97",
+  "postnr": "4200",
+  "by": "Slagelse",
+  "region": "Sjælland",
+  "breddegrad": 55.422647,
+  "laengdegrad": 11.433969,
+  "telefon": "58 54 40 03",
+  "email": "butik@cgslagelse.dk",
+  "hjemmeside": "https://www.campinggaarden-slagelse.dk/",
+  "aabningstider": {
+    "mandag": "09:00-17:00",
+    "tirsdag": "09:00-17:00",
+    "onsdag": "lukket",
+    "torsdag": "09:00-17:00",
+    "fredag": "09:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "10:00-16:00",
+    "note": "Gælder salg og butik."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Adria",
+    "Dethleffs"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Adria"
+  ],
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "brugtvognstest",
+    "forsikringsskader",
+    "bremseeftersyn"
+  ],
+  "dcuTestcenter": true,
+  "udlejning": null,
+  "opbevaring": true,
+  "webshop": null,
+  "brancheforening": [
+    "Camping Branchen"
+  ],
+  "cvr": null,
+  "etableret": 1970,
+  "beskrivelse": "Familieejet forhandler ved Slagelse, grundlagt i 1970, med Adria og Dethleffs. Værkstedet har været DCU-testcenter siden 1982 og reparerer forsikringsskader. Har opbevaring af vogne.",
+  "kilder": [
+    {
+      "url": "https://www.campinggaarden-slagelse.dk/",
+      "hvad": "Telefon, åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.campinggaarden-slagelse.dk/kontakt/",
+      "hvad": "Åbningstider salg og butik, e-mail",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.campinggaarden-slagelse.dk/info/om-os/",
+      "hvad": "Mærker, medlemskab",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.campinggaarden-slagelse.dk/info/firma-historie/",
+      "hvad": "Grundlagt 1970",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.campinggaarden-slagelse.dk/vaerksted/dcu-test/",
+      "hvad": "DCU-testcenter, gastest, fugttest",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.campinggaarden-slagelse.dk/vaerksted/forsikringsskade/",
+      "hvad": "Forsikringsskader",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.campinggaarden-slagelse.dk/campingvogne/opbevaring-af-vogne/",
+      "hvad": "Opbevaring",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Sor%C3%B8vej+97&postalcode=4200&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

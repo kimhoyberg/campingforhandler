@@ -1,0 +1,92 @@
+{
+  "slug": "kronjyllands-camping-center",
+  "navn": "Kronjyllands Camping Center",
+  "adresse": "Suderholmen 10",
+  "postnr": "8960",
+  "by": "Randers SØ",
+  "region": "Midtjylland",
+  "breddegrad": 56.452459,
+  "laengdegrad": 10.052991,
+  "telefon": "87 10 98 70",
+  "email": "info@as-kcc.dk",
+  "hjemmeside": "https://www.as-kcc.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "10:00-16:00",
+    "note": "Salg og udstyr. Helligdage 10–16."
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "08:00-16:00",
+    "tirsdag": "08:00-16:00",
+    "onsdag": "08:00-16:00",
+    "torsdag": "08:00-16:00",
+    "fredag": "08:00-15:30",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": "Værkstedets telefoner åbner kl. 9."
+  },
+  "nyeMaerkerCampingvogne": [
+    "Adria",
+    "Kabe",
+    "Knaus"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Sun Living",
+    "Laika"
+  ],
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader"
+  ],
+  "dcuTestcenter": true,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": "33387733",
+  "etableret": 2002,
+  "beskrivelse": "Campingcenter i Randers med Adria, Kabe og Knaus samt Sun Living- og Laika-autocampere. Værkstedet er DCU-testcenter og laver forsikringsskader. Sælger også brugte vogne.",
+  "kilder": [
+    {
+      "url": "https://www.as-kcc.dk/",
+      "hvad": "Telefon, e-mail, CVR, mærker",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.as-kcc.dk/Aabningstider",
+      "hvad": "Åbningstider salg og værksted",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.as-kcc.dk/autocamper",
+      "hvad": "Autocampere: Laika og Sun Living",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.as-kcc.dk/Campingvogne-til-salg/nye-campingvogne",
+      "hvad": "Nye campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Suderholmen+10&postalcode=8960&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

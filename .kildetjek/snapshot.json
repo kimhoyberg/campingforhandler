@@ -89,9 +89,138 @@
   "tider": [],
   "ydelser": []
  },
+ "https://jcc.dk/": {
+  "status": 200,
+  "hash": "3dae006438e1",
+  "tider": [
+   "Sommer ferie Så syntes “ chefen “ at vi har fortjent en lille ferie 😊🌞 så vi holder lukket i uge 33 🍦 På gensyn mandag den 17/8",
+   "Åbningstider Kristi Himmelfartsdag den 14 maj og fredag den 15 maj holder vi lukket På gensyn mandag den 18 maj",
+   "Vi ønsker alle vores kunde en rigtig god påske 🐥vi holder lukket Skærtorsdag den 2 april til og med 2. påskedag mandag den 6 april🐣"
+  ]
+ },
+ "https://jcc.dk/index.php/contact/": {
+  "status": 200,
+  "hash": "51e63aaa6e13",
+  "tider": [
+   "kl. 08:00 – 17:00",
+   "kl. 08:00 – 15:00"
+  ]
+ },
+ "https://jcc.dk/index.php/projects/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://jcc.dk/index.php/services/": {
+  "status": 200,
+  "hash": "eb093176573f",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "mover",
+   "teltvogn"
+  ]
+ },
+ "https://jysk-caravan.dk/adria-campingvogn/": {
+  "status": 200,
+  "hash": "db9b3d5296d4",
+  "tider": [
+   "Antal sovepladser: 6–7",
+   "Op til 6–7 sovepladser"
+  ]
+ },
+ "https://jysk-caravan.dk/autocamperliv/": {
+  "status": 200,
+  "hash": "044c32d8975d",
+  "tider": [
+   "1. Lej og prøv først. Én weekend på hjul afslører mere om jeres behov end ti brochurer.",
+   "3. Regn på lasteevnen, inden I forelsker jer i udstyrslisten – vand, gas, cykler og bagage vejer mere, end man tror."
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://jysk-caravan.dk/kontakt-os/": {
+  "status": 200,
+  "hash": "3ab8b31bf74a",
+  "tider": [
+   "Alle dage kl. 8 til 18.",
+   "Mandag – fredag: 10:00 – 17:00",
+   "Lørdag: Lukket",
+   "Søndag & helligdage: 11:00 – 16:00",
+   "Mandag – torsdag: 08:00 – 16:00",
+   "Fredag: 08:00 – 15:30",
+   "Weekend & helligdage: Lukket"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://jysk-caravan.dk/vaerksted/vaerkstedspriser/": {
+  "status": 200,
+  "hash": "4787dff934df",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "mover",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://jysk-caravan.dk/vinteropbevaring/": {
+  "status": 200,
+  "hash": "fe7793612e93",
+  "tider": [
+   "hverdage 10.00 -17.00",
+   "Søndag: 11.00 – 16.00"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://jysk-caravan.dk/vogn-typer/ny-campingvogn/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://jysk-caravan.dk/vogn-typer/ny-teltvogn/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
  "https://oecc.dk/": {
   "status": 200,
-  "hash": "971951e87b99",
+  "hash": "13f363338119",
   "tider": [],
   "maerker": [
    "Adria",
@@ -99,7 +228,8 @@
    "Hobby",
    "Kabe",
    "Knaus",
-   "T@B"
+   "T@B",
+   "Tabbert"
   ]
  },
  "https://oecc.dk/kontakt/": {
@@ -249,6 +379,72 @@
   "hash": "225604aa1985",
   "tider": []
  },
+ "https://www.as-kcc.dk/": {
+  "status": 200,
+  "hash": "986f602b78d8",
+  "tider": [
+   "20-01-2025",
+   "03-01-2022",
+   "10.00-17.00",
+   "10.00-16.00",
+   "8.00-16.00",
+   "8.00-15.30",
+   "9.00-16.00"
+  ],
+  "maerker": [
+   "Adria",
+   "Kabe",
+   "Knaus",
+   "Laika",
+   "Sun Living"
+  ]
+ },
+ "https://www.as-kcc.dk/Aabningstider": {
+  "status": 200,
+  "hash": "62d4bb19aafc",
+  "tider": [
+   "10.00-17.00",
+   "10.00-16.00",
+   "8.00-16.00",
+   "8.00-15.30",
+   "9.00-16.00"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "forsikringsskade",
+   "mover",
+   "udlejning",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.as-kcc.dk/autocamper": {
+  "status": 200,
+  "hash": "0b754992e1d6",
+  "tider": [
+   "2–3 sovepladser",
+   "NY demovogn der kun har kørt 850 km. 1. reg dato 26-08-2025.",
+   "10.00-17.00",
+   "10.00-16.00",
+   "8.00-16.00",
+   "8.00-15.30",
+   "9.00-16.00"
+  ]
+ },
+ "https://www.as-kcc.dk/Campingvogne-til-salg/nye-campingvogne": {
+  "status": 200,
+  "hash": "efe1bdd35b4f",
+  "tider": [
+   "✔️ Pladser: 4 sove, 5–6 sidde",
+   "10.00-17.00",
+   "10.00-16.00",
+   "8.00-16.00",
+   "8.00-15.30",
+   "9.00-16.00"
+  ]
+ },
  "https://www.bije.dk/": {
   "status": 200,
   "hash": "9b5a00c9c379",
@@ -353,6 +549,102 @@
    "Mandag - fredag: 10:00 - 17:00",
    "Lørdag: 10:00 - 15:00",
    "Søndag: 10:00 - 16:00"
+  ]
+ },
+ "https://www.campinggaarden-slagelse.dk/": {
+  "status": 200,
+  "hash": "ec9617e0330e",
+  "tider": [
+   "MA - TI: 09:00 - 17:00",
+   "TO - FR: 09:00 - 17:00",
+   "SØ: 10:00 - 16:00"
+  ]
+ },
+ "https://www.campinggaarden-slagelse.dk/campingvogne/opbevaring-af-vogne/": {
+  "status": 200,
+  "hash": "5270b4ba2f87",
+  "tider": [
+   "MA - TI: 09:00 - 17:00",
+   "TO - FR: 09:00 - 17:00",
+   "SØ: 10:00 - 16:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "forsikringsskade",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.campinggaarden-slagelse.dk/info/firma-historie/": {
+  "status": 200,
+  "hash": "ec9617e0330e",
+  "tider": [
+   "MA - TI: 09:00 - 17:00",
+   "TO - FR: 09:00 - 17:00",
+   "SØ: 10:00 - 16:00"
+  ]
+ },
+ "https://www.campinggaarden-slagelse.dk/info/om-os/": {
+  "status": 200,
+  "hash": "89c10b9e1bfc",
+  "tider": [
+   "MA - TI: 09:00 - 17:00",
+   "TO - FR: 09:00 - 17:00",
+   "SØ: 10:00 - 16:00"
+  ],
+  "maerker": [
+   "Adria",
+   "Dethleffs"
+  ]
+ },
+ "https://www.campinggaarden-slagelse.dk/kontakt/": {
+  "status": 200,
+  "hash": "213ca9f253a3",
+  "tider": [
+   "MA - TI: 09:00 - 17:00",
+   "TO - FR: 09:00 - 17:00",
+   "SØ: 10:00 - 16:00",
+   "MA - TI: 09:00 - 16:00",
+   "TO: 09:00 - 16:00",
+   "FR: 09:00 - 15:00",
+   "MA - TI: 09:00 - 16:30",
+   "TO - FR: 09:00 - 16:30"
+  ]
+ },
+ "https://www.campinggaarden-slagelse.dk/vaerksted/dcu-test/": {
+  "status": 200,
+  "hash": "5270b4ba2f87",
+  "tider": [
+   "MA - TI: 09:00 - 17:00",
+   "TO - FR: 09:00 - 17:00",
+   "SØ: 10:00 - 16:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "forsikringsskade",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.campinggaarden-slagelse.dk/vaerksted/forsikringsskade/": {
+  "status": 200,
+  "hash": "5270b4ba2f87",
+  "tider": [
+   "MA - TI: 09:00 - 17:00",
+   "TO - FR: 09:00 - 17:00",
+   "SØ: 10:00 - 16:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "forsikringsskade",
+   "opbevaring",
+   "autocamper",
+   "brugte"
   ]
  },
  "https://www.campingparken.dk/": {
@@ -576,6 +868,62 @@
    "brugte"
   ]
  },
+ "https://www.kg-camping.dk/": {
+  "status": 200,
+  "hash": "946834fde5a2",
+  "tider": [
+   "10:00 - 17:00",
+   "10:00 - 16:00"
+  ],
+  "maerker": [
+   "Adria",
+   "Eriba",
+   "Fendt",
+   "Hobby",
+   "T@B",
+   "Tabbert"
+  ]
+ },
+ "https://www.kg-camping.dk/brugte-campingvogne": {
+  "status": 200,
+  "hash": "04f1dd69c1db",
+  "tider": [
+   "10:00 - 17:00",
+   "10:00 - 16:00"
+  ]
+ },
+ "https://www.kg-camping.dk/nye-campingvogne": {
+  "status": 200,
+  "hash": "946834fde5a2",
+  "tider": [
+   "10:00 - 17:00",
+   "10:00 - 16:00"
+  ],
+  "maerker": [
+   "Adria",
+   "Eriba",
+   "Fendt",
+   "Hobby",
+   "T@B",
+   "Tabbert"
+  ]
+ },
+ "https://www.kg-camping.dk/om-os/kontakt/": {
+  "status": 200,
+  "hash": "e687f403da9a",
+  "tider": [
+   "Mandag - Fredag: 10.00 - 17.00",
+   "Weekend- og alle helligdage: 10.00 - 16.00*",
+   "Mandag til torsdag 8-16",
+   "Fredag 8-15",
+   "OBS: Pauselukket alle dage fra 9.15-9.30"
+  ],
+  "ydelser": [
+   "værksted",
+   "autocamper",
+   "brugte"
+  ]
+ },
  "https://www.le-camping.dk/": {
   "status": 200,
   "hash": "9556e038eaa0",
@@ -660,6 +1008,202 @@
    "forsikringsskade",
    "mover",
    "opbevaring",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.lunderskovcamping.dk/": {
+  "status": 200,
+  "hash": "b247e0dd18e7",
+  "tider": [
+   "Hverdage kl. 9.00 - 17.00",
+   "Lørdag LUKKET",
+   "Søndag kl. 10.00 - 16.00",
+   "Lørdag lukket"
+  ]
+ },
+ "https://www.lunderskovcamping.dk/campingvogne/campingvogne-nye": {
+  "status": 200,
+  "hash": "b4e3746b4d9a",
+  "tider": [
+   "Hverdage kl. 9.00 - 17.00",
+   "Lørdag lukket",
+   "Søndag kl. 10.00 - 16.00"
+  ]
+ },
+ "https://www.lunderskovcamping.dk/information/kontakt": {
+  "status": 200,
+  "hash": "e2f66e48dec9",
+  "tider": [
+   "09:00 - 17:00",
+   "10:00 - 16:00",
+   "08:00 - 16:00",
+   "08:00 - 15:00",
+   "08:00 - 13:00",
+   "Hverdage kl. 9.00 - 17.00",
+   "Lørdag lukket",
+   "Søndag kl. 10.00 - 16.00"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "opbevaring",
+   "brugte"
+  ]
+ },
+ "https://www.lunderskovcamping.dk/information/om-os": {
+  "status": 200,
+  "hash": "3bb6f7a00774",
+  "tider": [
+   "Hverdage kl. 9-17.",
+   "L&oslash;rdage kl. 10-16.",
+   "S&oslash;ndage kl. 10-16",
+   "S&oslash;ndage og helligdage kl. 10-16.",
+   "11. december 2026 kl. 12.00 til 4. januar 2027 kl. 9.00",
+   "Hverdage kl. 9.00 - 17.00",
+   "Lørdag lukket",
+   "Søndag kl. 10.00 - 16.00"
+  ]
+ },
+ "https://www.lunderskovcamping.dk/information/vinteropbevaring": {
+  "status": 200,
+  "hash": "fc6b90fd798a",
+  "tider": [
+   "Hverdage kl. 9.00 - 17.00",
+   "Lørdag lukket",
+   "Søndag kl. 10.00 - 16.00"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "opbevaring",
+   "brugte"
+  ]
+ },
+ "https://www.lunderskovcamping.dk/Page31/vaerksted": {
+  "status": 200,
+  "hash": "3322509075dd",
+  "tider": [
+   "Hverdage kl. 9.00 - 17.00",
+   "Lørdag lukket",
+   "Søndag kl. 10.00 - 16.00"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "forsikringsskade",
+   "opbevaring",
+   "brugte"
+  ]
+ },
+ "https://www.moellegaarden.dk/": {
+  "status": 200,
+  "hash": "4f75f9afcb2c",
+  "tider": [
+   "MANDAG TIL FREDAG: KL. 10.00-17.00",
+   "SØNDAG KL. 11.00-16.00",
+   "Mandag-fredag ​​... 7.30-16.00",
+   "12- 11- 2024",
+   "22- 10- 2024",
+   "21- 03- 2024",
+   "21- 09- 2023",
+   "16- 05- 2023"
+  ]
+ },
+ "https://www.moellegaarden.dk/campingvogn/vore-vognmaerker/": {
+  "status": 200,
+  "hash": "5b1967238ab6",
+  "tider": [],
+  "maerker": [
+   "Adria",
+   "Camp-Let",
+   "Dethleffs",
+   "Fendt",
+   "Hobby",
+   "Sun Living"
+  ]
+ },
+ "https://www.moellegaarden.dk/inspiration/servicetur-til-campingpladser/": {
+  "status": 200,
+  "hash": "5b585b6d4790",
+  "tider": [
+   "Dato: 21- 03- 2024"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
+   "fugttest",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.moellegaarden.dk/om-os/åbningstider/": {
+  "status": 200,
+  "hash": "b1ec4e5f05a3",
+  "tider": [
+   "Mandag-fredag: 10.00-17.00",
+   "Åbningstider 1.9 til 28.2:",
+   "Mandag-fredag: 7.30-16.00",
+   "Telefontid: Mandag-fredag: 7.30-16.00",
+   "Middagslukket på telefonen fra 12.00-12.30",
+   "Lørdag, søndag og helligdag: Lukket",
+   "Åbningstider 1.3 til 31.8:",
+   "Mandag-fredag: 7.30-17.00",
+   "Telefontid: Mandag-fredag: 10.00-16.00"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.moellegaarden.dk/om-os/firmaets-historie/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.moellegaarden.dk/vaerksted/hvorfor-og-hvordan/": {
+  "status": 200,
+  "hash": "d838d49397dd",
+  "tider": [
+   "(Pr. 19-6-25 blev det i Tyskland et lovkrav at man kan fremvise, at man har en gyldig og godkendt gastest, udført inden for 24 mdr.)"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
+   "fugttest",
+   "mover",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.moellegaarden.dk/vaerksted/skadecenter/": {
+  "status": 200,
+  "hash": "03495bf3ed62",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.moellegaarden.dk/vaerksted/velkommen/": {
+  "status": 200,
+  "hash": "5c8ffc591510",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
    "autocamper",
    "teltvogn",
    "brugte"
@@ -751,6 +1295,220 @@
    "mover",
    "udlejning",
    "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.svendborgcampingcenter.dk/": {
+  "status": 200,
+  "hash": "437e1549b8a1",
+  "tider": [
+   "Vi har søndagslukket fra og med søndag d.22.november året ud.",
+   "10:00 - 17:00"
+  ],
+  "maerker": [
+   "Adria",
+   "Benimar",
+   "Hobby"
+  ]
+ },
+ "https://www.svendborgcampingcenter.dk/kontakt/": {
+  "status": 200,
+  "hash": "c2069e9d209c",
+  "tider": [
+   "10:00 - 17:00"
+  ]
+ },
+ "https://www.svendborgcampingcenter.dk/salg-service/autocampere/": {
+  "status": 200,
+  "hash": "c2069e9d209c",
+  "tider": [
+   "10:00 - 17:00"
+  ]
+ },
+ "https://www.svendborgcampingcenter.dk/salg-service/nye-campingvogne/": {
+  "status": 200,
+  "hash": "c2069e9d209c",
+  "tider": [
+   "10:00 - 17:00"
+  ]
+ },
+ "https://www.svendborgcampingcenter.dk/udlejning/lej-en-hobby-autocamper/": {
+  "status": 200,
+  "hash": "526102dfd72f",
+  "tider": [
+   "10:00 - 17:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "udlejning",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.svendborgcampingcenter.dk/vaerksted/": {
+  "status": 200,
+  "hash": "3f9bbedc9873",
+  "tider": [
+   "Mandag til Torsdag kl. 10-14 og Fredag 10-12",
+   "10:00 - 17:00"
+  ],
+  "maerker": [
+   "Hobby"
+  ],
+  "ydelser": [
+   "værksted",
+   "forsikringsskade",
+   "udlejning",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.tarup.dk/": {
+  "status": 200,
+  "hash": "5af2d2f59b18",
+  "tider": [],
+  "maerker": [
+   "Adria",
+   "Dethleffs",
+   "Kabe",
+   "Sun Living"
+  ]
+ },
+ "https://www.tarup.dk/autocampere/sun-living-autocampere/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.tarup.dk/kabe/kabe-campingvogne/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.tarup.dk/om-os/om-tarup/": {
+  "status": 200,
+  "hash": "6347ad7df30c",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "udlejning",
+   "opbevaring",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.tarup.dk/om-os/opbevaring/": {
+  "status": 200,
+  "hash": "e49d73e65887",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.tarup.dk/vaerksted/forsikringsskader/": {
+  "status": 200,
+  "hash": "e844a3f1c2c4",
+  "tider": [
+   "Henvend dig til vort værksted med vognen og den udfyldte blanket. Henvendelse til værkstedet kan ske på hverdage mellem kl. 10.00 og 16.00."
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.tarup.dk/vaerksted/priser-og-dcu-testcenter/": {
+  "status": 200,
+  "hash": "40d3867579fd",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "mover",
+   "opbevaring",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.tarup.dk/vaerksted/truma-partner/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.vejlecaravans.dk/": {
+  "status": 200,
+  "hash": "e1bede6897be",
+  "tider": [
+   "Helligdage 10:00 - 16:00",
+   "Telefontid: 10:00 – 17:00"
+  ]
+ },
+ "https://www.vejlecaravans.dk/autocampere/nye-autocampere/": {
+  "status": 200,
+  "hash": "e1bede6897be",
+  "tider": [
+   "Helligdage 10:00 - 16:00",
+   "Telefontid: 10:00 – 17:00"
+  ]
+ },
+ "https://www.vejlecaravans.dk/campingvogne/brugte-campingvogne/": {
+  "status": 200,
+  "hash": "e1bede6897be",
+  "tider": [
+   "Helligdage 10:00 - 16:00",
+   "Telefontid: 10:00 – 17:00"
+  ]
+ },
+ "https://www.vejlecaravans.dk/info/om-os/": {
+  "status": 200,
+  "hash": "e1bede6897be",
+  "tider": [
+   "Helligdage 10:00 - 16:00",
+   "Telefontid: 10:00 – 17:00"
+  ]
+ },
+ "https://www.vejlecaravans.dk/vaerksted/om-vaerkstedet/": {
+  "status": 200,
+  "hash": "7796d6a1dfae",
+  "tider": [
+   "Mandag - torsdag: 07.00 - 15.30",
+   "Fredag: 07.00 - 14.45",
+   "Mandag - torsdag: 10.00 - 15.30",
+   "Fredag: 10.00 - 14.45",
+   "Vask af lille vogn 0 - 5 meter 995,00 kr. inkl. moms",
+   "Vask af Mellem vogn 5 - 6,5 meter 1495,00 kr. inkl. moms",
+   "Vask af stor vogn 6,5 – 7,5 meter 1795,00 kr. inkl. moms",
+   "Rabat for DCU medlem fra 1/9 - 28/2 = 15% og fra 1/3 - 31/8 = 5%. Rabatten gælder kun for DCU eftersyn (U1-U2-U3-U4-U5).",
+   "Helligdage 10:00 - 16:00",
+   "Telefontid: 10:00 – 17:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "dcu",
+   "gastest",
+   "fugttest",
+   "udlejning",
+   "autocamper",
+   "teltvogn",
    "brugte"
   ]
  },

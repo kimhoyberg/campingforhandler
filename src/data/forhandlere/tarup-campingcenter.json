@@ -1,0 +1,103 @@
+{
+  "slug": "tarup-campingcenter",
+  "navn": "Tarup Campingcenter",
+  "adresse": "Agerhatten 31",
+  "postnr": "5220",
+  "by": "Odense SØ",
+  "region": "Syddanmark",
+  "breddegrad": 55.365687,
+  "laengdegrad": 10.466962,
+  "telefon": "66 16 18 18",
+  "email": "mail@tarup.dk",
+  "hjemmeside": "https://www.tarup.dk/",
+  "aabningstider": {
+    "mandag": null,
+    "tirsdag": null,
+    "onsdag": null,
+    "torsdag": null,
+    "fredag": null,
+    "loerdag": null,
+    "soendag": null,
+    "note": "Ukendt. Hjemmesiden viser åbningstiderne med et script, som ikke kunne læses. Ring før besøg."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Adria",
+    "Dethleffs",
+    "Kabe"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Sun Living"
+  ],
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader",
+    "Truma-service"
+  ],
+  "dcuTestcenter": true,
+  "udlejning": null,
+  "opbevaring": true,
+  "webshop": true,
+  "brancheforening": null,
+  "cvr": "30365178",
+  "etableret": null,
+  "beskrivelse": "Campingcenter ved Odenses Ring 3 med Adria, Dethleffs og Kabe samt Sun Living-autocampere. Værkstedet er DCU-testcenter og Truma-partner. Får du lavet DCU's store eftersyn om vinteren, kan vognen opbevares gratis.",
+  "kilder": [
+    {
+      "url": "https://www.tarup.dk/",
+      "hvad": "Mærker, telefon",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.tarup.dk/om-os/om-tarup/",
+      "hvad": "Historie, CVR, webshop, opbevaring",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.tarup.dk/om-os/opbevaring/",
+      "hvad": "Opbevaring",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.tarup.dk/kabe/kabe-campingvogne/",
+      "hvad": "Kabe",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.tarup.dk/autocampere/sun-living-autocampere/",
+      "hvad": "Sun Living autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.tarup.dk/vaerksted/priser-og-dcu-testcenter/",
+      "hvad": "DCU-testcenter, gastest, fugttest",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.tarup.dk/vaerksted/forsikringsskader/",
+      "hvad": "Forsikringsskader",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.tarup.dk/vaerksted/truma-partner/",
+      "hvad": "Truma-partner",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Agerhatten+31&postalcode=5220&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

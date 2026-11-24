@@ -1,0 +1,90 @@
+{
+  "slug": "svendborg-camping-center",
+  "navn": "Svendborg Camping Center",
+  "adresse": "Porthusvænget 3",
+  "postnr": "5700",
+  "by": "Svendborg",
+  "region": "Syddanmark",
+  "breddegrad": 55.077762,
+  "laengdegrad": 10.608203,
+  "telefon": "62 21 70 07",
+  "email": "marianne@svendborgcampingcenter.dk",
+  "hjemmeside": "https://www.svendborgcampingcenter.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": "Søndagslukket fra 22. november og året ud. Søndagsåbent i sæsonen er ikke oplyst."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Hobby",
+    "Adria"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Benimar"
+  ],
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "forsikringsskader",
+    "service alle mærker"
+  ],
+  "dcuTestcenter": true,
+  "udlejning": true,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": null,
+  "etableret": 2002,
+  "beskrivelse": "Campingcenter i Svendborg, som har solgt Hobby og Adria siden 2002 og nu også spanske Benimar-autocampere. Værkstedet reparerer alle mærker og er DCU-testcenter. Udlejer Hobby-autocampere.",
+  "kilder": [
+    {
+      "url": "https://www.svendborgcampingcenter.dk/",
+      "hvad": "Adresse, mærker, åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.svendborgcampingcenter.dk/kontakt/",
+      "hvad": "Telefon, e-mail, åbningstider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.svendborgcampingcenter.dk/salg-service/nye-campingvogne/",
+      "hvad": "Nye campingvogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.svendborgcampingcenter.dk/salg-service/autocampere/",
+      "hvad": "Autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.svendborgcampingcenter.dk/vaerksted/",
+      "hvad": "Værksted, alle mærker, forsikringsskader",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.svendborgcampingcenter.dk/udlejning/lej-en-hobby-autocamper/",
+      "hvad": "Udlejning af Hobby-autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Porthusv%C3%A6nget+3&postalcode=5700&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

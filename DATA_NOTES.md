@@ -1,6 +1,6 @@
 # Datanoter
 
-Alle 10 forhandlere er tjekket **24. november 2026**. Forhandlerens egen hjemmeside er brugt som hovedkilde for 9 af 10. Kilderne for hvert felt står i `kilder` i den enkelte JSON-fil og vises nederst på forhandlersiden.
+Alle 20 forhandlere er tjekket **24. november 2026**. De første 10 kom fra opgavens startliste, de næste 10 fra DCU's liste over test- og servicecentre (se "Runde 2" nederst). Forhandlerens egen hjemmeside er brugt som hovedkilde for 9 af 10. Kilderne for hvert felt står i `kilder` i den enkelte JSON-fil og vises nederst på forhandlersiden.
 
 ## Dækning pr. forhandler
 
@@ -58,3 +58,48 @@ Bekræftet for alle 10 ud fra DCU's egen liste (dcu.dk/da/medlemsfordele/dcu-ser
 - **CVR:** Det gratis cvrapi.dk havde opbrugt sin kvote, og datacvr.virk.dk blokerer automatiske opslag. CVR-numre kommer derfor fra forhandlerens egen side (Camping Parken, Bijé), DBA (Damsgaards) eller Proff/De Gule Sider via søgeresultater (Viborg, Vestjysk, LE Camping). Det er markeret i `kilder`.
 - **Producentlinks i `maerker.json`** er producenternes officielle hjemmesider. De er ikke hentet og tjekket i denne runde. Vega, Silver og Caravelair har `null`, fordi vi ikke kendte en sikker adresse.
 - **Ekstra fund:** Viborg Caravan Center har også en butik i Struer (Gimsinglundvej 2). Det står i noten, ikke som en selvstændig forhandler.
+
+## Runde 2: 10 nye forhandlere fra DCU's liste
+
+Kilde til listen: DCU's oversigt over test- og servicecentre (dcu.dk/da/medlemsfordele/dcu-servicecentre). Alle 10 er DCU-testcentre, og alle oplysninger er tjekket på forhandlerens egen hjemmeside.
+
+| Forhandler | Region | Fundet | Mangler |
+|---|---|---|---|
+| Campinggården Slagelse | Sjælland | 13/17 | teltvogne, udlejning, webshop, CVR |
+| Jysk Caravan Center | Nordjylland | 13/17 | webshop, brancheforening, CVR, etableret |
+| Kronjyllands Camping Center | Midtjylland | 12/17 | teltvogne, udlejning, opbevaring, webshop, brancheforening |
+| Møllegårdens Camping | Nordjylland | 12/17 | udlejning, opbevaring, webshop, brancheforening, CVR |
+| Svendborg Camping Center | Syddanmark | 12/17 | teltvogne, opbevaring, webshop, brancheforening, CVR |
+| Tarup Campingcenter | Syddanmark | 12/17 | åbningstider, teltvogne, udlejning, brancheforening, etableret |
+| KG Camping | Syddanmark | 11/17 | teltvogne, udlejning, opbevaring, webshop, CVR, etableret |
+| Lunderskov Camping | Syddanmark | 11/17 | nye autocampere, sælger autocampere, udlejning, webshop, CVR, etableret |
+| Jyderup Camping Center | Sjælland | 8/17 | alle mærkelister, sælger autocampere, udlejning, opbevaring, webshop, brancheforening, etableret |
+| Ny Vejle Caravan | Syddanmark | 7/17 | e-mail, åbningstider (salg), alle mærkelister, udlejning, opbevaring, webshop, brancheforening, CVR |
+
+**Samlet for alle 20: 237 af 340 felter (70 %).**
+
+### Noter til runde 2
+
+| Forhandler | Felt | Bemærkning |
+|---|---|---|
+| Tarup Campingcenter | Åbningstider | Vises med et script, som ikke kunne læses. Står som ukendt. |
+| Ny Vejle Caravan | Åbningstider, mærker | Salgstider og lagerlister indlæses med script. Kun værkstedets tider kunne læses. Værkstedet nævner en "Carado leak test", men mærket er ikke bekræftet som nyt. |
+| Ny Vejle Caravan | E-mail | Adressen er skjult (beskyttet mod robotter). |
+| Lunderskov Camping | Lørdag | Siden siger både "lørdag lukket" og "lørdag 10–16". Står som ukendt. |
+| Møllegårdens Camping | Weekend | Åbningstidssiden nævner kun hverdage, men forsiden siger søndag 11–16. Søndag er taget fra forsiden, lørdag står som ukendt. |
+| KG Camping | Lørdag | Normalt 10–16, men lukket september–december. Gemt som lukket (november) med note. |
+| Kronjyllands Camping Center | Mærker | Siden har også en LMC-side. LMC er ikke taget med som nyt mærke. |
+| Jyderup Camping Center | Mærker | Siden har kun en salgsliste med brugte vogne. Ingen nye mærker kunne bekræftes. |
+| Svendborg Camping Center | E-mail | Den eneste e-mail på kontaktsiden er en medarbejders. |
+
+## Kandidater til næste runde
+
+Fundet undervejs, men ikke tjekket eller tilføjet endnu:
+
+- **Silkeborg Caravan Center**, Priorsvej 11, 8600 Silkeborg (står på DCU's liste). Hjemmesiden har et ugyldigt sikkerhedscertifikat og kunne ikke læses.
+- **Vendelbo Vans**, Tårs, og **Jels Autoværksted**, Rødding (DCU's liste, men kun autocampere).
+- **Camping-Specialisten.dk**, Funder Dalsgårdsvej 1, 8600 Silkeborg (står i Knaus Tabberts forhandlersøgning).
+- Klarup Caravan, Toftlund Caravan, Kais Caravan og Camping-Specialisten (set i søgeresultater).
+- **Hovedstaden** har stadig kun Bijé. Der blev ikke fundet flere kandidater i denne runde. Producenternes forhandlersøgninger (Knaus Tabbert, Hobby, Adria) er det næste sted at lede. Knaus Tabberts søgning henter data fra api.knaustabbert.de, som skal tillades i netværket først.
+
+Når nye mærker tilføjes i `maerker.json`, melder kildetjekket én gang, at mærket er "nyt" på sider, der allerede nævnte det (fx Tabbert hos Østsjællands Camping Center). Det er ikke en ændring hos forhandleren.

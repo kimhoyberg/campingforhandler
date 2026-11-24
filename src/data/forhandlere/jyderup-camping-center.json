@@ -1,0 +1,78 @@
+{
+  "slug": "jyderup-camping-center",
+  "navn": "Jyderup Camping Center",
+  "adresse": "Industriparken 22",
+  "postnr": "4450",
+  "by": "Jyderup",
+  "region": "Sjælland",
+  "breddegrad": 55.659057,
+  "laengdegrad": 11.413421,
+  "telefon": "59 27 69 22",
+  "email": "info@jcc.dk",
+  "hjemmeside": "https://jcc.dk/",
+  "aabningstider": {
+    "mandag": "08:00-17:00",
+    "tirsdag": "08:00-17:00",
+    "onsdag": "08:00-17:00",
+    "torsdag": "08:00-17:00",
+    "fredag": "08:00-15:00",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": null
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": null,
+  "nyeMaerkerAutocampere": null,
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "brugtvognstest",
+    "forsikringsskader",
+    "service alle mærker"
+  ],
+  "dcuTestcenter": true,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": "59829718",
+  "etableret": null,
+  "beskrivelse": "Servicecenter i Jyderup med fokus på værkstedet, som er DCU-testcenter og kontrolleres af Teknologisk Institut. Reparerer forsikringsskader på alle mærker af campingvogne og teltvogne. Sælger brugte vogne.",
+  "kilder": [
+    {
+      "url": "https://jcc.dk/",
+      "hvad": "Adresse, telefon, e-mail",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://jcc.dk/index.php/contact/",
+      "hvad": "Åbningstider, CVR",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://jcc.dk/index.php/services/",
+      "hvad": "Værksted, DCU-tests, forsikringsskader",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://jcc.dk/index.php/projects/",
+      "hvad": "Salgsliste med brugte vogne",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Industriparken+22&postalcode=4450&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}
