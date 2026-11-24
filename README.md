@@ -34,11 +34,33 @@ npm run preview
 
 ## Læg siden online
 
+### GitHub Pages (gratis, direkte fra repoet)
+
+Workflowen `.github/workflows/deploy.yml` bygger og udruller siden, hver gang der pushes til `main`.
+
+1. Flet ændringerne ind i `main`.
+2. Gå til **Settings → Pages** i repoet, og vælg **Source: GitHub Actions**.
+3. Push til `main`, eller kør workflowen manuelt under **Actions → Udrul til GitHub Pages → Run workflow**.
+
+Siden ligger derefter på `https://kimhoyberg.github.io/campingforhandler/`. Alle links tilpasses automatisk til undermappen.
+
+GitHub Pages er gratis for offentlige repoer. Er repoet privat, kræver Pages et betalt GitHub-abonnement.
+
+**Eget domæne (campingforhandler.dk):**
+
+1. Skriv domænet under **Settings → Pages → Custom domain**, og opsæt DNS hos din domæneudbyder, som GitHub beskriver.
+2. Opret variablen `CUSTOM_DOMAIN` med værdien `campingforhandler.dk` under **Settings → Secrets and variables → Actions → Variables**.
+3. Kør workflowen igen. Nu bygges siden til roden af domænet.
+
+Uden eget domæne ligger `robots.txt` i undermappen, hvor søgemaskiner ikke kigger efter den. Siden kan stadig findes, men eget domæne er bedst til søgemaskiner.
+
+### Cloudflare Pages eller Netlify
+
 **Cloudflare Pages:** Opret et nyt projekt og forbind det til GitHub-repositoriet. Vælg *Framework preset: Astro*, *Build command:* `npm run build`, *Build output directory:* `dist`. Sæt miljøvariablen `NODE_VERSION` til `22`.
 
 **Netlify:** Opret et nyt site fra GitHub-repositoriet. Indstillingerne står allerede i `netlify.toml`, så du skal bare trykke *Deploy*.
 
-Før siden går online, skal du gøre to ting:
+### Før siden går online
 
 1. Ret e-mailadressen til rettelser i `src/config.ts` (`rettelserEmail`).
 2. Slå eventuelt statistik til i samme fil (se herunder).

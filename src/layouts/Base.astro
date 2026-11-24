@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 import { SITE, ANALYTICS } from '../config';
-import { abs, breadcrumbLd, type Crumb } from '../lib/seo';
+import { abs, udenBase, breadcrumbLd, type Crumb } from '../lib/seo';
 import Icon from '../components/Icon.astro';
 
 interface Props {
@@ -14,10 +14,10 @@ interface Props {
 }
 
 const { title, description, crumbs, jsonLd = [], noindex = false, ogType = 'website' } = Astro.props;
-const canonical = abs(Astro.url.pathname);
+const path = udenBase(Astro.url.pathname);
+const canonical = abs(path);
 const fullTitle = title.includes(SITE.navn) || title.length > 48 ? title : `${title} | ${SITE.navn}`;
 const ld = [breadcrumbLd(crumbs), ...jsonLd];
-const path = Astro.url.pathname;
 const nav = [
   { href: '/maerke/', navn: 'Mærker' },
   { href: '/region/', navn: 'Regioner' },

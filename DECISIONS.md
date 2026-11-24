@@ -7,10 +7,11 @@ Valg truffet undervejs, og hvorfor.
 - **Astro 5, statisk output, almindelig CSS.** Ingen Tailwind: én lille CSS-fil er nemmere at læse og giver ingen ekstra byggetrin. CSS lægges direkte ind i HTML'en (`inlineStylesheets: 'always'`), så der er ingen ekstra forespørgsler.
 - **Ingen webfonts.** Systemets egen skrift er hurtig og læsbar. Det er en stor del af grunden til 100 i Lighthouse.
 - **Egen `sitemap.xml` i stedet for `@astrojs/sitemap`.** Så kan sider med `noindex` (under 2 forhandlere) udelades fra sitemap'et, og der er én afhængighed mindre.
+- **GitHub Pages i en undermappe.** Uden eget domæne ligger siden på `kimhoyberg.github.io/campingforhandler/`. Alle sider skriver interne links fra roden (`/maerke/kabe/`), og et lille trin efter buildet (i `astro.config.mjs`) sætter undermappen foran. Det er valgt frem for at ændre hvert eneste link i koden. Canonical, JSON-LD og sitemap bygger den fulde adresse med `abs()`. Undermappe og adresse styres af `BASE_PATH` og `SITE_ORIGIN`, som workflowen sætter.
 - **`trailingSlash: 'always'`** og `build.format: 'directory'`, så adresserne ser ud som `/forhandler/le-camping/` på både Netlify og Cloudflare Pages.
 - **JavaScript kun på forsiden** til filteret (ca. 1 KB). Uden JavaScript vises alle forhandlere, og der står links til mærke-, region- og servicesiderne.
 - **Filteret husker valget i adressen** (`?maerke=kabe&region=sjaelland`), så et filtreret link kan deles.
-- **Lyst og mørkt tema** følger telefonens indstilling. Begge har kontrast efter WCAG AA.
+- **Kun lyst tema.** Siden er altid lys, også når telefonen står på mørk tilstand. Det giver ét roligt udtryk, og kontrasten følger WCAG AA.
 
 ## Datamodel
 

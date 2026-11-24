@@ -1,0 +1,49 @@
+# Bygger siden og lægger den på GitHub Pages, hver gang der pushes til main.
+# Engangsopsætning: Settings → Pages → Source: "GitHub Actions".
+#
+# Uden eget domæne ligger siden på https://<bruger>.github.io/<repo>/.
+# Med eget domæne: opret repository-variablen CUSTOM_DOMAIN (fx campingforhandler.dk)
+# under Settings → Secrets and variables → Actions → Variables, og sæt domænet under Settings → Pages.
+name: Udrul til GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      SITE_ORIGIN: ${{ vars.CUSTOM_DOMAIN && format('https://{0}', vars.CUSTOM_DOMAIN) || format('https://{0}.github.io', github.repository_owner) }}
+      BASE_PATH: ${{ vars.CUSTOM_DOMAIN && '/' || format('/{0}/', github.event.repository.name) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

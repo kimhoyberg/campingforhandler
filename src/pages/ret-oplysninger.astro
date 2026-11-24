@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import { forhandlere } from '../lib/data';
 import { SITE } from '../config';
+import { abs } from '../lib/seo';
 
 const mail = (emne: string, krop: string) =>
   `mailto:${SITE.rettelserEmail}?subject=${encodeURIComponent(emne)}&body=${encodeURIComponent(krop)}`;
@@ -26,7 +27,7 @@ const description = 'Er du forhandler af campingvogne? Ret dine oplysninger på 
           <a
             href={mail(
               `Ret oplysninger: ${d.navn} (${d.slug})`,
-              `Hej\n\nVi vil gerne rette følgende oplysninger om ${d.navn} på ${SITE.url}/forhandler/${d.slug}/ :\n\n- \n\nVenlig hilsen\n`,
+              `Hej\n\nVi vil gerne rette følgende oplysninger om ${d.navn} på ${abs(`/forhandler/${d.slug}/`)} :\n\n- \n\nVenlig hilsen\n`,
             )}
           >
             {d.navn}, {d.by}

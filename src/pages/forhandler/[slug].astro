@@ -14,7 +14,7 @@ import {
   type Forhandler,
 } from '../../lib/data';
 import { servicesFor } from '../../lib/services';
-import { businessLd } from '../../lib/seo';
+import { abs, businessLd } from '../../lib/seo';
 import { SITE } from '../../config';
 
 export function getStaticPaths() {
@@ -46,7 +46,7 @@ const description = `${d.navn} i ${d.by} (${d.region}). ${
 const egenKilde = d.hjemmeside !== null && d.kilder.some((k) => new URL(k.url).hostname.replace(/^www\./, '') === new URL(d.hjemmeside!).hostname.replace(/^www\./, ''));
 const emne = encodeURIComponent(`Ret oplysninger: ${d.navn} (${d.slug})`);
 const krop = encodeURIComponent(
-  `Hej\n\nVi vil gerne rette følgende oplysninger om ${d.navn} på ${SITE.url}/forhandler/${d.slug}/ :\n\n- \n\nVenlig hilsen\n`,
+  `Hej\n\nVi vil gerne rette følgende oplysninger om ${d.navn} på ${abs(`/forhandler/${d.slug}/`)} :\n\n- \n\nVenlig hilsen\n`,
 );
 const ret = `mailto:${SITE.rettelserEmail}?subject=${emne}&body=${krop}`;
 ---

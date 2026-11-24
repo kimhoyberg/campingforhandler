@@ -1,8 +1,13 @@
-import { SITE } from '../config';
 import type { Forhandler, Uge } from './data';
 import { DAGE } from './data';
 
-export const abs = (path: string) => new URL(path, SITE.url).href;
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+/** Fuld adresse til en side, fx abs('/om/') → https://campingforhandler.dk/om/ (med evt. undermappe). */
+export const abs = (path: string) => new URL(BASE + path, import.meta.env.SITE).href;
+
+/** Fjerner undermappen fra en sti, så den kan bruges med abs(). */
+export const udenBase = (pathname: string) => (BASE && pathname.startsWith(BASE) ? pathname.slice(BASE.length) || '/' : pathname);
 
 export interface Crumb {
   navn: string;
