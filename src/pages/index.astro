@@ -108,7 +108,11 @@ const website = {
         if (r) p.set('region', r);
         if (s) p.set('service', s);
         const q = p.toString();
-        history.replaceState(null, '', q ? `?${q}` : location.pathname);
+        try {
+          history.replaceState(null, '', q ? `?${q}` : location.pathname);
+        } catch {
+          // Adressen kan ikke opdateres i alle visninger – filteret virker stadig.
+        }
       }
     }
 
