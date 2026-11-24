@@ -66,9 +66,8 @@ const visCrumbs = crumbs.length > 1;
       <div class="wrap">
         <a class="logo" href="/"><Icon name="logo" size={26} /> {SITE.navn}</a>
         <nav class="site-nav" aria-label="Hovedmenu">
-          <button class="menu-knap" type="button" aria-expanded="false" aria-controls="hovedmenu" hidden>
+          <button class="menu-knap" type="button" aria-expanded="false" aria-controls="hovedmenu" aria-label="Åbn menu" hidden>
             <span class="menu-ikon" aria-hidden="true"></span>
-            <span class="menu-tekst">Menu</span>
           </button>
           <ul id="hovedmenu">
             <li class="kun-mobil"><a href="/" aria-current={path === '/' ? 'page' : undefined}>Alle forhandlere</a></li>
@@ -90,13 +89,12 @@ const visCrumbs = crumbs.length > 1;
           (function () {
             var nav = document.querySelector('.site-nav');
             var knap = nav.querySelector('.menu-knap');
-            var tekst = knap.querySelector('.menu-tekst');
             knap.hidden = false;
             document.documentElement.classList.add('har-menu');
             function saet(aaben) {
               nav.classList.toggle('aaben', aaben);
               knap.setAttribute('aria-expanded', String(aaben));
-              tekst.textContent = aaben ? 'Luk' : 'Menu';
+              knap.setAttribute('aria-label', aaben ? 'Luk menu' : 'Åbn menu');
               document.body.style.overflow = aaben ? 'hidden' : '';
               if (aaben) nav.querySelector('#hovedmenu a').focus();
             }
@@ -150,8 +148,8 @@ const visCrumbs = crumbs.length > 1;
         </ul>
         <p>
           {SITE.navn} er en uafhængig oversigt. Ingen cookies. Oplysningerne tjekkes løbende hos forhandlerne, dels
-          automatisk og dels i hånden. Vi tager forbehold for fejl og ændringer – ring gerne til forhandleren, før du kører
-          ud.
+          automatisk og dels i hånden.<br class="kun-bred" /> Vi tager forbehold for fejl og ændringer – ring gerne til
+          forhandleren, før du kører ud.
         </p>
       </div>
     </footer>
