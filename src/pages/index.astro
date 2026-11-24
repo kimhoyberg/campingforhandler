@@ -58,7 +58,7 @@ const website = {
     </fieldset>
     <div class="actions">
       <p class="count" id="antal" aria-live="polite">{antal(forhandlere.length, 'forhandler', 'forhandlere')}</p>
-      <button type="reset" class="linkbtn" id="nulstil" hidden>Nulstil filter</button>
+      <button type="reset" class="linkbtn" id="nulstil" style="visibility:hidden">Nulstil filter</button>
     </div>
     <noscript>
       <p class="small">
@@ -100,7 +100,8 @@ const website = {
       }
       antal.textContent = `${vist} ${vist === 1 ? 'forhandler' : 'forhandlere'}`;
       ingen.hidden = vist > 0;
-      nulstil.hidden = !(m || r || s);
+      // visibility i stedet for hidden, så knappen altid fylder det samme og ikke skubber indholdet
+      nulstil.style.visibility = m || r || s ? 'visible' : 'hidden';
       if (skrivUrl) {
         const p = new URLSearchParams();
         if (m) p.set('maerke', m);

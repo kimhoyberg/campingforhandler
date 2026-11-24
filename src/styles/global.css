@@ -67,7 +67,7 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(1.6rem, 5vw, 2.2rem);
+  font-size: clamp(1.85rem, 5.5vw, 2.6rem);
 }
 
 h2 {
@@ -281,7 +281,7 @@ p {
 }
 
 main {
-  padding: 1.25rem 0 3rem;
+  padding: 2.25rem 0 3rem;
 }
 
 /* Breadcrumbs */
@@ -515,6 +515,50 @@ a.chip:hover {
   appearance: none;
   -webkit-appearance: none;
   cursor: pointer;
+}
+
+/* Den udfoldede liste: afrundet og i sidens stil, hvor browseren tillader det
+   (Chrome og Edge). Andre browsere viser deres egen standardliste. */
+@supports (appearance: base-select) {
+  .filter select,
+  .filter select::picker(select) {
+    appearance: base-select;
+  }
+
+  .filter select::picker-icon {
+    display: none;
+  }
+
+  .filter select::picker(select) {
+    margin-top: 6px;
+    padding: 0.35rem;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--surface);
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.12);
+    max-height: 22rem;
+  }
+
+  .filter option {
+    padding: 0.55rem 0.7rem;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+
+  .filter option::checkmark {
+    display: none;
+  }
+
+  .filter option:hover,
+  .filter option:focus-visible {
+    background: var(--accent-soft);
+    color: var(--accent-soft-text);
+    outline: none;
+  }
+
+  .filter option:checked {
+    font-weight: 600;
+  }
 }
 
 /* Rolig grøn markering i stedet for den orange fokusramme */
