@@ -108,11 +108,11 @@ p {
 
 /* Header */
 .site-header {
-  border-bottom: 1px solid var(--line);
-  background: var(--surface);
+  background: var(--bg);
 }
 
 .site-header .wrap {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -241,7 +241,7 @@ p {
     inset: 0;
     z-index: 50;
     overflow-y: auto;
-    background: var(--surface);
+    background: var(--bg);
     padding: 4.5rem max(16px, 2vw) 2rem;
   }
 
@@ -804,6 +804,16 @@ table.hours td {
 .site-footer .wrap {
   position: relative;
   padding-top: 1.5rem;
+}
+
+/* Linjen under headeren følger indholdets bredde (1200 px) */
+.site-header .wrap::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  right: 16px;
+  border-bottom: 1px solid var(--line);
 }
 
 /* Linjen over footeren følger indholdets bredde (1200 px) */
