@@ -376,7 +376,8 @@ main {
 }
 
 .card:hover {
-  border-color: var(--accent);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 0.04), 0 10px 24px rgb(29 90 70 / 0.1);
+  transform: translateY(-2px);
 }
 
 .card h3 {
@@ -508,8 +509,9 @@ a.chip:hover {
   background-repeat: no-repeat;
   background-position: right 1rem center;
   background-size: 12px 8px;
-  border: 1px solid var(--muted);
+  border: 1px solid var(--line);
   border-radius: 10px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.04);
   padding: 0.6rem 2.75rem 0.6rem 0.85rem;
   min-height: 48px;
   appearance: none;
@@ -561,10 +563,18 @@ a.chip:hover {
   }
 }
 
-/* Rolig grøn markering i stedet for den orange fokusramme */
+.filter select:hover {
+  border-color: #c3c9c1;
+}
+
+/* Ingen ramme efter klik med musen. Ved tastaturnavigation (klassen sættes af
+   forsidens script, når der trykkes Tab) vises en rolig grøn markering. */
 .filter select:focus,
 .filter select:focus-visible {
   outline: none;
+}
+
+.tastatur .filter select:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px var(--accent-soft);
 }
@@ -855,7 +865,9 @@ main {
 
 @media (prefers-reduced-motion: no-preference) {
   .card {
-    transition: border-color 0.15s;
+    transition:
+      box-shadow 0.2s,
+      transform 0.2s;
   }
 }
 

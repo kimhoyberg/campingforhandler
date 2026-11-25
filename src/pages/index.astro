@@ -116,6 +116,12 @@ const website = {
       }
     }
 
+    // Fokusmarkering kun ved tastatur: Tab slår den til, et museklik slår den fra
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Tab') document.documentElement.classList.add('tastatur');
+    });
+    document.addEventListener('mousedown', () => document.documentElement.classList.remove('tastatur'));
+
     const start = new URLSearchParams(location.search);
     for (const f of felter) {
       const v = start.get(f);
