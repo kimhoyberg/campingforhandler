@@ -13,6 +13,7 @@ Valg truffet undervejs, og hvorfor.
 - **Lidt JavaScript to steder:** filteret på forsiden (ca. 1 KB) og hamburgermenuen på mobil. Uden JavaScript vises alle forhandlere og alle menulinks som almindelige links.
 - **Hamburgermenu på mobil** (under 768 px). Den åbner i fuld skærm med punkter på 60 px højde, lukkes med samme knap eller Escape, og siden bag den kan ikke scrolles imens. Scriptet ligger inline lige efter menuen, så menuen ikke blinker frem, før den skjules.
 - **Filteret husker valget i adressen** (`?maerke=kabe&region=sjaelland`), så et filtreret link kan deles.
+- **Farveroller:** creme (#f7f4ee) er baggrund, hvid er kort og felter, og grøn bruges kun til det, man kan klikke på (links, knapper, ikoner og hover). Alle mærkater har samme stil: gennemsigtig baggrund, tynd varm kant og mørk tekst.
 - **Kun lyst tema.** Siden er altid lys, også når telefonen står på mørk tilstand. Det giver ét roligt udtryk, og kontrasten følger WCAG AA.
 
 ## Datamodel

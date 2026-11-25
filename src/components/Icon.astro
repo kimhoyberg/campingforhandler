@@ -1,7 +1,9 @@
 ---
 // Små, enkle ikoner (tegnet til siden). Altid dekorative – teksten ved siden af bærer betydningen.
+import type { IkonNavn } from '../lib/ikoner';
+
 interface Props {
-  name: 'vaerksted' | 'dcu' | 'udlejning' | 'brugte' | 'opbevaring' | 'tjek' | 'telefon' | 'rute' | 'web' | 'mail' | 'logo';
+  name: IkonNavn;
   size?: number;
 }
 const { name, size = 18 } = Astro.props;
@@ -12,6 +14,11 @@ const paths: Record<Props['name'], string> = {
   udlejning: '<circle cx="8" cy="15" r="4"/><path d="M11 12l8-8"/><path d="M16 7l2 2"/><path d="M14 9l2 2"/>',
   brugte: '<path d="M3 12V4h8l9 9-8 8z"/><circle cx="7.5" cy="8.5" r="1.3"/>',
   opbevaring: '<path d="M3 10l9-6 9 6v10H3z"/><path d="M7 20v-6h10v6"/>',
+  gas: '<path d="M12 3c1 3 5 5.5 5 10a5 5 0 0 1-10 0c0-2.5 1.5-4 2.5-5.5C10 9.5 11 10 12 11c.5-2.5-.5-5.5 0-8z"/>',
+  fugt: '<path d="M12 3.5s-6 6.5-6 11a6 6 0 0 0 12 0c0-4.5-6-11-6-11z"/>',
+  skade: '<path d="M13 2L5 13h6l-1 9 8-11h-6z"/>',
+  mover: '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2.5"/><path d="M12 4v5.5M12 14.5V20M4 12h5.5M14.5 12H20"/>',
+  autocamper: '<path d="M2 17V7a2 2 0 0 1 2-2h11l5 5v7z"/><path d="M15 5v5h5"/><circle cx="7" cy="17.5" r="2"/><circle cx="16" cy="17.5" r="2"/><path d="M5 9h5v3H5z"/>',
   tjek: '<circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/>',
   telefon:
     '<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/>',

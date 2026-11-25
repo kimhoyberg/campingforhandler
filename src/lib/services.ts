@@ -1,10 +1,12 @@
 import type { Forhandler } from './data';
+import type { IkonNavn } from './ikoner';
 import { forhandlere } from './data';
 
 export interface Service {
   slug: string;
   /** Kort navn til filter og mærkater */
   kort: string;
+  ikon: IkonNavn;
   /** Overskrift på servicesiden */
   titel: string;
   /** 2–3 sætninger unik, hjælpsom tekst */
@@ -15,6 +17,7 @@ export interface Service {
 export const services: Service[] = [
   {
     slug: 'vaerksted',
+    ikon: 'vaerksted',
     kort: 'Værksted',
     titel: 'Værksted til campingvogne',
     intro:
@@ -23,6 +26,7 @@ export const services: Service[] = [
   },
   {
     slug: 'dcu-testcenter',
+    ikon: 'dcu',
     kort: 'DCU-testcenter',
     titel: 'DCU-testcentre',
     intro:
@@ -31,6 +35,7 @@ export const services: Service[] = [
   },
   {
     slug: 'gastest',
+    ikon: 'gas',
     kort: 'Gastest',
     titel: 'Gastest af campingvogn',
     intro:
@@ -39,6 +44,7 @@ export const services: Service[] = [
   },
   {
     slug: 'fugttest',
+    ikon: 'fugt',
     kort: 'Fugttest',
     titel: 'Fugttest af campingvogn',
     intro:
@@ -47,6 +53,7 @@ export const services: Service[] = [
   },
   {
     slug: 'forsikringsskader',
+    ikon: 'skade',
     kort: 'Forsikringsskader',
     titel: 'Reparation af forsikringsskader',
     intro:
@@ -55,6 +62,7 @@ export const services: Service[] = [
   },
   {
     slug: 'mover',
+    ikon: 'mover',
     kort: 'Mover',
     titel: 'Montering af mover på campingvogn',
     intro:
@@ -63,6 +71,7 @@ export const services: Service[] = [
   },
   {
     slug: 'udlejning',
+    ikon: 'udlejning',
     kort: 'Udlejning',
     titel: 'Udlejning af campingvogne og autocampere',
     intro:
@@ -71,6 +80,7 @@ export const services: Service[] = [
   },
   {
     slug: 'brugte-campingvogne',
+    ikon: 'brugte',
     kort: 'Brugte vogne',
     titel: 'Brugte campingvogne hos forhandler',
     intro:
@@ -79,6 +89,7 @@ export const services: Service[] = [
   },
   {
     slug: 'opbevaring',
+    ikon: 'opbevaring',
     kort: 'Opbevaring',
     titel: 'Opbevaring af campingvogn',
     intro:
@@ -87,6 +98,7 @@ export const services: Service[] = [
   },
   {
     slug: 'autocampere',
+    ikon: 'autocamper',
     kort: 'Autocampere',
     titel: 'Forhandlere af autocampere',
     intro:

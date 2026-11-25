@@ -84,10 +84,11 @@ const ret = `mailto:${SITE.rettelserEmail}?subject=${emne}&body=${krop}`;
 
   {
     services.length > 0 && (
-      <ul class="badges" aria-label="Ydelser">
+      <ul class="chips services" aria-label="Ydelser">
         {services.map((s) => (
           <li>
-            <a class="badge" href={`/service/${s.slug}/`} style="text-decoration:none">
+            <a class="chip" href={`/service/${s.slug}/`}>
+              <Icon name={s.ikon} size={15} />
               {s.kort}
             </a>
           </li>
