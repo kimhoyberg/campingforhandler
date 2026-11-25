@@ -23,7 +23,8 @@
   "aabningstiderVaerksted": null,
   "nyeMaerkerCampingvogne": [
     "Hobby",
-    "Adria"
+    "Adria",
+    "Fendt"
   ],
   "nyeMaerkerAutocampere": [
     "Benimar"
@@ -74,6 +75,11 @@
     {
       "url": "https://www.svendborgcampingcenter.dk/udlejning/lej-en-hobby-autocamper/",
       "hvad": "Udlejning af Hobby-autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.fendt-caravan.com/en/find-your-dealer/dealer.html?country=dk",
+      "hvad": "Fendt (Fendts forhandlerliste)",
       "tjekketDato": "2026-11-24"
     },
     {

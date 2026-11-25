@@ -1,6 +1,6 @@
 # Datanoter
 
-Alle 34 forhandlere er tjekket **24. november 2026**. De første 10 kom fra opgavens startliste, de næste 10 fra DCU's liste over test- og servicecentre ("Runde 2"), Struer Caravan som afdeling af Viborg Caravan Center, 8 fra Knaus Tabberts forhandlerliste ("Runde 3") og 5 fra Hobbys og Adrias forhandlerlister ("Runde 4"). Forhandlerens egen hjemmeside er brugt som hovedkilde for 9 af 10. Kilderne for hvert felt står i `kilder` i den enkelte JSON-fil og vises nederst på forhandlersiden.
+Alle 35 forhandlere er tjekket **24. november 2026**. De første 10 kom fra opgavens startliste, de næste 10 fra DCU's liste over test- og servicecentre ("Runde 2"), Struer Caravan som afdeling af Viborg Caravan Center, 8 fra Knaus Tabberts forhandlerliste ("Runde 3") 5 fra Hobbys og Adrias forhandlerlister ("Runde 4") og 1 fra Dethleffs' liste ("Runde 5"). Forhandlerens egen hjemmeside er brugt som hovedkilde for 9 af 10. Kilderne for hvert felt står i `kilder` i den enkelte JSON-fil og vises nederst på forhandlersiden.
 
 ## Dækning pr. forhandler
 
@@ -135,6 +135,24 @@ Tilføjet: **Ulkebøl Camping Gård, Slagelse Camping & Outdoor Center, Esbjerg 
 - SK Caravan og Svendborg Camping Center nævner Hobby på deres egne sider, men står ikke på Hobbys liste. Hobby er beholdt, fordi forhandlerens egen side gælder, men det bør tjekkes.
 - Hovedstaden: Ingen af de tre producenter har en forhandler i Region Hovedstaden ud over Bijé.
 
+## Runde 5: Dethleffs, Fendt og Weinsberg
+
+| Kilde | Danske forhandlere | Nye for os |
+|---|---|---|
+| Dethleffs (dethleffs.de/DK/da_DK/dealer/filter/323) | 10 | Odsherred Campingservice (Vig). Vendelbo Vans sælger kun autocampere. |
+| Fendt (fendt-caravan.com, filter `?country=dk`) | 17 | Ingen. Den sidste er importøren Campex. |
+| Weinsberg | – | Weinsberg bruger Knaus Tabberts fælles forhandlerliste, som allerede er gennemgået i runde 3. |
+
+**Odsherred Campingservice** er et lille serviceværksted uden salg af nye vogne. Siden har kun telefontider, ingen faste åbningstider.
+
+**Mærker udfyldt fra producenternes lister** (forhandlerens egen side var tavs):
+- **Ny Vejle Caravan:** står hos Dethleffs (campingvogne og autocampere), Fendt og Hobby (campingvogne og autocampere). Deres egen lagerliste kan ikke læses automatisk.
+- **Svendborg Camping Center:** står hos Fendt. Deres egen side nævner kun Hobby og Adria, så Fendt er tilføjet med Fendts liste som kilde.
+
+**Uenighed:** Fendts liste har Camping Parken Herning som Fendt-forhandler, men Camping Parkens egen firmaprofil nævner kun Dethleffs som campingvogn. Egen side gælder, så Fendt er ikke tilføjet. Linket hos Fendt peger desuden på en tysk forhandler, så det er sandsynligvis en fejl hos Fendt.
+
+**Datakvalitet hos producenterne:** Dethleffs' felt for ydelser (salg, værksted, udlejning m.m.) er det samme for alle forhandlere og er ikke brugt. Det samme gælder Knaus Tabberts åbningstider.
+
 ## Kandidater til næste runde
 
 Fundet undervejs, men ikke tjekket eller tilføjet endnu:
@@ -143,6 +161,6 @@ Fundet undervejs, men ikke tjekket eller tilføjet endnu:
 - **Intercamp** (Vejen og Lunderskov) står hos Knaus Tabbert, men hjemmesiden indlæses kun med script og kunne ikke læses.
 - **Antoncamp**, Videbæk, står hos Knaus Tabbert, men hjemmesiden svarer ikke.
 - Klarup Caravan og Steens MC-Center (Esbjerg) er set i søgeresultater, men kunne ikke bekræftes.
-- **Hovedstaden** har stadig kun Bijé. Heller ikke Knaus Tabberts liste har nogen forhandler i Hovedstaden. JP Caravan i Hedehusene er nævnt som lukket i en ældre oversigt. Hobbys, Adrias og Kabes lister har heller ingen. Tilbage er Dethleffs', Fendts og Weinsbergs forhandlersøgninger samt Krak/De Gule Sider (blokerer robotter).
+- **Hovedstaden** har stadig kun Bijé. Heller ikke Knaus Tabberts liste har nogen forhandler i Hovedstaden. JP Caravan i Hedehusene er nævnt som lukket i en ældre oversigt. Ingen af de seks producenters lister (Knaus Tabbert/Weinsberg, Hobby, Fendt, Adria, Kabe, Dethleffs) har andre forhandlere i regionen. Tilbage er Krak og De Gule Sider, som blokerer robotter, og manuel søgning.
 
 Når nye mærker tilføjes i `maerker.json`, melder kildetjekket én gang, at mærket er "nyt" på sider, der allerede nævnte det (fx Tabbert hos Østsjællands Camping Center). Det er ikke en ændring hos forhandleren.

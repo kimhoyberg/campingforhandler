@@ -1,0 +1,103 @@
+{
+  "slug": "odsherred-campingservice",
+  "navn": "Odsherred Campingservice",
+  "adresse": "Egemosevej 50",
+  "postnr": "4560",
+  "by": "Vig",
+  "region": "Sjælland",
+  "breddegrad": 55.82543,
+  "laengdegrad": 11.550845,
+  "telefon": "30 95 99 80",
+  "email": "ods@odsherreds-campingservice.dk",
+  "hjemmeside": "https://odsherreds-campingservice.dk/",
+  "aabningstider": {
+    "mandag": null,
+    "tirsdag": null,
+    "onsdag": null,
+    "torsdag": null,
+    "fredag": null,
+    "loerdag": null,
+    "soendag": null,
+    "note": "Ingen faste åbningstider på siden, kun telefontider: man. og ons. 8–20, tirs. og tors. 14.30–20, fre. 13.30–20, lør. 9–18, søn. lukket. Ring og aftal tid."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [],
+  "nyeMaerkerAutocampere": [],
+  "teltvogne": [],
+  "saelgerBrugte": null,
+  "saelgerAutocampere": false,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "mover-montering",
+    "bremseeftersyn"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": true,
+  "opbevaring": true,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": "34978743",
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Lille serviceværksted i Vig i Odsherred, som reparerer og servicerer campingvogne og trailere. Laver gastest og Dethleffs-garantifugttest og monterer movere. Udlejer campingvogne og har indendørs og udendørs opbevaring.",
+  "kilder": [
+    {
+      "url": "https://odsherreds-campingservice.dk/",
+      "hvad": "Adresse, telefon, e-mail, CVR, telefontider",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://odsherreds-campingservice.dk/kontakt",
+      "hvad": "Kontakt",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://odsherreds-campingservice.dk/priser",
+      "hvad": "Priser, Dethleffs-garantifugttest",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://odsherreds-campingservice.dk/gastest-af-campingvogn",
+      "hvad": "Gastest",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://odsherreds-campingservice.dk/mover-til-campingvogn",
+      "hvad": "Mover",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://odsherreds-campingservice.dk/reparation-af-campingvogn-og-trailer",
+      "hvad": "Reparation",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://odsherreds-campingservice.dk/udlejning-af-campingvogn",
+      "hvad": "Udlejning",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://odsherreds-campingservice.dk/opbevaring-af-campingvogn",
+      "hvad": "Opbevaring",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dethleffs.de/DK/da_DK/dealer/filter/323",
+      "hvad": "Fundet i Dethleffs' forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Egemosevej+50&postalcode=4560&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-24"
+    }
+  ],
+  "sidstTjekket": "2026-11-24"
+}

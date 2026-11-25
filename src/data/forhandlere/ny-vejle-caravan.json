@@ -30,8 +30,15 @@
     "soendag": null,
     "note": "Værkstedets telefon er åben man.–tors. 10–15.30 og fre. 10–14.45 (tast 5)."
   },
-  "nyeMaerkerCampingvogne": null,
-  "nyeMaerkerAutocampere": null,
+  "nyeMaerkerCampingvogne": [
+    "Dethleffs",
+    "Fendt",
+    "Hobby"
+  ],
+  "nyeMaerkerAutocampere": [
+    "Dethleffs",
+    "Hobby"
+  ],
   "teltvogne": null,
   "saelgerBrugte": true,
   "saelgerAutocampere": true,
@@ -49,7 +56,7 @@
   "cvr": null,
   "etableret": 1982,
   "sammeFirma": null,
-  "beskrivelse": "Campingforhandler på Isabellahøj i Vejle, startet i 1982. Sælger nye og brugte campingvogne, autocampere og teltvogne. Værkstedet er DCU-testcenter med faste priser på gastest, fugttest og brugtvognstest.",
+  "beskrivelse": "Campingforhandler på Isabellahøj i Vejle, startet i 1982. Står hos Dethleffs, Fendt og Hobby som forhandler af nye vogne og sælger også brugte campingvogne, autocampere og teltvogne. Værkstedet er DCU-testcenter med faste priser på gastest, fugttest og brugtvognstest.",
   "kilder": [
     {
       "url": "https://www.vejlecaravans.dk/",
@@ -74,6 +81,21 @@
     {
       "url": "https://www.vejlecaravans.dk/autocampere/nye-autocampere/",
       "hvad": "Autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.dethleffs.de/DK/da_DK/dealer/filter/323",
+      "hvad": "Dethleffs' forhandlerliste: campingvogne og autocampere",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://www.fendt-caravan.com/en/find-your-dealer/dealer.html?country=dk",
+      "hvad": "Fendts forhandlerliste",
+      "tjekketDato": "2026-11-24"
+    },
+    {
+      "url": "https://data.hobby-caravan.de/dk/api/dealers",
+      "hvad": "Hobbys forhandlerliste: campingvogne og autocampere",
       "tjekketDato": "2026-11-24"
     },
     {

@@ -233,6 +233,140 @@
   "hash": "225604aa1985",
   "tider": []
  },
+ "https://odsherreds-campingservice.dk/": {
+  "status": 200,
+  "hash": "db32a58b7baa",
+  "tider": [
+   "Mandag: 08.00 - 20.00",
+   "Tirsdag: 14.30 - 20.00",
+   "Onsdag: 08.00 - 20.00",
+   "Torsdag: 14.30 - 20.00",
+   "Fredag: 13.30 - 20.00",
+   "Lørdag: 09.00 - 18.00",
+   "Søndag: Lukket"
+  ]
+ },
+ "https://odsherreds-campingservice.dk/gastest-af-campingvogn": {
+  "status": 200,
+  "hash": "eb4fa2ba4ac0",
+  "tider": [
+   "Mandag: 08.00 - 20.00",
+   "Tirsdag: 14.30 - 20.00",
+   "Onsdag: 08.00 - 20.00",
+   "Torsdag: 14.30 - 20.00",
+   "Fredag: 13.30 - 20.00",
+   "Lørdag: 09.00 - 18.00",
+   "Søndag: Lukket"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "mover",
+   "udlejning",
+   "opbevaring",
+   "autocamper"
+  ]
+ },
+ "https://odsherreds-campingservice.dk/kontakt": {
+  "status": 200,
+  "hash": "db32a58b7baa",
+  "tider": [
+   "Mandag: 08.00 - 20.00",
+   "Tirsdag: 14.30 - 20.00",
+   "Onsdag: 08.00 - 20.00",
+   "Torsdag: 14.30 - 20.00",
+   "Fredag: 13.30 - 20.00",
+   "Lørdag: 09.00 - 18.00",
+   "Søndag: Lukket"
+  ]
+ },
+ "https://odsherreds-campingservice.dk/mover-til-campingvogn": {
+  "status": 200,
+  "hash": "db32a58b7baa",
+  "tider": [
+   "Mandag: 08.00 - 20.00",
+   "Tirsdag: 14.30 - 20.00",
+   "Onsdag: 08.00 - 20.00",
+   "Torsdag: 14.30 - 20.00",
+   "Fredag: 13.30 - 20.00",
+   "Lørdag: 09.00 - 18.00",
+   "Søndag: Lukket"
+  ]
+ },
+ "https://odsherreds-campingservice.dk/opbevaring-af-campingvogn": {
+  "status": 200,
+  "hash": "b9eb60ccbd33",
+  "tider": [
+   "Mandag: 08.00 - 20.00",
+   "Tirsdag: 14.30 - 20.00",
+   "Onsdag: 08.00 - 20.00",
+   "Torsdag: 14.30 - 20.00",
+   "Fredag: 13.30 - 20.00",
+   "Lørdag: 09.00 - 18.00",
+   "Søndag: Lukket"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "mover",
+   "udlejning",
+   "opbevaring"
+  ]
+ },
+ "https://odsherreds-campingservice.dk/priser": {
+  "status": 200,
+  "hash": "9432b484545c",
+  "tider": [
+   "Mandag: 08.00 - 20.00",
+   "Tirsdag: 14.30 - 20.00",
+   "Onsdag: 08.00 - 20.00",
+   "Torsdag: 14.30 - 20.00",
+   "Fredag: 13.30 - 20.00",
+   "Lørdag: 09.00 - 18.00",
+   "Søndag: Lukket"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "mover",
+   "udlejning",
+   "opbevaring"
+  ]
+ },
+ "https://odsherreds-campingservice.dk/reparation-af-campingvogn-og-trailer": {
+  "status": 200,
+  "hash": "db32a58b7baa",
+  "tider": [
+   "Mandag: 08.00 - 20.00",
+   "Tirsdag: 14.30 - 20.00",
+   "Onsdag: 08.00 - 20.00",
+   "Torsdag: 14.30 - 20.00",
+   "Fredag: 13.30 - 20.00",
+   "Lørdag: 09.00 - 18.00",
+   "Søndag: Lukket"
+  ]
+ },
+ "https://odsherreds-campingservice.dk/udlejning-af-campingvogn": {
+  "status": 200,
+  "hash": "b9eb60ccbd33",
+  "tider": [
+   "Mandag: 08.00 - 20.00",
+   "Tirsdag: 14.30 - 20.00",
+   "Onsdag: 08.00 - 20.00",
+   "Torsdag: 14.30 - 20.00",
+   "Fredag: 13.30 - 20.00",
+   "Lørdag: 09.00 - 18.00",
+   "Søndag: Lukket"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "mover",
+   "udlejning",
+   "opbevaring"
+  ]
+ },
  "https://oecc.dk/": {
   "status": 200,
   "hash": "13f363338119",
@@ -995,6 +1129,11 @@
   "status": 403,
   "fejl": null
  },
+ "https://www.dethleffs.de/DK/da_DK/dealer/filter/323": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
  "https://www.ecc.dk/": {
   "status": 200,
   "hash": "6bb2da7a50cb",
@@ -1073,6 +1212,11 @@
    "forsikringsskade",
    "autocamper"
   ]
+ },
+ "https://www.fendt-caravan.com/en/find-your-dealer/dealer.html?country=dk": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
  },
  "https://www.hbcc.dk/": {
   "status": 200,
