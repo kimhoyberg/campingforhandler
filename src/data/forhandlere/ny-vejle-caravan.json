@@ -86,17 +86,17 @@
     {
       "url": "https://www.dethleffs.de/DK/da_DK/dealer/filter/323",
       "hvad": "Dethleffs' forhandlerliste: campingvogne og autocampere",
-      "tjekketDato": "2026-11-24"
+      "tjekketDato": "2026-11-25"
     },
     {
       "url": "https://www.fendt-caravan.com/en/find-your-dealer/dealer.html?country=dk",
       "hvad": "Fendts forhandlerliste",
-      "tjekketDato": "2026-11-24"
+      "tjekketDato": "2026-11-25"
     },
     {
       "url": "https://data.hobby-caravan.de/dk/api/dealers",
       "hvad": "Hobbys forhandlerliste: campingvogne og autocampere",
-      "tjekketDato": "2026-11-24"
+      "tjekketDato": "2026-11-25"
     },
     {
       "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
@@ -109,5 +109,5 @@
       "tjekketDato": "2026-11-24"
     }
   ],
-  "sidstTjekket": "2026-11-24"
+  "sidstTjekket": "2026-11-25"
 }

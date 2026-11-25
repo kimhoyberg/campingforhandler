@@ -46,58 +46,58 @@
     {
       "url": "https://odsherreds-campingservice.dk/",
       "hvad": "Adresse, telefon, e-mail, CVR, telefontider",
-      "tjekketDato": "2026-11-24"
+      "tjekketDato": "2026-11-25"
     },
     {
       "url": "https://odsherreds-campingservice.dk/kontakt",
       "hvad": "Kontakt",
-      "tjekketDato": "2026-11-24"
+      "tjekketDato": "2026-11-25"
     },
     {
       "url": "https://odsherreds-campingservice.dk/priser",
       "hvad": "Priser, Dethleffs-garantifugttest",
-      "tjekketDato": "2026-11-24"
+      "tjekketDato": "2026-11-25"
     },
     {
       "url": "https://odsherreds-campingservice.dk/gastest-af-campingvogn",
       "hvad": "Gastest",
-      "tjekketDato": "2026-11-24"
+      "tjekketDato": "2026-11-25"
     },
     {
       "url": "https://odsherreds-campingservice.dk/mover-til-campingvogn",
       "hvad": "Mover",
-      "tjekketDato": "2026-11-24"
+      "tjekketDato": "2026-11-25"
     },
     {
       "url": "https://odsherreds-campingservice.dk/reparation-af-campingvogn-og-trailer",
       "hvad": "Reparation",
-      "tjekketDato": "2026-11-24"
+      "tjekketDato": "2026-11-25"
     },
     {
       "url": "https://odsherreds-campingservice.dk/udlejning-af-campingvogn",
       "hvad": "Udlejning",
-      "tjekketDato": "2026-11-24"
+      "tjekketDato": "2026-11-25"
     },
     {
       "url": "https://odsherreds-campingservice.dk/opbevaring-af-campingvogn",
       "hvad": "Opbevaring",
-      "tjekketDato": "2026-11-24"
+      "tjekketDato": "2026-11-25"
     },
     {
       "url": "https://www.dethleffs.de/DK/da_DK/dealer/filter/323",
       "hvad": "Fundet i Dethleffs' forhandlerliste",
-      "tjekketDato": "2026-11-24"
+      "tjekketDato": "2026-11-25"
     },
     {
       "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
       "hvad": "DCU's liste over test- og servicecentre",
-      "tjekketDato": "2026-11-24"
+      "tjekketDato": "2026-11-25"
     },
     {
       "url": "https://nominatim.openstreetmap.org/search?street=Egemosevej+50&postalcode=4560&country=Denmark&format=jsonv2",
       "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
-      "tjekketDato": "2026-11-24"
+      "tjekketDato": "2026-11-25"
     }
   ],
-  "sidstTjekket": "2026-11-24"
+  "sidstTjekket": "2026-11-25"
 }
