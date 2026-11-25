@@ -6,9 +6,9 @@
   --line: #dcdfd8;
   --accent: #1d5a46;
   --accent-text: #ffffff;
-  --accent-soft: #e4eee8;
+  --accent-soft: #e2e9dc;
   --accent-soft-text: #1b4a3a;
-  --chip: #eef0ec;
+  --chip: #ece5d8;
   --chip-text: #2b3431;
   --warn-soft: #fbf1dc;
   --warn-text: #5c4205;
@@ -439,14 +439,19 @@ main {
   white-space: nowrap;
 }
 
+/* Klikbare mærkater (fx i bunden af siden): hvide med en lys kant, så de står frem på baggrunden */
 a.chip {
   text-decoration: none;
   position: relative;
   z-index: 1;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  padding: calc(0.1rem - 1px) calc(0.6rem - 1px);
 }
 
 a.chip:hover {
   background: var(--accent-soft);
+  border-color: var(--accent-soft);
   color: var(--accent-soft-text);
 }
 
