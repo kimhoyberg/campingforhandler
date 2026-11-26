@@ -1,6 +1,6 @@
 # Datanoter
 
-Alle 35 forhandlere er tjekket **24. november 2026**. De første 10 kom fra opgavens startliste, de næste 10 fra DCU's liste over test- og servicecentre ("Runde 2"), Struer Caravan som afdeling af Viborg Caravan Center, 8 fra Knaus Tabberts forhandlerliste ("Runde 3") 5 fra Hobbys og Adrias forhandlerlister ("Runde 4") og 1 fra Dethleffs' liste ("Runde 5"). Forhandlerens egen hjemmeside er brugt som hovedkilde for 9 af 10. Kilderne for hvert felt står i `kilder` i den enkelte JSON-fil og vises nederst på forhandlersiden.
+De første 35 forhandlere er tjekket **24. november 2026**, de 6 fra runde 6 **26. november 2026**. De første 10 kom fra opgavens startliste, de næste 10 fra DCU's liste over test- og servicecentre ("Runde 2"), Struer Caravan som afdeling af Viborg Caravan Center, 8 fra Knaus Tabberts forhandlerliste ("Runde 3") 5 fra Hobbys og Adrias forhandlerlister ("Runde 4") 1 fra Dethleffs' liste ("Runde 5") og 6 fra Campingunivers' oversigt ("Runde 6"). Forhandlerens egen hjemmeside er brugt som hovedkilde for 9 af 10. Kilderne for hvert felt står i `kilder` i den enkelte JSON-fil og vises nederst på forhandlersiden.
 
 ## Dækning pr. forhandler
 
@@ -153,6 +153,32 @@ Tilføjet: **Ulkebøl Camping Gård, Slagelse Camping & Outdoor Center, Esbjerg 
 
 **Datakvalitet hos producenterne:** Dethleffs' felt for ydelser (salg, værksted, udlejning m.m.) er det samme for alle forhandlere og er ikke brugt. Det samme gælder Knaus Tabberts åbningstider.
 
+## Runde 6: Campingunivers og DBA
+
+Campingunivers.dk har en oversigt over campingforhandlere (WordPress-kategorien "campingforhandlere"). Den gav 22 navne, vi ikke havde, med adresse og telefon, men uden hjemmesider. Hjemmesiderne er fundet via forhandlernes DBA-annoncer (som viser hjemmeside og CVR) og målrettet søgning. Alle oplysninger er derefter tjekket på forhandlerens egen side.
+
+| Forhandler | Region | Fundet via | Bemærkning |
+|---|---|---|---|
+| Fredensborg Camping Center | Hovedstaden | Søgning | Brugte vogne og kommissionssalg. Kører ikke længere ud med servicevogn. |
+| NN Salg og Service, Otterup | Syddanmark | DBA | Fendt, Hero Camper og Trigano-teltvogne. Egne tider for værksted. |
+| Nordjysk Caravan, Brovst | Nordjylland | DBA | Brugte vogne, udlejning, fugttest. Weekend efter aftale. |
+| Aarhus Caravansalg, Skanderborg | Midtjylland | DBA | Små, lette vogne. Gemt de normale tider; tiderne før jul står i noten. |
+| FriCamping Tarp, Esbjerg N | Syddanmark | DBA | Weinsberg og Caravelair. |
+| Aabycamp, Aabybro | Nordjylland | DBA | Mest autocampere, men sælger også brugte campingvogne. Ingen fælles e-mail (kun service@ og udlejning@). |
+
+**Uenighed:** Campingunivers skriver Andreas Nørskous Vej **2** for Nordjysk Caravan, egen side skriver nr. **1**. Egen side gælder. Nominatim kender kun vejen, så koordinaten er vejens midte.
+
+**Ikke taget med:**
+- **Sydsjællands Campingcenter**, Præstø, er pr. 1. september 2026 solgt til Skyttemarkens Autolakering i Vordingborg, som fortsætter som skade- og serviceværksted uden vognsalg.
+- **Himmerlands Campingsalg**, Nørager, og **Sørens Camping**, Herning: hjemmesiderne svarede ikke.
+- **DanCamper**, **TJ Camper**, **PB Scandi-Mobil** og **Fritidsbiler** sælger autocampere.
+- Holsted Biler, Campinggården Favrskov, IA Camping, Steens MC-Center, Kulba.dk (importør), Anton's Camping Center og Løgstør Caravan Center: ingen hjemmeside fundet, eller kun telte og udstyr.
+- Campingunivers' kategori "campingservice" (ca. 30 værksteder) er ikke gennemgået.
+
+**Nye mærker:** Hero Camper, Trigano, Carbontear, Kulba, Autostar, Eura Mobil, Frankia og Morelo. Producentland står kun, hvor det er sikkert.
+
+**Kildetjekket:** NH Camping har ændret tider (søndagslukket og juleferie), og filen er rettet. Linjer som "Dato: 23-11-2026" i nyheder blev talt som åbningstider og ignoreres nu. Sider, der kortvarigt leveres uden tider (Juels Auto & Camp, Odsherred Campingservice), giver ikke længere falske fund.
+
 ## Kandidater til næste runde
 
 Fundet undervejs, men ikke tjekket eller tilføjet endnu:
@@ -161,6 +187,6 @@ Fundet undervejs, men ikke tjekket eller tilføjet endnu:
 - **Intercamp** (Vejen og Lunderskov) står hos Knaus Tabbert, men hjemmesiden indlæses kun med script og kunne ikke læses.
 - **Antoncamp**, Videbæk, står hos Knaus Tabbert, men hjemmesiden svarer ikke.
 - Klarup Caravan og Steens MC-Center (Esbjerg) er set i søgeresultater, men kunne ikke bekræftes.
-- **Hovedstaden** har stadig kun Bijé. Heller ikke Knaus Tabberts liste har nogen forhandler i Hovedstaden. JP Caravan i Hedehusene er nævnt som lukket i en ældre oversigt. Ingen af de seks producenters lister (Knaus Tabbert/Weinsberg, Hobby, Fendt, Adria, Kabe, Dethleffs) har andre forhandlere i regionen. Tilbage er Krak og De Gule Sider, som blokerer robotter, og manuel søgning.
+- **Hovedstaden** har nu Bijé og Fredensborg Camping Center. Heller ikke Knaus Tabberts liste har nogen forhandler i Hovedstaden. JP Caravan i Hedehusene er nævnt som lukket i en ældre oversigt. Ingen af de seks producenters lister (Knaus Tabbert/Weinsberg, Hobby, Fendt, Adria, Kabe, Dethleffs) har andre forhandlere i regionen. Tilbage er Krak og De Gule Sider, som blokerer robotter, og manuel søgning.
 
 Når nye mærker tilføjes i `maerker.json`, melder kildetjekket én gang, at mærket er "nyt" på sider, der allerede nævnte det (fx Tabbert hos Østsjællands Camping Center). Det er ikke en ændring hos forhandleren.

@@ -16,6 +16,14 @@
     "tip": "Ahorn laver autocampere på Renault Master til en lavere pris end mange andre. Spørg om værkstedet kan klare både bodel og bildel, eller om bilen skal til et autoværksted."
   },
   {
+    "navn": "Autostar",
+    "slug": "autostar",
+    "producentland": "Frankrig",
+    "link": null,
+    "type": "autocampere",
+    "tip": "Autostar laver halv- og helintegrerede autocampere. Spørg om totalvægten, for nogle modeller kræver kørekort til over 3.500 kg."
+  },
+  {
     "navn": "Benimar",
     "slug": "benimar",
     "producentland": "Spanien",
@@ -46,6 +54,14 @@
     "link": null,
     "type": "campingvogne",
     "tip": "Caravelair er kendt for lette vogne, der kan trækkes af mindre biler. Tjek vognens totalvægt mod bilens trækvægt, før du handler, og spørg om forhandleren kan lave fugttest efter mærkets garantikrav."
+  },
+  {
+    "navn": "Carbontear",
+    "slug": "carbontear",
+    "producentland": null,
+    "link": null,
+    "type": "campingvogne",
+    "tip": "Carbontear er meget lette minicampingvogne. Tjek sengemål og lasteevne, og spørg om forhandleren selv kan lave service på vognen."
   },
   {
     "navn": "Combi-Camp",
@@ -88,6 +104,14 @@
     "tip": "Etrusco laver autocampere og campervans. Spørg forhandleren, om værkstedet også servicerer bildelen, eller om den skal til et autoværksted."
   },
   {
+    "navn": "Eura Mobil",
+    "slug": "eura-mobil",
+    "producentland": "Tyskland",
+    "link": null,
+    "type": "autocampere",
+    "tip": "Eura Mobil er tyske autocampere i den dyrere ende. Spørg om garantien på karosseriets tæthed, og hvilke årlige tjek der kræves for at holde den."
+  },
+  {
     "navn": "Fendt",
     "slug": "fendt",
     "producentland": "Tyskland",
@@ -96,12 +120,28 @@
     "tip": "Fendt er Hobbys søstermærke i den dyrere ende. Mange forhandlere giver ekstra fordele som gratis fugttest de første år – få det skrevet ind i slutsedlen."
   },
   {
+    "navn": "Frankia",
+    "slug": "frankia",
+    "producentland": "Tyskland",
+    "link": null,
+    "type": "autocampere",
+    "tip": "Frankia er tyske autocampere med fokus på vinterbrug og god isolering. Spørg om vognen kan leveres med ekstra vinterpakke og dobbelt gulv."
+  },
+  {
     "navn": "Giottiline",
     "slug": "giottiline",
     "producentland": "Italien",
     "link": null,
     "type": "autocampere",
     "tip": "Giottiline er italienske autocampere. Der er få forhandlere i Danmark, så spørg om værkstedet kan servicere både bodel og bildel."
+  },
+  {
+    "navn": "Hero Camper",
+    "slug": "hero-camper",
+    "producentland": "Danmark",
+    "link": null,
+    "type": "campingvogne",
+    "tip": "Hero Camper er små, lette vogne, som kan trækkes af de fleste biler. Spørg om vognen kan fås med varme og isolering, hvis du vil bruge den uden for sommeren."
   },
   {
     "navn": "Hobby",
@@ -128,12 +168,28 @@
     "tip": "Knaus har mange planløsninger, også lette vogne til elbiler. Spørg om forhandleren er autoriseret Knaus-værksted, så garanti og tæthedskontrol kan klares samme sted."
   },
   {
+    "navn": "Kulba",
+    "slug": "kulba",
+    "producentland": null,
+    "link": null,
+    "type": "campingvogne",
+    "tip": "Kulba laver små minicampingvogne, som kan trækkes af mindre biler og elbiler. Spørg om lasteevne, og om vognen kan klare grusveje, hvis du vil langt ud i naturen."
+  },
+  {
     "navn": "Laika",
     "slug": "laika",
     "producentland": "Italien",
     "link": null,
     "type": "autocampere",
     "tip": "Laika laver italienske autocampere i den dyrere ende. Tjek totalvægten og dit kørekort, og spørg om værkstedet kender modellernes styresystem."
+  },
+  {
+    "navn": "Morelo",
+    "slug": "morelo",
+    "producentland": "Tyskland",
+    "link": null,
+    "type": "autocampere",
+    "tip": "Morelo laver store luksus-autocampere, hvoraf mange vejer over 3.500 kg. Tjek dit kørekort, og spørg om værkstedet kan klare både bil og opbygning."
   },
   {
     "navn": "Niesmann+Bischoff",
@@ -198,6 +254,14 @@
     "link": "https://www.tabbert.com/",
     "type": "campingvogne",
     "tip": "Tabbert laver store, tunge vogne i den dyre ende. Tjek bilens trækvægt, og spørg om forhandleren er autoriseret Tabbert-værksted, så garantien holdes."
+  },
+  {
+    "navn": "Trigano",
+    "slug": "trigano",
+    "producentland": "Frankrig",
+    "link": null,
+    "type": "teltvogne",
+    "tip": "Trigano laver teltvogne, som er lette og nemme at trække. Spørg om opsætningstid, og om der følger fortelt og køkken med i prisen."
   },
   {
     "navn": "Vega",

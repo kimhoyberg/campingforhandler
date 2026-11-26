@@ -17,8 +17,8 @@
     "torsdag": "09:00-17:00",
     "fredag": "09:00-17:00",
     "loerdag": "lukket",
-    "soendag": "11:00-16:00",
-    "note": "Butikken."
+    "soendag": "lukket",
+    "note": "Butikken. Søndagslukket resten af 2026 (normalt søndag 11–16) og julelukket fra 10. december 2026 til 4. januar 2027."
   },
   "aabningstiderVaerksted": {
     "mandag": "08:00-16:00",
@@ -67,7 +67,7 @@
     {
       "url": "https://www.nhcamping.dk/om-os/aabningstider",
       "hvad": "Åbningstider butik og værksted",
-      "tjekketDato": "2026-11-24"
+      "tjekketDato": "2026-11-26"
     },
     {
       "url": "https://www.nhcamping.dk/om-os/camping-branchen",
@@ -110,5 +110,5 @@
       "tjekketDato": "2026-11-24"
     }
   ],
-  "sidstTjekket": "2026-11-24"
+  "sidstTjekket": "2026-11-26"
 }

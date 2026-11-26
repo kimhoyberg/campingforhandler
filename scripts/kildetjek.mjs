@@ -38,7 +38,7 @@ const forrige = existsSync(snapshotFil) ? JSON.parse(readFileSync(snapshotFil, '
 const YDELSER = ['værksted', 'dcu', 'gastest', 'fugttest', 'forsikringsskade', 'mover', 'udlejning', 'opbevaring', 'autocamper', 'teltvogn', 'brugte'];
 const DAG = /\b(mandag|tirsdag|onsdag|torsdag|fredag|lørdag|søndag|hverdage|weekend|helligdag|man|tirs|ons|tors|fre|lør|søn)\b/i;
 // Linjer der skifter efter klokken ("I dag: 10–17", "Vi har lukket – på gensyn torsdag", "Åbner 10:00 onsdag")
-const DYNAMISK = /\b(i ?dag|på gensyn|åbner kl|åbner \d|åben til|åbent indtil|åbent nu|lukker om|har lukket|vi har åben|lukket ·)/i;
+const DYNAMISK = /\b(dato:|i ?dag|på gensyn|åbner kl|åbner \d|åben til|åbent indtil|åbent nu|lukker om|har lukket|vi har åben|lukket ·)/i;
 const TIDSRUM = /\b\d{1,2}(?:[.:]\d{2})?\s*(?:-|–|til)\s*\d{1,2}(?:[.:]\d{2})?\b/;
 
 async function hent(url) {
@@ -109,6 +109,8 @@ await Promise.all(
         continue;
       }
       const ud = udtraek(r.html, k.hvad);
+      // Forsvinder alle tider på én gang, er siden oftest leveret halvt færdig. Behold de gamle tider.
+      if (!ud.tider.length && prev?.tider?.length) ud.tider = prev.tider;
       nu[k.url] = { status: 200, hash: hash(ud), ...ud };
       if (!prev || prev.status !== 200 || prev.hash === nu[k.url].hash) continue;
       const t = forskel(prev.tider, ud.tider);

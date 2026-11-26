@@ -50,7 +50,7 @@ Valg truffet undervejs, og hvorfor.
 ## Indhold og SEO
 
 - **Tynde sider:** oversigter med kun 1 forhandler får `<meta name="robots" content="noindex, follow">` og er udeladt af sitemap'et. De findes stadig, så interne links virker.
-- **Mærke + region-sider** laves kun ved mindst 2 forhandlere. Lige nu er der 5: Dethleffs, Fendt og Hobby i Midtjylland samt Kabe og Knaus på Sjælland.
+- **Mærke + region-sider** laves kun ved mindst 2 forhandlere. Antallet følger data automatisk (27 i november 2026).
 - **Forhandlersider linker til mærke + region-siden**, når den findes, ellers til mærkesiden.
 - **Titler** får kun "| Campingforhandler.dk" på, når titlen er kort, så de vigtige ord ikke bliver skåret af i Google.
 - **Servicesider:** værksted, DCU-testcenter, gastest, fugttest, forsikringsskader, mover, udlejning, brugte vogne, opbevaring og autocampere. Servicen "mover" har adressen `/service/mover/`.

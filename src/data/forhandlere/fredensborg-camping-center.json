@@ -1,0 +1,79 @@
+{
+  "slug": "fredensborg-camping-center",
+  "navn": "Fredensborg Camping Center",
+  "adresse": "Hillerødvejen 39B",
+  "postnr": "3480",
+  "by": "Fredensborg",
+  "region": "Hovedstaden",
+  "breddegrad": 55.96831,
+  "laengdegrad": 12.388021,
+  "telefon": "48 48 09 70",
+  "email": "peter@fredensborgcc.dk",
+  "hjemmeside": "https://www.fredensborgcc.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "lukket",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "11:00-16:00",
+    "note": "Lukket om søndagen i december og januar samt påske- og pinselørdag."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": null,
+  "nyeMaerkerAutocampere": null,
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader",
+    "mover-montering",
+    "bremseeftersyn"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": "32358373",
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Forhandler af brugte campingvogne ved Fredensborg, som også sælger vogne for kunder i kommission. Har en stor butik med udstyr og reservedele. Værkstedet laver gastest, fugttest og skader på alle mærker.",
+  "kilder": [
+    {
+      "url": "https://www.fredensborgcc.dk/",
+      "hvad": "Adresse, telefon, e-mail, CVR og åbningstider",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.fredensborgcc.dk/campingvogne",
+      "hvad": "Vogne til salg (brugte og kommission)",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.fredensborgcc.dk/vaerksted",
+      "hvad": "Værksted, gastest, fugttest, skader og mover",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.fredensborgcc.dk/servicevogn",
+      "hvad": "Kører ikke længere ud",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre (ikke på listen)",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Hiller%C3%B8dvejen+39B&postalcode=3480&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-26"
+    }
+  ],
+  "sidstTjekket": "2026-11-26"
+}

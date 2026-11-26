@@ -8,6 +8,23 @@
   "hash": "225604aa1985",
   "tider": []
  },
+ "https://caravansalg.dk/campingvogne/": {
+  "status": 200,
+  "hash": "9d61695bf164",
+  "tider": [
+   "Åbningstider: Mandag, tirsdag, torsdag kl.12-17 | Fredag og søndag kl.11-15 | Lørdag lukket | onsdag lukket ..formiddag og onsdag åbent efter aftale"
+  ]
+ },
+ "https://caravansalg.dk/kontakt/": {
+  "status": 200,
+  "hash": "0a6c10b57030",
+  "tider": [
+   "Mandag, tirsdag og torsdag kl.12 – kl.17",
+   "Fredag og søndag kl.11 – kl.15",
+   "Lørdag og onsdag lukket",
+   "Åbningstider: Mandag, tirsdag, torsdag kl.12-17 | Fredag og søndag kl.11-15 | Lørdag lukket | onsdag lukket ..formiddag og onsdag åbent efter aftale"
+  ]
+ },
  "https://damsgaardscaravancenter.dk/": {
   "status": 200,
   "hash": "6e591dfe7476",
@@ -528,6 +545,76 @@
   "hash": "225604aa1985",
   "tider": []
  },
+ "https://www.aabycamp.dk/": {
+  "status": 200,
+  "hash": "140eb491e78d",
+  "tider": [
+   "Fra søndag den 8. november til og med den 18. december holder vi weekendlukket.",
+   "Mandag – fredag kl. 10.00–17.00",
+   "Lørdag og søndag: Lukket",
+   "Vi holder juleferie fra fredag den 18. december, hvor butikken vil være lukket."
+  ],
+  "maerker": [
+   "Autostar",
+   "Benimar",
+   "Eura Mobil",
+   "Frankia",
+   "Hobby",
+   "Morelo"
+  ],
+  "ydelser": [
+   "værksted",
+   "forsikringsskade",
+   "udlejning",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.aabycamp.dk/campingvogne/": {
+  "status": 200,
+  "hash": "225604aa1985",
+  "tider": []
+ },
+ "https://www.aabycamp.dk/udlejning/book-udlejningsautocamper/": {
+  "status": 200,
+  "hash": "31a7140c6512",
+  "tider": [
+   "Telefonen er åben mandag - fredag kl. 10 - 17 udenfor vores åbningstider send en mail.",
+   "- 2-3 Sovepladser.",
+   "Fra fredag kl. 15.00 til fredag kl. 10.00",
+   "Afhentning sker på den dato og det tidspunkt, der er angivet i lejekontrakten, som udgangspunkt fredag kl. 15.00.",
+   "Aflevering skal ske på den dato og det tidspunkt, der er angivet i lejekontrakten, som udgangspunkt fredag senest kl. 10.00.",
+   "Bemærk, at der kan være begrænset mulighed for at kontakte udlejer i weekender og på hverdage efter kl. 17.00."
+  ]
+ },
+ "https://www.aabycamp.dk/vaerksted/forsikringsskader/": {
+  "status": 200,
+  "hash": "ea028d49739a",
+  "tider": [],
+  "ydelser": [
+   "værksted",
+   "forsikringsskade",
+   "udlejning",
+   "autocamper",
+   "brugte"
+  ]
+ },
+ "https://www.aabycamp.dk/vaerksted/vaerkstedets-ydelser/": {
+  "status": 200,
+  "hash": "33caa3ee6278",
+  "tider": [
+   "Pause 11:45 -12:15 alle dage."
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "forsikringsskade",
+   "udlejning",
+   "autocamper",
+   "brugte"
+  ]
+ },
  "https://www.as-kcc.dk/": {
   "status": 200,
   "hash": "986f602b78d8",
@@ -792,13 +879,8 @@
  },
  "https://www.camping-specialisten.dk/": {
   "status": 200,
-  "hash": "b289433c18a0",
-  "tider": [
-   "Dato: 14- 10- 2026",
-   "Dato: 24- 09- 2026",
-   "Dato: 22- 09- 2026",
-   "Dato: 09- 09- 2026"
-  ]
+  "hash": "225604aa1985",
+  "tider": []
  },
  "https://www.camping-specialisten.dk/autocampere/nye/": {
   "status": 200,
@@ -1001,12 +1083,8 @@
  },
  "https://www.campingparken.dk/": {
   "status": 200,
-  "hash": "8a56d33a9142",
+  "hash": "df176e12f458",
   "tider": [
-   "Dato: 23- 11- 2026",
-   "Dato: 10- 11- 2026",
-   "Dato: 03- 11- 2026",
-   "Dato: 14- 09- 2026",
    "Tjelevej 10-12"
   ]
  },
@@ -1116,6 +1194,33 @@
    "brugte"
   ]
  },
+ "https://www.caravansalg.dk/": {
+  "status": 200,
+  "hash": "8808c8253fa8",
+  "tider": [
+   "ÅBENT tirsdage og torsdage kl.12-17",
+   "Åbningstider: Mandag, tirsdag, torsdag kl.12-17 | Fredag og søndag kl.11-15 | Lørdag lukket | onsdag lukket ..formiddag og onsdag åbent efter aftale"
+  ],
+  "maerker": [
+   "Adria",
+   "Caravelair",
+   "Carbontear",
+   "Kulba",
+   "Silver"
+  ],
+  "ydelser": [
+   "værksted",
+   "brugte"
+  ]
+ },
+ "https://www.dba.dk/mobility/item/209089": {
+  "status": 200,
+  "hash": "ec657467b66d",
+  "tider": [
+   "10:00 - 17:00",
+   "12:00 - 15:00"
+  ]
+ },
  "https://www.dba.dk/mobility/item/26575498": {
   "status": 200,
   "hash": "156d75901573",
@@ -1123,6 +1228,23 @@
    "10:00 - 17:00",
    "10:00 - 16:00",
    "11:00 - 16:00"
+  ]
+ },
+ "https://www.dba.dk/mobility/item/26604746": {
+  "status": 200,
+  "hash": "dc2648dff6c1",
+  "tider": [
+   "09:00 - 19:36",
+   "09:00 - 19:00",
+   "09:00 - 16:00"
+  ]
+ },
+ "https://www.dba.dk/mobility/item/9084241": {
+  "status": 200,
+  "hash": "f29864c3eac4",
+  "tider": [
+   "10:00 - 17:00",
+   "12:00 - 16:00"
   ]
  },
  "https://www.degulesider.dk/le+camping+frederikshavn/66208225/firma": {
@@ -1217,6 +1339,111 @@
   "status": 200,
   "hash": "225604aa1985",
   "tider": []
+ },
+ "https://www.fredensborgcc.dk/": {
+  "status": 200,
+  "hash": "ec462c56a87f",
+  "tider": [
+   "MANDAG - TIRSDAG KL. 10 TIL KL. 17.",
+   "ONSDAG LUKKET",
+   "TORSDAG - FREDAG KL. 10 TIL KL. 17.",
+   "&quot;Kun uden for &aring;bningstid p&aring; hverdage inden kl. 17&quot;",
+   "MANDAG - TIRSDAG. KL. 10 TIL KL. 17.",
+   "ONSDAG LUKKET.",
+   "LØRDAG LUKKET.",
+   "SØN OG HELLIGDAGE KL. 11 TIL KL. 16.",
+   "OBS. PÅSKE OG PINSE LØRDAG LUKKET."
+  ]
+ },
+ "https://www.fredensborgcc.dk/campingvogne": {
+  "status": 200,
+  "hash": "6cf382046f04",
+  "tider": [
+   "MANDAG - TIRSDAG. KL. 10 TIL KL. 17.",
+   "ONSDAG LUKKET.",
+   "TORSDAG - FREDAG KL. 10 TIL KL. 17.",
+   "LØRDAG LUKKET.",
+   "SØN OG HELLIGDAGE KL. 11 TIL KL. 16.",
+   "OBS. PÅSKE OG PINSE LØRDAG LUKKET."
+  ]
+ },
+ "https://www.fredensborgcc.dk/servicevogn": {
+  "status": 200,
+  "hash": "6cf382046f04",
+  "tider": [
+   "MANDAG - TIRSDAG. KL. 10 TIL KL. 17.",
+   "ONSDAG LUKKET.",
+   "TORSDAG - FREDAG KL. 10 TIL KL. 17.",
+   "LØRDAG LUKKET.",
+   "SØN OG HELLIGDAGE KL. 11 TIL KL. 16.",
+   "OBS. PÅSKE OG PINSE LØRDAG LUKKET."
+  ]
+ },
+ "https://www.fredensborgcc.dk/vaerksted": {
+  "status": 200,
+  "hash": "d63e56901175",
+  "tider": [
+   "Tagtykkelse 27-39 mm.",
+   "MANDAG - TIRSDAG. KL. 10 TIL KL. 17.",
+   "ONSDAG LUKKET.",
+   "TORSDAG - FREDAG KL. 10 TIL KL. 17.",
+   "LØRDAG LUKKET.",
+   "SØN OG HELLIGDAGE KL. 11 TIL KL. 16.",
+   "OBS. PÅSKE OG PINSE LØRDAG LUKKET."
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "mover",
+   "opbevaring",
+   "autocamper",
+   "teltvogn"
+  ]
+ },
+ "https://www.fricamping.dk/": {
+  "status": 200,
+  "hash": "4c9eef75a0a7",
+  "tider": [
+   "Man - Fre: 10:00 - 17:00",
+   "Lør: Lukket",
+   "Søn: 11:00 - 16:00"
+  ],
+  "maerker": [
+   "Caravelair",
+   "Weinsberg"
+  ]
+ },
+ "https://www.fricamping.dk/kontakt/": {
+  "status": 200,
+  "hash": "d1306fe3406d",
+  "tider": [
+   "Mandag - Fredag: 10:00 - 17:00",
+   "Lørdag: Lukket",
+   "Søndag: 11:00 - 16:00",
+   "Lørdag - Søndag: Lukket",
+   "Man - Fre: 10:00 - 17:00",
+   "Lør: Lukket",
+   "Søn: 11:00 - 16:00"
+  ]
+ },
+ "https://www.fricamping.dk/vaerksted/": {
+  "status": 200,
+  "hash": "ecf4cbc3603a",
+  "tider": [
+   "Man - Fre: 10:00 - 17:00",
+   "Lør: Lukket",
+   "Søn: 11:00 - 16:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "mover",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
  },
  "https://www.hbcc.dk/": {
   "status": 200,
@@ -1833,10 +2060,8 @@
  },
  "https://www.moellegaarden.dk/inspiration/servicetur-til-campingpladser/": {
   "status": 200,
-  "hash": "5b585b6d4790",
-  "tider": [
-   "Dato: 21- 03- 2024"
-  ],
+  "hash": "ff3679ed1fc7",
+  "tider": [],
   "ydelser": [
    "værksted",
    "dcu",
@@ -1960,8 +2185,10 @@
  },
  "https://www.nhcamping.dk/om-os/aabningstider": {
   "status": 200,
-  "hash": "c5cbe51d3ebe",
+  "hash": "8583b1645d86",
   "tider": [
+   "Julelukket 10/12-26 til den 4/1-27",
+   "Sidste s&oslash;ndags &aring;ben i 2026 den.22/11-26, ses s&oslash;ndag den 9/1-27 igen",
    "Mandag - Fredag: 9.00 - 17.00",
    "S&oslash;ndag: 11.00 - 16.00",
    "Mandag - Fredag: 8.00 - 16.00",
@@ -2026,6 +2253,92 @@
    "udlejning",
    "autocamper",
    "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.nnsalgogservice.dk/": {
+  "status": 200,
+  "hash": "f62537d510a3",
+  "tider": [
+   "10:00 - 17:00",
+   "12:00 - 16:00",
+   "07:30 - 15:30",
+   "07:30 - 15:00"
+  ],
+  "maerker": [
+   "Fendt",
+   "Hero Camper",
+   "Trigano"
+  ],
+  "ydelser": [
+   "værksted",
+   "autocamper",
+   "teltvogn",
+   "brugte"
+  ]
+ },
+ "https://www.nnsalgogservice.dk/teltvogne/": {
+  "status": 200,
+  "hash": "7dba0c7a1a13",
+  "tider": [
+   "Så her man får en ny teltvogn med anneks for kr. 120.000,- det er et super godt tilbud.",
+   "10:00 - 17:00",
+   "12:00 - 16:00",
+   "07:30 - 15:30",
+   "07:30 - 15:00"
+  ]
+ },
+ "https://www.nnsalgogservice.dk/vaerksted/": {
+  "status": 200,
+  "hash": "ae025545c79c",
+  "tider": [
+   "10:00 - 17:00",
+   "12:00 - 16:00",
+   "07:30 - 15:30",
+   "07:30 - 15:00"
+  ],
+  "ydelser": [
+   "værksted",
+   "gastest",
+   "fugttest",
+   "mover",
+   "opbevaring",
+   "autocamper",
+   "teltvogn"
+  ]
+ },
+ "https://www.nordjyskcaravan.dk/": {
+  "status": 200,
+  "hash": "544b3cf81d93",
+  "tider": [
+   "Mandag-Fredag: 08.00-17.00"
+  ],
+  "ydelser": [
+   "værksted",
+   "fugttest",
+   "udlejning",
+   "brugte"
+  ]
+ },
+ "https://www.nordjyskcaravan.dk/kontakt": {
+  "status": 200,
+  "hash": "4b4468eeac9c",
+  "tider": [
+   "Mandag-Fredag: 08.00 - 17.00",
+   "Mandag-Fredag: 08.00-17.00"
+  ]
+ },
+ "https://www.nordjyskcaravan.dk/om": {
+  "status": 200,
+  "hash": "c334097834c2",
+  "tider": [
+   "Nordjysk Caravan henter mellem 10-12 vogne om ugen som enten skal til export eller ophugges eller til videresalg",
+   "Mandag-Fredag: 08.00-17.00"
+  ],
+  "ydelser": [
+   "værksted",
+   "fugttest",
+   "udlejning",
    "brugte"
   ]
  },

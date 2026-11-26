@@ -1,0 +1,93 @@
+{
+  "slug": "aabycamp",
+  "navn": "Aabycamp",
+  "adresse": "Knøsgårdvej 121",
+  "postnr": "9440",
+  "by": "Aabybro",
+  "region": "Nordjylland",
+  "breddegrad": 57.147486,
+  "laengdegrad": 9.754245,
+  "telefon": "98 24 48 00",
+  "email": null,
+  "hjemmeside": "https://www.aabycamp.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": "Weekendlukket fra 8. november til 18. december, og juleferie fra 18. december. Fremvisning i weekenden efter aftale."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [],
+  "nyeMaerkerAutocampere": [
+    "Benimar",
+    "Autostar",
+    "Eura Mobil",
+    "Frankia",
+    "Morelo"
+  ],
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": true,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": true,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": "33575629",
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Autocamperforhandler i Aabybro med nye Benimar, Autostar, Eura Mobil, Frankia og Morelo. Sælger også brugte campingvogne og udlejer autocampere. Værkstedet laver gastest, fugttest og forsikringsskader.",
+  "kilder": [
+    {
+      "url": "https://www.aabycamp.dk/",
+      "hvad": "Telefon, mærker, udlejning og åbningstider",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.aabycamp.dk/campingvogne/",
+      "hvad": "Brugte campingvogne",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.aabycamp.dk/vaerksted/vaerkstedets-ydelser/",
+      "hvad": "Værksted, gastest og fugttest",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.aabycamp.dk/vaerksted/forsikringsskader/",
+      "hvad": "Forsikringsskader",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.aabycamp.dk/udlejning/book-udlejningsautocamper/",
+      "hvad": "Adresse",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.dba.dk/mobility/item/209089",
+      "hvad": "CVR (DBA-annonce)",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre (ikke på listen)",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Kn%C3%B8sg%C3%A5rdvej+121&postalcode=9440&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-26"
+    }
+  ],
+  "sidstTjekket": "2026-11-26"
+}

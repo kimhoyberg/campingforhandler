@@ -1,0 +1,77 @@
+{
+  "slug": "nordjysk-caravan",
+  "navn": "Nordjysk Caravan",
+  "adresse": "Andreas Nørskous Vej 1",
+  "postnr": "9460",
+  "by": "Brovst",
+  "region": "Nordjylland",
+  "breddegrad": 57.099305,
+  "laengdegrad": 9.522612,
+  "telefon": "53 68 86 88",
+  "email": "info@nordjyskcaravan.dk",
+  "hjemmeside": "https://www.nordjyskcaravan.dk/",
+  "aabningstider": {
+    "mandag": "08:00-17:00",
+    "tirsdag": "08:00-17:00",
+    "onsdag": "08:00-17:00",
+    "torsdag": "08:00-17:00",
+    "fredag": "08:00-17:00",
+    "loerdag": null,
+    "soendag": null,
+    "note": "Lørdag og søndag efter aftale."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": null,
+  "nyeMaerkerAutocampere": null,
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "fugttest",
+    "service alle mærker",
+    "udekørende service"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": true,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": "45786285",
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Køber, sælger og udlejer brugte campingvogne ved Brovst. Værkstedet reparerer vogne af alle mærker og laver fugttest, også hjemme hos dig. Firmaet opkøber og skrotter desuden gamle vogne.",
+  "kilder": [
+    {
+      "url": "https://www.nordjyskcaravan.dk/kontakt",
+      "hvad": "Adresse, telefon, e-mail og åbningstider",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.nordjyskcaravan.dk/om",
+      "hvad": "Køb, salg, udlejning og skrotning",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.nordjyskcaravan.dk/",
+      "hvad": "Værksted og fugttest (også udkørende)",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.dba.dk/mobility/item/26604746",
+      "hvad": "CVR (DBA-annonce)",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre (ikke på listen)",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Andreas+N%C3%B8rskous+Vej+1&postalcode=9460&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-26"
+    }
+  ],
+  "sidstTjekket": "2026-11-26"
+}

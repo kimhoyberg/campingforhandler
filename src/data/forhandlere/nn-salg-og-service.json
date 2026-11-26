@@ -1,0 +1,95 @@
+{
+  "slug": "nn-salg-og-service",
+  "navn": "NN Salg og Service",
+  "adresse": "Hjorslevvej 15",
+  "postnr": "5450",
+  "by": "Otterup",
+  "region": "Syddanmark",
+  "breddegrad": 55.505761,
+  "laengdegrad": 10.396327,
+  "telefon": "23 98 74 30",
+  "email": "nnsalgogservice@gmail.com",
+  "hjemmeside": "https://www.nnsalgogservice.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "12:00-16:00",
+    "soendag": "12:00-16:00",
+    "note": null
+  },
+  "aabningstiderVaerksted": {
+    "mandag": "07:30-15:30",
+    "tirsdag": "07:30-15:30",
+    "onsdag": "07:30-15:30",
+    "torsdag": "07:30-15:30",
+    "fredag": "07:30-15:00",
+    "loerdag": "lukket",
+    "soendag": "lukket",
+    "note": null
+  },
+  "nyeMaerkerCampingvogne": [
+    "Fendt",
+    "Hero Camper"
+  ],
+  "nyeMaerkerAutocampere": null,
+  "teltvogne": [
+    "Trigano"
+  ],
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader",
+    "mover-montering",
+    "mover-service",
+    "montering af ekstraudstyr",
+    "udekørende service"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": true,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": "43199838",
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Forhandler ved Otterup på Nordfyn med nye Fendt-campingvogne, Hero Camper og teltvogne fra Trigano. Sælger også brugte vogne og har butik med fortelte og udstyr. Værkstedet reparerer forsikringsskader og kører også ud til kunderne.",
+  "kilder": [
+    {
+      "url": "https://www.nnsalgogservice.dk/",
+      "hvad": "Adresse, telefon, e-mail, mærker og åbningstider for butik og værksted",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.nnsalgogservice.dk/teltvogne/",
+      "hvad": "Teltvogne fra Trigano",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.nnsalgogservice.dk/vaerksted/",
+      "hvad": "Værksted, priser og vinteropbevaring",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.dba.dk/mobility/item/9084241",
+      "hvad": "CVR (DBA-annonce)",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre (ikke på listen)",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Hjorslevvej+15&postalcode=5450&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-26"
+    }
+  ],
+  "sidstTjekket": "2026-11-26"
+}

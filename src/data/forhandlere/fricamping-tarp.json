@@ -1,0 +1,77 @@
+{
+  "slug": "fricamping-tarp",
+  "navn": "FriCamping Tarp",
+  "adresse": "Hammeren 4",
+  "postnr": "6715",
+  "by": "Esbjerg N",
+  "region": "Syddanmark",
+  "breddegrad": 55.526972,
+  "laengdegrad": 8.454522,
+  "telefon": "97 97 10 10",
+  "email": "mail@fricamping.dk",
+  "hjemmeside": "https://www.fricamping.dk/",
+  "aabningstider": {
+    "mandag": "10:00-17:00",
+    "tirsdag": "10:00-17:00",
+    "onsdag": "10:00-17:00",
+    "torsdag": "10:00-17:00",
+    "fredag": "10:00-17:00",
+    "loerdag": "lukket",
+    "soendag": "11:00-16:00",
+    "note": null
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Weinsberg",
+    "Caravelair"
+  ],
+  "nyeMaerkerAutocampere": null,
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "gastest",
+    "fugttest",
+    "forsikringsskader",
+    "mover-montering",
+    "bremseeftersyn"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": true,
+  "brancheforening": null,
+  "cvr": "33353979",
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Forhandler i Tarp ved Esbjerg med nye Weinsberg og Caravelair samt brugte campingvogne. Værkstedet laver gastest, fugttest og skader og monterer movere. Har også webshop med udstyr.",
+  "kilder": [
+    {
+      "url": "https://www.fricamping.dk/kontakt/",
+      "hvad": "Adresse, telefon, e-mail, CVR og åbningstider",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.fricamping.dk/",
+      "hvad": "Mærker, nye og brugte vogne, webshop",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.fricamping.dk/vaerksted/",
+      "hvad": "Værksted, gastest, fugttest og mover",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre (ikke på listen)",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Hammeren+4&postalcode=6715&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-26"
+    }
+  ],
+  "sidstTjekket": "2026-11-26"
+}

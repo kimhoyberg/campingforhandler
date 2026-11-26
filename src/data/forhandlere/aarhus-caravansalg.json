@@ -1,0 +1,75 @@
+{
+  "slug": "aarhus-caravansalg",
+  "navn": "Aarhus Caravansalg",
+  "adresse": "Industritoften 10",
+  "postnr": "8660",
+  "by": "Skanderborg",
+  "region": "Midtjylland",
+  "breddegrad": 56.033305,
+  "laengdegrad": 10.025048,
+  "telefon": "27 11 22 27",
+  "email": "mail@caravansalg.dk",
+  "hjemmeside": "https://caravansalg.dk/",
+  "aabningstider": {
+    "mandag": "12:00-17:00",
+    "tirsdag": "12:00-17:00",
+    "onsdag": "lukket",
+    "torsdag": "12:00-17:00",
+    "fredag": "11:00-15:00",
+    "loerdag": "lukket",
+    "soendag": "11:00-15:00",
+    "note": "Indtil juleaften kun åbent tirsdag og torsdag 12–17. Formiddage og onsdag efter aftale."
+  },
+  "aabningstiderVaerksted": null,
+  "nyeMaerkerCampingvogne": [
+    "Caravelair",
+    "Silver",
+    "Carbontear",
+    "Kulba"
+  ],
+  "nyeMaerkerAutocampere": null,
+  "teltvogne": null,
+  "saelgerBrugte": true,
+  "saelgerAutocampere": null,
+  "vaerksted": true,
+  "ydelser": [
+    "forsikringsskader"
+  ],
+  "dcuTestcenter": false,
+  "udlejning": null,
+  "opbevaring": null,
+  "webshop": null,
+  "brancheforening": null,
+  "cvr": "26092906",
+  "etableret": null,
+  "sammeFirma": null,
+  "beskrivelse": "Forhandler i Skanderborg med speciale i små og lette campingvogne, som kan trækkes af mindre biler og elbiler. Fører nye Caravelair, Silver, Carbontear og Kulba samt brugte vogne. Reparerer også skader og laver værkstedsarbejde.",
+  "kilder": [
+    {
+      "url": "https://caravansalg.dk/kontakt/",
+      "hvad": "Adresse, telefon, e-mail, CVR og åbningstider",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.caravansalg.dk/",
+      "hvad": "Mærker, brugte vogne, skader og værksted, åbningstider før jul",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://caravansalg.dk/campingvogne/",
+      "hvad": "Vogne til salg",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://www.dcu.dk/da/medlemsfordele/dcu-servicecentre",
+      "hvad": "DCU's liste over test- og servicecentre (ikke på listen)",
+      "tjekketDato": "2026-11-26"
+    },
+    {
+      "url": "https://nominatim.openstreetmap.org/search?street=Industritoften+10&postalcode=8660&country=Denmark&format=jsonv2",
+      "hvad": "Koordinater (OpenStreetMap Nominatim) ud fra adressen",
+      "tjekketDato": "2026-11-26"
+    }
+  ],
+  "sidstTjekket": "2026-11-26"
+}
